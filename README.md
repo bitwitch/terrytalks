@@ -25,6 +25,6 @@ I love Terry Davis. He was an honest, intelligent man and was wise in spite
 of his schizophrenia. He had his issues, but I focus on the positive he  
 brings to the world.  
 
-Sometimes when he communicated, he used a markov chain text generator  
+Sometimes when he communicated online, he used a markov chain text generator  
 presumably seeded with text from the bible. At times he seemed to revere it  
 as divine truth, and at [other times](https://www.metafilter.com/119424/An-Operating-System-for-Songs-from-God#4538454) he seemed to see it as silly and arbitrary. 
