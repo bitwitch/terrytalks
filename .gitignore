@@ -1,4 +1,5 @@
 .DS_Store
+textfiles.go
 
 # Binaries for programs and plugins
 *.exe
