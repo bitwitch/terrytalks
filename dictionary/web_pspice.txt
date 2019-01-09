@@ -1,0 +1,339 @@
+you know what I want to do I want to do
+something fun for me
+okay so this is fun
+let's see what a kid with the toy box
+I'd never used this actually I did use
+it once by Thomas I tried to bias a
+transistor no mother fucker wouldn't
+work I could swear the fucking simulator
+was broken so let's have some fun
+let's take a 741
+Oh
+let's kind of make an oscillator what do
+you say let's make an oscillator how
+about one kilohertz let's make a one
+kilohertz oscillator okay folks how can
+we make a one kilohertz oscillator we
+want positive feedback and we want it to
+be one kilohertz how hard can it be
+who can you do it with a single stage I
+think you need about you can get up I
+think you can get about factor up you
+can get what do you call it well factor
+of 10 with each stage so how would we
+now we can just if you just throw a
+resistor and capacitor into the circuit
+that's probably what it's going to be
+how hard can it be
+what if I just take a resistor and
+capacitor okay let's get it let's get a
+unity amplifier to begin with let's just
+get started here so how do we do that
+you want negative feedback what you do
+is you look at the circuit diagram for
+okay
+repeat okay rotate motherfucker I told
+you rotate
+let's okay
+and you rotate huh stupid thing
+okay ah I think we just do this don't we
+we just connect that to ground connect
+that down so
+oh I know okay I remember okay
+so put this puppy over here what are you
+doing
+Oh date when you rotate the fucker
+vertically
+split horizontally rotate why is it here
+now okay
+so put this Booker and another one of
+these footers hey what Shabbat okay
+there we go we will start with the unity
+came up man
+no it's good
+I think we want about 10k for the
+resistors why are we if we're doing
+signal level well after doing opposite
+you can get power op amps it's been 10
+year it's been 20 years since I I don't
+know I used some I don't know how big of
+a power amplifier you can get aa pin but
+they're more or less
+where's the fucking wire like wire
+motherfucker come on with lossless
+transmission is of course we want loss
+that's right kidding me with a fuck dumb
+fuck and just one fucking wire I don't
+want that
+fucking drink okay let's see
+passive bitch hey let's make gaya
+let's make gay uh hey uh let's make a
+voltage step up oh that would be cool
+would that be cool that would be cool
+we'll chop a this okay let's make a
+first Oh will you make an oscillator
+yeah then we can like run it through a
+turn into square wave and drive some
+transistors and make a voltage step up
+or something how the fuck do we make a
+fucking wire gotta be shitting me maybe
+you have to buy that pay money if you
+want wires you have to pay money
+you got any ideas fuck sign oh yeah I
+need to sign in we win okay I think I
+did this before no locking I didn't get
+very far either how did you know I tried
+to make it I tried to make I didn't get
+very far
+this is embarrassing what the fuck
+hey I got wires how did they get wires I
+was trying to do it from memory
+if you don't look at that cuz it's awful
+okay so how did I get wires
+diana likes inductors so we're going to
+do some inductors this to you okay so
+part
+okay
+so passive we put I don't worry let's
+put another one
+I'm capable of fuck roti I would out
+with them now you tell me okay so
+generic parts okay why don't we let's do
+let's do this fucker realistic let's do
+that let's delete it
+Oh
+can't I pick a 741
+okay hello you know it's Terry yes Terry
+Andrew yeah is Terry not today I'll try
+and find him
+okay bye
+oh how about that oh okay here we go
+we're cooking with gas
+okay we want to ground it okay fire
+George
+okay I just one round and I please have
+ground hooker here you got hey yeah we
+want one of those
+no that's really do it okay so plus no
+no no Oh what am I talking about
+it's AC it doesn't have a fucking plus
+okay so
+what are you doing idiot cut that fucker
+there we go okay
+that looks better okay let's properties
+do you see let's make this fucker wait
+no not DC what are you doing DC we don't
+want DC okay this is a we're doing a
+unity gain amplifier
+I won boat sounds good these we would
+okay we want diana likes inductors so
+you know our unity let's put a square
+wave we put a square wave Union fucker
+okay wooden killer beautiful
+okay and let's connect them for good
+Wow where is the fucking ground fucker
+maybe it's it
+[Music]
+where is the fucking ground there oh
+okay that makes it
+so interpretive dance they create you on
+who says you don't do interpretive dance
+and fucking interpretive dances off okay
+and let's go ahead and connect up a
+testing no I want an oscilloscope a come
+on oscilloscope one oscilloscope fuck
+you
+are you shitting me I want to fucking
+oscilloscope
+how about if I just run it
+please see buyers reading talking about
+transient response oh no we don't this
+is too easy
+you project simulation it's supposed to
+be unity game you bribed 8k I'm not
+having fun are we having fun over not
+having fun okay well I've done this all
+when I was young and this was new I
+would have fun but now this is not fun
+frequency to point what are you talking
+about 2.5 kilohertz where the fuck did
+that come from
+I gave you one killers the number one
+rule of AC analysis is if you put in one
+Gillard's
+you get out one Gillard's okay that's
+pretty funny okay what the fuck believe
+me there is no component that changes
+the frequency except that voltage tanker
+up the clock divider what do you call it
+but the number line flip-flop there
+there's no magic frequency changer they
+don't make that kind of component the
+fuck is this shit
+frequency changer that would be cool
+maybe it's not grounded or something or
+you think
+okay I want okay we got networks okay
+so they're numbered okay so let's take a
+look at what network we got here it is
+network number one set net name be out
+and we sit let me feed okay now let's
+look at ABC analysis okay let's run the
+fucker
+he's yours mine start frequency stop
+frequency would he talk oh is this a
+sweep are you kidding me
+the fuck what what are we looking at
+here the fuck is this oh this is for
+bode plot ah
+but I already told you the source with
+the focuses you seen up yet we just want
+these enable simulations transient let's
+see well that will certainly accomplish
+it the foot
+again no no no now fuck you
+this is what happened the last time I
+use this program nothing happened
+this is a fucking
+I didn't set a DC voltage the fuck is
+that I told you
+I fucking told you what I want the fuck
+were you doing I think you have to pay
+money
+see oh that looks better now
+run run niggers what does the KKK
+motorcycle sound like Brenda you're new
+you're ending
+fuck this
+focusing put fuck you very much
+what what is your fucking problem
+hey see now no I don't want to fucking
+bode plot the fuck is this
+I have a fucking voltage source what is
+the fucking source you're talking about
+a sweep now I have a fucking voltage
+source what are you talking about a
+passive network or something what the
+fuck
+well thanks for that
+that this is a fucking voltage source
+is there a port in no well if you told
+me the input then maybe we can do the
+motherfucker sources are we having fun
+no we're not having fun
+fuck this
+see
+you
+you
+so check this out so there's a there's a
+few different types of oscillators and
+whoo
+whatever so I just wanted to see
+so anyway off we don't want to do that
+let's make a uh let's make a voltage
+let's make a charging circuit for uh
+okay so
+you know what I want to do let's make a
+so watch what we do
+is this going to
+I want to square wave why don't you give
+me a square wave you motherfucker
+frequency modulation what I want a
+fucking square wave
+you
+oh we do want we do want offset of one
+I'm going to make a chopper circuit to
+uh get some voltage I've never done this
+yeah I have okay so we take
+do you know what you're doing now I
+don't know what I'm doing
+how about a Darlington switch we want a
+switching transistor wasp it may be is
+that what we want
+I want to darling come on a tip 120 how
+about that you got one of those it could
+be this shouldn't be too hard I'm a
+little bit scared of MOSFETs just
+because
+in jail
+so I wonder if this simulates parts
+getting fried that would be pretty funny
+I don't think this simulates parts
+getting fried okay so what we want to do
+is chop an inductor and
+okay so
+[Music]
+let's see if we can make this fucker
+explode there okay this ought to be cool
+No
+I only put a diode across inductors but
+we want the fucker to explode
+okay so we are going to chop it and it
+wants to keep glowing and so what's
+going to happen it's going to explode
+there let's see what it does you would
+not want to build this circuit
+okay let's put it let's put it
+I don't know what's going to happen deal
+with one cattle in this case
+let's make that bigger
+okay
+you
+okay now if we crank it up to a hundred
+let's jeez this foot ten
+and
+well are you kidding me what is your
+problem now let's see how much in what
+is happening here
+we are turning on oh we have a seven oh
+it's we have to over turn the transistor
+on at one we want it at point 6 volts it
+turns on why do we have
+is this an inverter one is
+that's not where we want the output Oh
+use your head
+okay let's see here okay so when that
+turns off its going to don't we want it
+to uh it's going to go through this
+shouldn't there be a big spike on this
+fucker
+what okay it's gonna flow through there
+and then when it turns off it's going to
+flow through there so that should
+actually become a negative voltage or
+yeah is that that make sense
+something like that let's just crank
+that fucker up I think if we make this
+I'm pretty sure we get higher voltage
+that's great definitely one mill ahead
+and that's pretty big isn't it
+oh look at that we got 12 volts we
+started okay what is ours
+what is our vote that what is our supply
+voltage this is 1 volt Hey look at that
+we got we got a missus ridiculous this
+is the difference between an engineer
+who has experience and an engineer who
+doesn't
+[Laughter]
+okay oh shit I thought we're gonna get a
+higher spike what if we give it more
+time to get some current is it
+saturating how much current is when we
+throw the switch
+Vega we're not throwing the switch fast
+enough for one thing what if we what if
+we turn this into a square wave would
+that help I think it would help how hard
+can that be why don't you have a fucking
+square wave okay fuck
+book
+so is it
+is the current is it saturating bullshit
+okay well we got it we got it
+it's silly
+we got your 50 bolts okay and that's how
+you get hand
+yeah that was fun okay we had some
+success
+save copper

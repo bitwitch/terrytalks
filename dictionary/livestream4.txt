@@ -1,0 +1,931 @@
+okay so back to the front so hum
+you know Dilbert and I don't really like
+Dilbert I used to like Dilbert but now I
+see it as populist leftism it's Marxist
+Dilbert is Marxist the boss is stupid
+you know I kept hoping that I would that
+the comics actually were making the boss
+smart and the people stupid why do I
+like Gilbert what why do I just like
+Dilbert
+it's a lot harder to be a manager than
+an employee
+so like for example I don't like it it's
+fucking leftist I can't believe I used
+to I sort of liked it you know I went on
+a and went on a trip to a job interview
+and in the parking lot someone had an
+license plate Dilbert and they asked me
+if I liked it I was like shrug you know
+what do you answer I mean I don't know
+anyway so the thing that annoys me is
+its own it's just a low-level kind of
+humor instead of I kept hoping I loved
+it sometimes you can sort of see
+unintentional where the boss is smart
+and Dilbert is stupid that's what I keep
+hoping for I was like let's go see some
+Gilbert well anyway so um so the other
+day it's hard to keep your head on
+straight
+so and originally I put these numbers
+because I had a problem identifying if I
+saw if it caused that if there was a
+glitch I couldn't tell where it was in
+the sequence so I put these numbers and
+these numbers were a pain in the ass
+because you have to read number them and
+so I made this if you do ctrl T this is
+a I did I don't like to show off what
+does it L Li yes what the fuck is that
+fuck okay so left macro we create a
+variable variable then we count through
+steps and then we we do we do a search
+for TS we search for TS and then we
+start doing some cursor right cursor
+right delete anyway then we do some
+deletes and stuff like that so this is a
+I didn't want to do do you want to see
+what it does well so it renumber x' all
+the numbers it searches for TS so it's
+kind of cool I'm not proud of I didn't
+want to use it okay so let's go ahead
+and modify it to you on delete the the
+numbers I'm getting rid of the numbers
+because I have obviously
+when I started I was lazy I didn't want
+to put all the strings but in the end I
+I put all the strings so it's kind of uh
+can we modify this or this just do it
+fuck this okay you know we're gonna do
+okay so Dilbert the manager you don't
+want to sleepwalk okay
+so ctrl F let's see here's what we do we
+say F to record there's 73 of them right
+so um ctrl F yes right right right so
+you can when you make a macro it will
+reproduce it for you I'll show you show
+you that in a second
+okay so we just deleted so we stop the
+macro I don't know if you have to press
+stop and now let's put 172 of them
+getting exact and then repeat n times oh
+fuck
+the fuck
+oh it did it oh damn I thought it was so
+it so it worked
+however it
+it froze the why is that da why is that
+teacher there the fuck
+oh that's fine okay why didn't you use a
+global variable huh
+too proud to use a global variable okay
+that's fine okay so um too proud to use
+a global variable okay oh fuck oh we
+used to have them I have to make a
+global variable fuck you fucking fuck I
+just I think we used to have a global
+variable so the reason we can't use the
+progress global variable is because um
+some applications will clobber the
+progress bars so we have to recreate
+them every time okay so why not you want
+to use a static look no again he's just
+daddy there used to be a start-up 40s
+okay
+so we want to say testsuite
+- sweet fuck
+so we just got rid of I
+this wheat I plus plus oh you know let's
+use a global variable just wheat what
+are you why did I do that why the fuck
+did I do that
+okay so now are you serious I can't
+believe I had to fucking do that okay
+this week t0 this week
+okay so Gilbert
+being a bosses
+okay so here's what we do you say if to
+record
+and we say
+f3
+okay so now we say we want to play up
+172 times so this part I don't have
+preemption and so it freezes Oh didn't
+freeze okay
+okay so
+sometimes I like to imagine that my
+operating system will be used for 2,000
+years into the future and that each of
+these characters is important because it
+will be uploaded and transferred okay
+I think I had
+sometimes it's weird why the fuck did I
+have that t0 I think it's just because I
+didn't want to use a global variable
+fuck
+what
+one seven seven six
+so um you might ask why am i doing these
+test Suites um you know quite honestly
+the more you run it the better my
+operating system is fucking rock-solid
+the only way to get that is to
+aggressively chase bugs actually I
+shouldn't say that you know if I
+interrupted in the middle of this
+there's a chance that would cause some
+corruption okay I don't try to I don't
+try to make my operating system fail
+what do I mean I don't I don't do things
+in the background and interrupt them and
+do stuff I kind of treat my operating
+system with kid gloves well that's kind
+of ironic anyway anyway uh so
+maybe I need to spend some time being
+for being a brutal user interrupting it
+and doing shit you know the reason that
+I don't is because uh we're not we're
+not trying to make it Titanic we're
+trying to make a kayak
+you know what kayak is designed to be
+reinstalled I can reinstall in five
+minutes so
+nevertheless
+I know
+some things are off limits when it comes
+to our what I expect out of my operating
+system you know I let Linux is a semi
+truck with 20 gears if you think about
+file permissions and stuff Windows is a
+passenger car in Temple os is a
+motorcycle so with the motorcycle if you
+lean over on a motorcycle it will crash
+anyway
+should I put tap in here anyway so that
+macro that I used to have here renumber
+was a good sometimes you want
+demonstrations or examples it served as
+a a pretty good
+I think I'm gonna regret this
+it served as a pretty good
+you know I have to make demonstrations
+of features and stuff that renumber
+macro is pretty slick but it's better if
+you don't need it obviously so I was
+lazy I didn't want to type all those
+strings in the beginning
+so when you're the manager
+a young engineer is likely to uh not
+keep it simple
+an old engineer keeps it simple
+and
+so I kind of
+I don't like Dilbert I keep hoping that
+I'm going to be impressed with like
+really clever comics where the manager
+is actually the smart one
+Dilbert would be a lot better if the
+manager was actually the smart one in
+that that would be an awesome comic if
+they did that they don't do that right
+when I was well obviously when I was
+young I didn't quite understand
+clever
+anyway they should have made Dilbert the
+smart one very I mean the boss is Marwan
+know
+let's go look at some Dilbert Cummings
+let's see how long it takes to find one
+where the boss is unintentionally the
+smart one I found a couple where the
+some people might
+some people might be disgusted Terry you
+know why you liked the boss because
+you're a loser no I'm actually an
+awesome engineer
+so
+if I had a job I guess I would be the
+pointy hair boss wouldn't I
+that's who I would be if I had a job
+there would be some punk some punk who
+keep it fucking and simple fucking
+nigger I'm not impressed
+yes I would be the point of your boss
+so let's go see how long it takes to
+find an example where the boss is
+actually the smart one
+this is working out better than I
+thought so I was going to use the I have
+the ability to use the ican unassembled
+code I thought I could do something
+tricky
+I didn't want to put those those strings
+I was going to use the caller and then
+do some unassembled but then I realized
+I didn't have the unassembled doesn't
+have the strings in in this case the
+unassembled doesn't have the strings if
+you see these files already see this do
+main compiler if we put the call to TS
+inside of this function then we could we
+could that's that's another option we
+could put the call to TS inside this
+function and then we could use the the
+unassembled and what would we see when
+we unassembled the caller the caller's
+name would be mini compiler and then we
+can get to string so if we put the TS
+into the function but anyway as you can
+see um where you what if we used the in
+this TS file we could extract the string
+and set TS so there i wanted to get
+clever i could anyway
+but I think we set off for this
+I already fucking typed I already
+fucking typed all the strings it's not
+too bad making a new entry you know how
+many
+how often how many more examples are we
+going to add probably not too many I
+need to uh what I want is I probably put
+some work into cult
+I need to cull that's my favorite word I
+need to cause some some redundant
+examples oh I know it's going to say so
+there's a steer at Syracuse the Catholic
+book in the Bible right and Sirach is a
+Catholic only book and they have a
+there is a form of shrewdness which is
+thoroughly bitter I think that's the
+greatest quote there is a form of
+shrewdness which is thorough thoroughly
+bitter
+and keep it simple is bitter deleting
+work that you've already done is bitter
+there is a form of shrewdness
+it's just thoroughly bitter so I can
+swear it so I got the Surat I have a
+this is a Catholic Bible I don't have
+the King James I like the King James
+because it says Oracle
+so
+I used to do random I don't use that
+Bible very often I do all my stuff
+online with the King James but some of
+the pet some of the passages stuck with
+me there is a form of shrewd you know
+what the best line is it is not for a
+man buckling his armor to boast as
+though he were taking it off it is not
+for the man that is the most badass it's
+not for the man buckling his armor to
+boast as though he were taking it off I
+can't believe that's that's the most
+badass fuckin I can't believe that's not
+in a movie it's not for the men buckling
+his armor to boast as though he were
+taking it off
+so
+so running the test suite is not a waste
+of time because that's what it's for
+do you see you see how it never caused
+it you see how you never get any bugs
+when you run it and it's because I ran
+it a lot
+there is a form of shrewdness that is
+thoroughly bitter so let's go look at
+some Gilbert comics
+okay escape so
+that was can the cargo cult this was
+cargo cult why do you have the number
+and the reason I had the number is
+because when it was running in it
+crashed I had a hard time finding
+finding which which it was oh and we
+don't want cargo cult
+and
+we don't want cargo cult
+and
+I like to
+I like to be brief
+if he can say it in
+and I think I get off on I get off on
+short choppy B Metallica so I'm gonna be
+I'm gonna be a Dilbert boss when do you
+write beat Metallica so what do I mean
+by B Metallica let me show you when you
+in everything you do
+payment be Metallica what I mean I mean
+look at some of these they they talk in
+short how do you describe it short sharp
+words you know Trump is uses simple
+words what's a good example
+they use vivid bodies fill the fields I
+see hunger euros and no one to play
+soldier now no one to pretend running
+blind through killing fields bred to
+kill them all
+victim of what said should be a servant
+until I fall soldier boy made of clay
+now an empty show twenty one holy son
+but he served us well bred to kill not
+to care you see I don't do eggs bred to
+kill you know what these are short sharp
+powerful sentences not to care - just as
+we say finish here greetings death he's
+yours to take away back to the front
+Bheema delegate you won't understand
+until you're older so it doesn't do any
+good okay so let's go up should I put
+that in my policy so now I'm a manager
+okay
+user
+when you write a song
+so we're gonna do exercises where you
+have to write songs because it teaches
+it teaches you something
+Beeman delica you know what when I was
+young I used to write paragraph or big
+long emails like a page of tedious text
+and a manager would look at it for a
+second and then do it one sentence
+answer for sentence fragment answer I
+was like dude I wrote you a whole page
+of beautiful grammar sentences and you
+give me this sentence fragment answer
+what the fuck so
+let's go look at Dilbert let's go see
+how long does it take to find one where
+the boss is the smart one yeah I found a
+couple dude you should totally do that
+now I sort of despise these
+whoa
+so I'm gonna be the pointy-haired boss
+that's my new
+I think stuff like this is hopeless you
+can't just tell them being Metallica's
+let's gonna get some ramen delegate
+no I don't even know that's all
+fortunately I know this song
+I think he's Irish
+do I know this off I don't love this
+song
+the horsemen are drawing near on leather
+steeds they write they've come to take
+your life on through the dead of night
+with the four horsemen ride or choose
+your fate in dice
+so when Teleca uses simple words not
+pretentious they're sharp they're really
+sharp this one I would say they're sharp
+they're sharp be Metallica simple words
+sharp
+so
+what other pointing here boss things can
+we make up so um I think I decided I
+don't want employees it's fucking up
+it's difficult keeping myself occupied
+you think I'm joking I'm not joking so a
+person would naturally assume that I
+have all kinds of work I should be doing
+I've been changing this from silver to
+gold and it was copper about ten years
+ago about five years ago it was silver
+and now I'm turning it into gold and
+platinum okay so what other
+Beamen Delhi so we have to find some
+more of stuff to work on oh crap okay so
+I I did some research on this on this
+change disk thing and fuck let me show
+you what we're talking about so
+now I have to be a stud okay
+so we're gonna install the distro inside
+of us we don't have to do this
+um change disk doesn't work there's a
+simple workaround which is to remap
+remount the cd-rom so what I could do I
+don't want to do this so when you mount
+a a senior oh you know what you know
+what fucking
+for ten years I used real hardware and I
+learned a lot of lessons about real
+hardware and I really don't want to fuck
+with that code because I no longer have
+real hardware to test it on the little
+motherfuckers okay so you want to get
+rid of CD ROMs right and then you know
+what I have a native I have a computer
+that runs natively and somehow somebody
+fucking destroyed my CD ROMs like my dad
+snuck into my room and fucking broke my
+cd-rom drive I swear I'm not kidding umm
+it's not the CD ROM it's the it's the
+controller I think they fucking broke
+the controller god dammit
+when fucking Satan is chewing on your
+nuts that's when you fucking that god
+damn it anyway so fucking Satan and shit
+so
+so then let me explain
+so watch this
+I'm going to install from one cd-rom and
+then change the cd-rom and then try and
+install another CV wrong but that but
+the the change just doesn't work in qemu
+but it works in vmware but if you do a
+mount operation then it works so what I
+could do is every time you want to all
+holy fucking shit goddamn I have a
+vision in my head
+Wow okay so check this out what if you
+hit one command and it takes a whole
+cd-rom it remounts it and copies the
+whole cd-rom on your hard disk that's
+why I make the big bucks that's why I'm
+fucking god okay so
+holy fucking shit
+okay so when currently you have to
+remount you have to do this let me just
+show you out instead of keeping you in
+suspense every time you want to change
+you need to remount you need to create a
+new what this does is a hardware reset
+we're gonna say T probe 2 and then so
+that remounts the drive and then you say
+change disk oops I did did that wrong so
+um
+you want to know why I made the big
+bucks what if I make a
+when you hit a key is any copies the
+entire cd-rom into a temporary directory
+called cd-rom
+the question is do we allow any other
+access
+if you have big balls you say no that is
+deep that is the only way you use it I
+think we're gonna do that that's what
+we're gonna do so I'm gonna tear up all
+my code so that the only way you use a
+cd-rom is you hit one button it remounts
+it and a REIT copies it onto your hard
+disk in a certain directory a cd-rom
+directory that's how the senior arm is
+gonna work and you're not going to
+access it
+some people will complain and say yeah
+but you should make it so that you can
+have a No
+you know random access to your CD ROMs
+know what if I well what if I copied the
+ISO I copied the whole fucking so that's
+why I make the big books let's see
+so I have an ability to mount an ISO you
+want to know why I make the fucking big
+bucks tell you why it fucking make the
+big Bush okay so drive
+you want to know why I make the big
+bucks okay so we have some ISO is here
+right what we're gonna do is reading
+that we're gonna make a command so that
+so that the only way the cd-rom works is
+it copies the whole disk into a local
+ISO and then we're gonna make okay so
+you can mount an ISO
+how do you do that I forgot oh I know
+who did we say well we say I yourself
+read drives a file name
+can we hit f4
+okay so now the M Drive is the ISO so
+the only thing the hardware is going to
+be capable of doing is copying from the
+disk to an ISO file okay
+do we want to do that what how much
+would it simplify stuff so we're making
+okay so the reason I make the big bucks
+is because we're not making an ordinary
+conventional operating system we're
+making we want to cherry-pick we want to
+make something that is different and why
+is it why does it have value if I can
+remove complexity so that the only way
+to use a cd-rom is to grab the whole ISO
+that's what we want to do okay so
+the only cd-rom there are two cd-rom
+commands read iso and right iso and
+perhaps we don't even have a a drive oh
+except when we boot we have to boot to a
+cd-rom
+so what am I talking about over here you
+can't change disk it needs a hardware
+reset when you do a mount it does a
+hardware reset let's see if we can
+identify it what the exact problem is so
+that we could fix it like a white man
+let's see okay so there's a there's a
+reset command
+maybe we should issue that and see if
+that does it and if that's the case then
+we can put it into change disk look why
+don't we do that okay and I already know
+it's broken I'm gonna save you some
+suspense and fucking try and fix it so
+we go - oh fuck
+okay
+things happen for a reason
+things happen for a reason and not
+always but anyway so if we go to the
+colonel let's go to uh
+and we're going to issue a reset to the
+hardware every time you do a change disk
+and let's see if that fixes it here's
+the problem I don't have a real cd-rom
+anymore and therefore if I make a change
+then I could be breaking something that
+already worked if I make a change I have
+a lot of value because I did testing on
+real hardware and it's kind of like that
+asset is present in my code and if I
+start changing it then then I might lose
+lose the ability to run on real hardware
+that's what's the analogy 488 and I
+think this is what we wanna do
+okay so should we just issue an 88 and
+it I think this
+I think this allocates a we don't have
+an unlock we don't have an unbound
+I think the read native max allocate say
+a file information record okay let's see
+if it works first 88 in it okay so we
+know
+this
+we're gonna send a hardware reset to the
+fucker
+every time you do a change disk let's
+see if that fixes it
+okay so there is we have to unmount
+let's just do this fucking okay
+- okay
+let's see if it works let's see if it
+works right now okay first of all
+control all - okay so we say change ID
+do we have yeah okay good
+ide1 all we have to see your own did he
+give the file
+so the reason I make the big bucks is
+what if I make so that you can you issue
+one command and it copies the cd-rom
+into a local file the local directory
+not just an ISO the one step would be to
+make an ISO two steps would be to uh to
+make it into a directory a local
+directory hit a key and it grabs the
+entire disk and puts it into a local
+directory called funky so so we have the
+hardware reset let's see if it works
+change disk T okay
+so you hit a key and it copies the
+entire cd-rom into a into a directory
+called cd-rom and then you can do this
+so or we can just add this reset so the
+reset is not good for multitasking let's
+say you had two tasks that were
+accessing the cd-rom and one of them
+issues a hardware reset it's gonna fuck
+shit up okay now let's see let's see if
+we fixed it so if we fixed it and it's
+gonna allow us to do it again before I
+added that reset it would not allow a
+second change disk let's see if I fixed
+it
+okay so ctrl alt T ctrl alt to now I say
+DJ
+how we see books one okay so one so
+let's see the mount here's the big
+moment of suspense did I fix it did I
+fix it I fixed it I fucking fixed it god
+damn I am smart okay fucking fixed it
+trust me it was broken
+okay so the question fucking so now the
+reason I make the big bucks is because I
+see new ways of doing it you hit a key
+and it copies the cd-rom to a local drip
+you just say cd-rom and then it copies
+the entire cd-rom to a directory called
+machines : / oh wow
+so let's
+we're gonna put this in our to-do list
+because it's a brilliant fucking idea
+maybe we beat until we have a committee
+Beeman Teleca
+okay I'm not gonna really
+okay
+okay so we have that as an idea
+so
+so now we have to we have to do this
+right so
+robustness is robust is king robust is
+king so what is the correct answer I
+don't know what is the fucking correct
+answer I don't know this is not the
+right answer this is not this is not the
+correct answer but god damn its robust
+as hell
+this is robust as fucking hell so some I
+think this copy let's see if there's
+anything allocated that we need to free
+before doing this
+okay so we're what did you does reading
+a reading in of Max does this allocate
+anything I think somewhere in here it
+allocates a sec to 512 byte information
+sector where is that fucking information
+sector
+barking of machine-gun fire he used to
+hear somehow the one do you play soldier
+it device ID
+I think this shit this allocates a block
+ID we need to free this puppy
+is that the okay we should make a of an
+unmounting uninit okay
+what's the opposite of an it in my
+operating system clean up clean up is
+the opposite of an it in my operating
+system
+one mount cleanup is the opposite what
+do i what am I talking about in my
+operating system in all of my games if
+we take a game like this cleanup is the
+opposite of in it and whenever we the
+reason I make the big nut the big nuts
+the big bucks is because unmount is what
+a white person would say in my operating
+system we use cleanup as the opposite of
+an it if we have any other unmount do we
+have any other examples where this okay
+consistency is next to God godly
+godliness should we read a policy clean
+up is the opposite of an it okay no no
+okay so
+cleanup sounds nasty 88 cleanup what the
+fuck
+okay so these were originally not
+designed to be remounted okay
+so
+what if I just free it oh damn I'm damn
+I'm smart God you can't believe how
+smart I am
+I know why I'm a fucking genius I'll
+tell you why I'm a fucking genius
+okay
+we are going to free the old one and
+then mount a new one
+so is blocked device allocated with zero
+and I do believe the answer is yes but
+there might be some cases were not so
+okay so what is this faggotry what is
+this faggotry here
+what am I talking about what is this
+faggotry
+holy shit I free it
+Wow I'm already a genius and I didn't
+even know it
+I free it
+is there some reason that you
+why do you pass this in there you
+fucking nigger
+it's fucking right there on their
+fucking
+look at this it's right there on their
+fucking beady fucking nigger okay so
+get device ID okay hold on
+okay
+shelf
+eighty-eight device ID
+is that the only thing
+these Jesus fucking shit oh we don't
+want to get it there
+probe why don't you just put it on
+okay no we're gonna do here we never set
+to 0 and we doing
+good device ID
+okay that's why
+okay you're forgiven you are forgiven
+for what if we just say don't allocate
+fucking
+that's what we did say
+why don't you just say don't allocate
+dev ID
+okay so this causes it to free it
+if ID record
+we free it here
+okay
+oh yeah
+these are returning
+you would
+No
+here what if we
+should we free it in all cases
+fuck you're supposed to free it if you
+this is the case
+no you know what we do I tell you what
+would you let me see
+what the fuck are we doing anyway device
+ID if error
+I think we want to say no we're doing is
+he
+you want to do that
+I like positive logic I like to put the
+short thing first I like positive logic
+not always but anyway
+you know what as a matter of fact oh
+never mind okay so you know what we're
+doing is incredibly risky because
+we should
+if you don't do testing this shit is
+really unpleasant to test damn it I
+should just be extra careful
+okay
+so you want to see if it works
+so here's the situation when I designed
+my operating system originally I wanted
+to allow two people to use the cd-rom
+right now all hell would break loose if
+two tasks were accessing the cd-rom and
+one did a change disk but you have to
+ask yourself what the foot okay I don't
+I like being obnoxious but if I can do
+it correctly I would prefer to do it
+correctly
+in other words if I could make it work
+for two cd-roms two tasks using this
+easier on I would prefer that but if I
+have to be obnoxious it will okay okay
+so is that the only thing allocated I'm
+pretty sure that's that's the
+interesting thing
+I fucking wrote this code many many
+years ago but the interesting thing is I
+know exactly what I don't think there's
+anything else allocated okay let's let's
+review what could go so we're doing an
+extra in it let's peek unlock doesn't do
+anything read native max so we went to
+the bottom of this
+get device ID
+what if there's something allocated
+somewhere else
+there's not we can look at the record
+okay so let's look at the block device
+record see if there's anything there
+like 40 that's not allocated what about
+clearing it out
+should we set it to zero what about okay
+when you start over
+you start with everything zero so
+technically if I if I reinitialize I
+should set this to zero actually all of
+these need to be set to zero don't they
+fuck so in my
+okay we're not doing a remount overdoing
+is issuing a reset so never mind we're
+not we're not doing a complete remount
+we're just doing reinitialized hardware
+so we're actually doing it a white man
+way of doing it we just were just
+issuing a reset okay in other words it's
+not bad it's not that bad so if we were
+gonna remount then we would have to
+clean up all this shit but we're not
+remounting all we're doing is issuing a
+reset a hardware reset ok
+well holy
+so we have to test the hard disk in the
+cd-rom
+and I have to change the
+okay
+I
+I did I did it and it worked okay so
+there was some kind of bug which killed
+it's on the video
+here we don't have to reboot
+as a matter of fact
+these look very similar
+enjoy it some other day okay so I guess
+we say fix I don't feel I don't feel
+good about this do I
+sometimes maybe you would call it being
+beating a gorilla oh hold on is fucking
+second this is only if it's only only if
+it's cd-rom do we want to do this damn
+it
+BD
+why are you using reverse logic
+oh that's why okay
+you know what we didn't do this very
+carefully
+if removable
+you know there's not any other
+okay
+done I'm done and one of the next one
+done done under the next one
+okay so hard disk works
+so I should really be extra extra extra
+careful I should be really extra careful
+are you absolutely positively certain
+and say you're 16 what the fuck is I you
+did me a you 16 pointer pointer
+what about any
+what about in the
+plot device structure is it a u16
+pointer pointer okay
+command
+okay
+is a black device ID
+we need to look up bike vise and see if
+it's a year 16
+yes it is a u16 place a traitor
+so
+I changed the code I actually made it
+more aligned more lines of code the
+question is if I tell people to get rid
+of lines of code is it going to cause
+bad code well I'm the one in charge but
+I would one time I said we don't care
+about
+I was just going to let people anyway if
+they could reduce the lines of code in
+any way they they could we would allow
+it
+I know
+I would like to to allow any sort of
+hack that reduces lines of code maybe I
+don't want to do that because it would
+be part of the fun to get rid of lines
+of code technically when I changed it it
+made it more of lines of code
+yeah so Disick school might be watching
+what
+if physics rule is watching I have to uh
+okay
+five minutes Thank You mr. chairman uh
+mr. Burson secretary Johnson is quoted
+as saying if there were legal limits on
+his ability to do some background
+investigations I think that was a really
+unfortunate phrase that he used but
+unless you and I see if we can kind of
+demystify that a little bit do you agree
+that non-citizens who are not in the
+United States are not afforded any
+protections under the Fourth Amendment
+that's my understanding
+well you were a US attorney and you're
+being modest not only is that your
+understanding it's also though all the
+Fourth Amendment does not apply to
+non-us citizens who are not here anymore
+than the Eighth Amendment applies to
+non-us citizens who are not here would
+you agree with me that there is no legal
+bar to accessing data from non-citizens
+who are not present in the United States
+well you also agree with me that there
+is no legal right to emigrate to the
+United States it's a privilege that we
+confer on people but it is that it is
+not a right it's correct sir
+so would you also agree that you can
+condition the conference of a privilege
+on just about anything you want so long
+as you don't violate a treaty or or the
+Constitution or the Constitution but you
+made I'm sure extensive use of
+polygraphs when you were the United
+States attorney all right and they're
+not admissible in court are they not
+generally but we still use them because
+they are a very effective investigative
+tool do we use them in the vetting of
+people who want to come here with regard
+to immigration benefits I am not
+familiar with the policy in the refugee
+context we do not regularly use a
+polygraph if there's significant doubt
+in the operational component given the
+border authorities that ice and CBP have
+typically the decision would be made to
+bar entry rather
+to go to the extent of trying to
+ascertain the veracity but but you and I
+didn't just use polygraphs in our
+previous lives because we had doubt
+sometimes it it and since the person to
+want to embrace the truth when they
+think it might be a threat that they're
+gonna be polygraph
+okay um I'm gonna shut down right now
+bbl
+wait let's let's go look in the chat
+room first
+okay I want to shut down

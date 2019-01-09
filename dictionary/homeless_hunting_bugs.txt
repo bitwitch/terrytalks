@@ -1,0 +1,349 @@
+okay so I'm gonna go chase that bug that
+I was chasing earlier um I am at home in
+my van
+this is my my new home I need a pillow
+okay without further ado oh shit oh shit
+okay so so we're chasing a bug so when
+when you put print statements and oh
+someone someone fixed it someone said
+they fixed it
+let's go see what they did
+someone said they fixed a bug well
+aren't you clever
+so we've got a is a a seat pal
+so we have to the only way that to mount
+it is uh okay let's see what they got so
+how are we gonna do this
+so go
+file
+oh shit shut down shut down it's hot in
+here
+file Mountain virtual disk password
+okay
+and
+well I always okay but TOS is the O and
+oz like okay
+we always mount the D partition for
+transfers and on my VM disk okay so I'm
+out and let's go ahead and CD don't just
+don't like her
+I'm a little bit uncomfortable so pseudo
+CP me SS star /mnt fish BM disc
+okay it worked so now we uh
+file
+okay and I'm not closed now we start
+this puppy up
+let's see what that person provided me
+with
+so I'm gonna go ahead and maximize yeah
+VMware you always have to resize it okay
+so if we go control m to the D Drive and
+CD
+so I don't think it was mounting with
+the foot let's see if it moves
+it mounted okay I have a sponge in there
+let's see if I say find sponge
+that's my new way of labeling it yeah
+look at that
+no no no no fuck I have when a doctor
+does surgery he has to count the number
+of sponges they left inside according to
+mash do you know mash anyway what the
+truck maybe I didn't recompile
+okay anyway so it's mounted so we go so
+now we had now I needed to do a diff
+let's see what he's got on there huh
+their report Red chief reading foul read
+essentials so Drive
+I haven't really done this in a while oh
+you should wise got fancy alright
+lower the centrioles okay chair to load
+a binary
+Wow
+I just been doing some work he doesn't
+sound like he'd fix the Red Sea
+maybe his this is an alternative to the
+Red Sea
+okay well that's I got an email saying
+he fixed it I think he's just showing
+off his network stuff Oh what the heck I
+think I know this is this from Alec
+Murphy
+hello
+[Laughter]
+I sort of concealed the way to make
+binary files he figured it out I think I
+told him that tell him what's it gonna
+be
+what you gonna do what if it corrupts my
+master copy I trust
+whoa look at that
+well I'll leave that
+yeah
+snake
+Wow he's very professional cool
+so you say gonna fix my
+so I hope it's just um I hope I just
+introduced a bug that would be the maybe
+it's simple you know maybe I just
+introduced a buck nothing more than that
+I I thought that uh Hugh EMU was not
+supporting red seat all of a sudden I
+it's bad when you suspect other people
+of your bugs anyway
+okay so is this crashes it's in
+how did I forgot what I did in an
+earlier episode hidden black device and
+it wasn't it fuck I'm rusty
+okay so hey there's that welcome I said
+I search for sponge what the fuck I said
+find sponge what the fuck
+Oh
+[Music]
+find sponge
+there we go okay so the surgeon has to
+count the number of sponges so okay so
+it's printing not read see I so final
+read it's probably not valid then as
+prote it is so for some reason maybe I
+have some uninitialized values or
+something I don't know
+read see validate let's go into Ritchie
+validate okay we can get rid of I think
+max blocks was looking good I think red
+see validate is the question is is it
+correct
+this is invalid or is it
+okay so later to drive luck read read
+see mr. B
+[Music]
+okay let's I got a six going
+well it's not ready to read it
+okay now okay so they'll put this
+difference between good programmer and a
+bad programmer he's not lazy Oh No
+well I wanted one difference okay steep
+quick wham bam thank you ma'am
+beep okay let's go there
+d
+shut up moduli yeah kay it's months
+puppy
+Sixers hey look at that damn I'm good
+damn I'm kid okay so Sixers in size okay
+find
+hey where's max - max black still there
+what the fuck I can remove that fucker
+the fuck is it trips me out why does it
+there what what the fuck
+oh it's on the D Drive okay you gotta go
+to this C Drive fine okay so I can swear
+I got rid of that they just not didn't
+save it nests right okay so the max
+blocks we're being a little bit quick in
+her judgment let's print the signature
+just to be sure
+just to make sure what is and and
+sectors you go sighs sick there's equal
+size what did we get we got something
+great
+okay let's let's see where DB size gets
+initialized DB size is equal to nothing
+okay we got an it partition let's just
+go to Colonel black do
+control-f sickness size
+yeah
+find directory size equals okay besides
+see you there's where you knit it equals
+sectors
+how could it get different okay so did
+would you double do red see in it of
+course we did how do we know what did
+that
+okay which one let's look let's print
+this out how about that control insert
+shift
+okay do it
+hurry up we're on the time clock
+actually we're okay
+don't have a very comfortable seat
+it never hits them it that's weird
+validates it myself it's not valid
+validates it later doesn't it why is it
+not valid what if this was created wrong
+what if it was created wrong
+okay so fuck hey let's just override
+that get rid of it what's that gonna do
+it's off by 8:00 it's off by 8:00 where
+does that ring a bell
+fuck eight times
+what if those created rung let's
+good-looking huh
+so then it didn't do normally gonna
+drive see
+[Music]
+[Music]
+what they should do that
+don't worry
+so
+okay let's see so maybe my ritzy is
+being created wrong size
+let's play that one what was the size of
+the file how about that one of them is
+the size of the file okay so uh zero
+aches
+control
+okay we wanna divide this by 512 that
+you would get
++5 later
+this is never a wash
+okay the file I think you got ahead 80 y
+no - 80 - 80 fuck you
+so
+okay well
+so
+the ISO has some header blocks
+let's see
+[Applause]
+well yes I got a good look so I'm gonna
+go let's go to get the difference
+between a good programmer the bad
+programmer not lazy
+what something like that hey okay so
+let's look for size
+I could swear my f3 is not working what
+the fuck's up with that
+there has functioned weird
+yeah like that
+thank you
+okay so so there's a there's an overhead
+for a cd-rom and then there's the Red
+Sea filesystem
+we're getting in discrepancy what if I
+knew well it's just that's not a good
+test I could get rid of the let's just
+try this this is a bad idea
+fine
+so right here we cannot
+okay
+so we're just gonna ignored the check
+okay
+now I'm comfortable
+I haven't programmed in a long time
+okay you knit that's pretty crazy
+13:04 so what if I try to install oh you
+want to install it's probably fucked up
+at the end isn't it
+why did it all of a sudden start
+happening around fuck maybe the size
+changed
+and it started happening okay so uh well
+but a memory what do we get
+okay so CD I was trying to do the file
+manager
+okay DRV maybe it's corrupt in this way
+okay
+so decide
+let's go listen to some hymns but a
+memory
+oh my god
+this three cake
+okay so
+it's not very happy
+something's fucked up
+look into the world
+Colonel hacking okay so fine
+okay so I guess why don't you not be
+lazy and do it bit by bit
+fuck because I want to be lazy so either
+the either the file was created wrong or
+now it doesn't do them it validates it
+before it initializes that makes sense
+the validation is off
+okay
+rid civility which look for that
+read fuck it right there size is equal
+to max' black plus 1 dairy offset
+what if the sectors per cluster is no
+there's no sickness per cluster max
+block secretive directory entry size /
+block size
+it's not off by one it's off by a lot
+what is it biddy
+these sectors
+what does photon wise before
+leaning on my pad gotta get used to
+notebook
+ramdisk that's not the problem
+you know the tapi is wrong too
+let's worry about this first
+so when you format you set the block to
+my sectors okay this is super rich
+okay
+TV says
+trash
+oh you know what I think its rounded up
+where did we allocate the motherfucker
+wait a minute
+TV size
+sector skills from TV size
+Moonves
+- Drive offset that's where just so the
+drive offset let's print the drive
+offset how about that
+so far read
+here it's printed reserves it
+this is the 80 blocks header that she
+have on a cd-rom
+motherfucker I hate when the cursor
+jumps that's what I don't like about
+laptops one thing
+okay prett drive us it
+robust 58 hex
+you're gonna get rid of me
+it's too big
+what
+so somebody likes debuggers
+well
+good luck
+so how would you use a debugger okay so
+58
+so the
+50 is 80
+58
+he
+fuck you
+[Music]
+buuut block
+max watch
+well shit
+of any let's dump to boot right now
+let's dump the Moo trigger that was that
+[Music]
+okay so
+oh yeah
+glass red
+Oh
+break
+okay so what if I print Br
+you just want to make it extra for us
+this way
+you get fancy but there's simply
+so we're gonna we're gonna add this
+we're gonna add this to the colonel
+as an extra
+so now you're too
+this is a pretty tricky punch
+temporarily
+the extra now it's a report
+this is where we have import rate
+okay so now we go
+okay
+so
+sectors
+[Music]
+Plus aimed in two blocks
+they're off by 8
+it's a cd-rom it's rounded to a four in
+four is it
+file size CD ROMs running to a four
+you don't have any me
