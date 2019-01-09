@@ -1,24 +1,19 @@
-//  
-//  Author: Ian Shaw (bitwitch)
-//
-//  Markov chain algorithm taken from https://golang.org/doc/codewalk/markov/
-// 
-//  That part written by The Go Authors thus I must include:
-//  Copyright 2011 The Go Authors. All rights reserved.
-//  Use of this source code is governed by a BSD-style
-//  license that can be found in the LICENSE file.
-// 
-
-/*
-Generating Terry Davis phrases: a Markov chain algorithm
-
-Based on the program presented in the "Design and Implementation" chapter
-of The Practice of Programming (Kernighan and Pike, Addison-Wesley 1999).
-See also Computer Recreations, Scientific American 260, 122 - 125 (1989).
-
-A Markov chain algorithm generates text by creating a statistical model of
-potential textual suffixes for a given prefix.
-
+/**  
+*  Author: Ian Shaw (bitwitch)
+*
+*  Markov chain algorithm taken from https:*golang.org/doc/codewalk/markov/
+* 
+*  That algorithm written by The Go Authors thus I must include:
+*  Copyright 2011 The Go Authors. All rights reserved.
+*  Use of this source code is governed by a BSD-style
+*  license that can be found in the LICENSE file.
+*
+*  Based on the program presented in the "Design and Implementation" chapter
+*  of The Practice of Programming (Kernighan and Pike, Addison-Wesley 1999).
+*  See also Computer Recreations, Scientific American 260, 122 - 125 (1989).
+*
+*  A Markov chain algorithm generates text by creating a statistical model of
+*  potential textual suffixes for a given prefix.
 */
 package main
 
@@ -94,7 +89,11 @@ func (c *Chain) Generate(n int) string {
 	return strings.Join(words, " ")
 }
 
+
+//
 //go:generate go run scripts/embedDict.go
+//
+
 
 func main() {
 	// register command-line flags (note: flag.Int() returns a pointer).
@@ -128,3 +127,4 @@ func main() {
 	soanyway := c.Generate(*numWords)
 	fmt.Println("Terry says...\n" + soanyway)
 }
+
