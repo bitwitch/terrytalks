@@ -1,0 +1,808 @@
+okay so it's not every day you do
+something
+this epic I'm about to do the most epic
+thing in the history I'm about to do the
+most epic thing in the okay here's
+what we're gonna do we're gonna convert
+the sound to 8 bits where you can
+convert sound 8 bits is that fucking
+crazy okay so you know what do we go to
+sound directory I know where people
+might be angry but fucking you know why
+because we got the bomb okay so uh
+because we got the bomb okay so note the
+frequency where is that note
+where is frequency
+do you God said he wants 8-bit sound
+note to frequency okay let's go ahead
+and remove this from here escape okay
+note to frequency okay so are you sure
+just to double-check I wouldn't want to
+get this incorrect I think I did it from
+memory
+that's hilarious okay
+anyway I should probably use the octaves
+of a piano okay 440 actives of a PI you
+know is there a what do they call is
+there an official octave for middle C
+88-key piano okay so designation look at
+that look at that look at that - will be
+official what do you say people so we
+have 256 to work with oh he said signed
+he wants it fucking signed
+holy fuck hahaha
+a character oh my good heavens gracious
+okay so we do it signed well there you
+have it
+is 88 gonna be okay what Oh God here
+that means it'll go really really low
+holy fuck that's what he wants
+it's gonna be assigned okay that'll see
+4:40 okay so metal C for middle C is for
+a 440 okay so a 440 is octave for 440 is
+octave for are you sure be absolutely
+sure yes for forty is octave for okay
+are you sure don't fuck this up Gav 440
+is octave for okay so dear Lord okay 440
+is octave for we should use a lookup
+table okay so no to frequency
+440 is octave for okay we got here
+note the frequency 440 is high deform
+okay so let's do this very carefully
+okay so we are gonna have something
+called a note and it's going to be an
+8-bit signed value okay and we're going
+to get rid of octave out of our stuff
+okay so let's write a little you know
+write some documentation people want to
+know did you write documentation fuck no
+I didn't write documentation did you
+write a spec fuck no I didn't write a
+spec what do you think I did I fucking
+what are you nigger fuck you okay so no
+to frequency okay how do we want to do
+that just fucking do it
+quit fucking around okay what do we call
+these notes
+there's octave and note and then there's
+note we can invent a word for a or for a
+sometimes it's good to invent a word
+this is some wisdom I've learned if you
+make oh if you make hello no no
+what because it's impossible to use
+github no it's public domain okay bye
+okay so now let's see here what word
+should we invent for note
+- uh
+a Touareg you want to use that word
+that's what God said
+- uh
+this is it - uh okay but don't focus it
+to it it's one of these you want to call
+it a one up
+one him to do it and the woman to do I
+do
+I wanna want it in they do it to us
+okay so we call this at two up this is
+an epic see okay - uh okay
+so we say yeah - uh - frequency
+I
+- uh - frequency okay so we say - a - 3
++ note ok so all of my octaves are off
+by one first I have to fix that let's go
+slowly let's go a little bit slowly okay
+so my octaves are holy fuck okay these
+need to be active for okay
+look frequency okay first control f
+okay sound we'll go ahead and put this
+in here
+it doesn't really want to just do to us
+in this okay let's put that back okay
+put it back
+merge D okay so we put these number two
+okay so first of all we gotta fix the
+octave we're off by one
+okay so fuck okay let's see it where is
+all that shit okay it's relax it's not
+that much so we go to the sound
+directory music
+are gonna be it's just look for octave
+magic ace okay
+octave No
+music sent octave
+okay
+he's accepted
+okay
+I do
+octaves are entered of the digit
+stations okay
+tzedakah
+no to frequency are different I give for
+okay let's see if
+no too frequently hey make sound sound
+effect make sound files
+there's no octaves in there draw CT
+activity equals four no number in octave
+- frequency okay and right here you also
+want to use a - uh - frequency oh no no
+no we're going to other direction we're
+we're going a note to it - uh that's
+what we want to do go to frequency
+note
+- - what
+and we might as well call it an I hate
+note number
+okay
+and this is none other and octave mine
+is for
+okay this is
+octave times 12 plus note are you sure
+okay this is a no-brainer
+actually okay you want to call it a
+wonder know what's called it to us you
+want to call it a one it should be a one
+a not a - up oh and a want to check for
+that
+let's go Google oh honey
+looks good to me a 1-up why would you
+why would you call it why would you call
+it that to us it's a ona it's a one
+at least it's a it's like octave a 1-up
+octave times 12 plus nope
+100 K and so let's look for note 2
+frequency okay first we want to get rid
+of all the octaves or fix all the
+octaves okay so it should be okay note
+to frequency what we want is that one up
+to frequency note aunt one up enough
+enough and then we want frequency
+well that's kind of middle C is 12 times
+for a 0 B 1 C 2 we're not gonna have a
+default are you kidding me
+okay so 48 plus 250 fitty okay oh wow
+that's kind of fucking cool
+you think they planned it okay now I say
+so fiddy whatever do on that divided by
+12 I'm confused
+case is correct I'm then divided by 12
+let's see let's just do it just do it
+okay so note frequency I'm not different
+just do it
+okay fine okay now you know we know we
+say no to freak machine we say one I'm
+not on that to frequency and then we see
+not frequency okay let's see if this
+works now it should be off by a octave
+okay okay so let's do this so let's
+start me fuck you
+oh no okay
+note the frequency okay okay so now my
+song should be off and I'm different
+they should be an octave too low I could
+do high that's one
+okay now you know and now we we have to
+change all the octaves are those being
+set where are those being fucking sick
+okay hold on a second
+the do I do I set odd I don't set the
+duct octave do I know I I just attacked
+him okay
+oh fuck okay so I've changed all these
+songs not a problem okay we are
+professional grade okay why are these
+loop these are low and they're coming
+out high I don't understand why are
+these coming out high they should come
+out low shouldn't they what the fuck
+okay how about no hold on
+octave for note 2 what do you eat
+nope oh not well that's not correct
+how'd that fucking happen
+four times twelve Oh No octave okay oh
+fuck did I screw that up okay maybe I've
+gotten backward nope
+why would they be backward they would
+not be backward a note note to octave
+for okay well this is obvious okay 50 so
+under two frequency No - you octave four
+so this is supposed to be metal scene
+it's very high oh it's supposed to be oh
+do you know how lucky I am
+okay octave 4 is a this before 40 so
+what the fuck seriously what the fuck
+okay so I fucked something up okay so
+for 40 is octave for no let's just get
+this straight
+middle C is something like 2 ad or
+something
+we correct
+hold on a is 440 and its octave for
+correct don't fuck this up okay
+are they inverted up is up down is down
+okay no I not didn't burn it okay well
+good good it's messed up so 50 is middle
+C and that that is wrong so let's fix it
+50 divided by 12
+how why is it wrong
+it's way too big why is it way too big
+let's just what are we looking at 50 you
+suppose 48 is supposed to go to 440 okay
+how are you gonna be what are we looking
+at 2
+- ^ its octave for 4 times X is that
+what we're looking at its active for
+something similar to this so
+why are we multiplying by a 440 okay
+4:40
+if we take the natural log natural log
+of one is zero
+[Music]
+oh the fuck am i doing let's just fuck
+around with this till we get it right so
+it's way too big why is it way too big
+so let's see it's embarrassing okay
+we're with that so we got 48 it goes to
+440 if you go 12 up 36 goes to 2012 down
+60 goes to 880 okay so therefore we're
+looking at
+oona divided by 12 why is it not just as
+a 2 to the power on the / - oh is that a
+fraction is that a decimal hold on a
+second
+is that integer Anna is an integer
+divided by 12 point oh that converts
+okay so what are we looking at - 2 to
+the fourth
+let's do it - to the fourth wait wait
+wait
+- to the fourth goes to three or fourth
+goes to 440 so we have to divide by four
+forty wait wait wait wait
+- the fourth is a 16 divided by 4 40 so
+multiplied by four forty divided by 16
+okay let's just do this multiply it by
+four forty weren't a divided by 16
+that's kind of guts laughing at me oh
+why don't we do it you want to know
+subtract okay I guess so
+when is 48
+but that fucks it all up why are we
+putting the sign there that's not what
+it's supposed to be you want middle C is
+going to be 0
+I guess so well holy shit that's not
+what I intended okay
+you know anna is a is not like that okay
+so somebody talked about the Fahrenheit
+scale they were making fun of me they
+thought that I was a dumb fuck
+not capable of being the greatest man on
+earth so they thought I was a fucking
+Fahrenheit my god I'm not a fucking dumb
+fuck fuck you okay so you know what we
+do middle a is on on a zero okay so oh
+yeah that's what it is
+okay little C's
+I give four
+that's a lot what do you think you think
+we should put this is kind of fucked up
+no it's not fucked up I'll just change
+that you idiot okay
+so if we say -4 okay fuck just divide by
+16 how hard can be let's just put that
+there done I'm done on to the next one
+what if we made no we're not gonna make
+that's better so they're off an octave
+and now we have to uh convert
+okay so now we this is fun isn't it fun
+this is fun okay so we're gonna write a
+program to press to convert this song
+you know what is
+let's just do it just fucking do it
+fuck okay so are we done no we have to
+let's convert the music Oregon fine No
+not very many people are in the god
+league of human intelligence you have to
+experience creating a new word before
+you you start thinking like a god okay
+so
+now we we looked for somebody needs to
+be changed is that the only thing I
+think that's the only thing okay
+somebody let's just change the octave I
+think it's open okay let's go to the
+Samedi did God mind right three
+one two equals four Oh No
+ought to be reformed
+octave equals four
+boy I really fucked that up didn't I why
+didn't you check I don't know why I
+didn't check because I was an asshole
+okay
+so I think we're good
+okay is there anywhere else in the whole
+operating system all the sounds have to
+be changed that's not much of a problem
+what do I have to do / - yeah that's all
+I have to do is / - I do believe
+okay so no no no that we're doing Una's
+okay that's normal isn't it octave three
+thank you no it's not normal what do we
+need a new octave I think would you okay
+fun yes we do need a new heart okay what
+is your malfunction where do we set that
+fucker how do we set that fucker
+oh we do % D okay we have to look for a
+% d % D here it is durations ok % d damn
+it fine directory T we already draw no
+we don't want drop mean draw controls
+here we go yeah yeah no it's not part of
+the controls jukeboxes no has nowhere
+fuck you ok fine what are we looking for
+we're looking for the menu where do we
+sit the menu draw
+well look for octave 9
+we're always set menu is our fucking bin
+directory f1 let's go look for media
+let's inform any cement refined yes fuck
+you
+how do you said it fucking I forgot
+menu entry find not a sub entry okay
+there it is there it is okay octave % D
+I looked for % T motherfucker
+oh nevermind okay octave % D 0 to 6
+okay we are now going hero to seven
+and it is off and octave that's what it
+should be less than or equal to seven
+okay
+just do it done I'm done the one to the
+next one done on an iPhone
+we don't have a zero anymore
+don't have octave 0 1 to 7 it doesn't
+that that note doesn't play but in the
+future it might ok octave 0 we don't
+have an active 0 but we do okay we're in
+the God League the god League okay
+zero to nine okay so that's handling
+digits okay so what are we expecting is
+it supposed to be off why is it off we
+said no to frequency we're converting
+the frequency it should be correct why
+is it number two octave three at the
+start it's are you fucking kidding me
+so what
+somebody find directory free
+no it equals three
+why was it three what books malfunction
+oh we got that shit son okay so no I do
+is that are you sure it's me it's all
+MIDI it starts out octave three I can
+swear octave three what is it that sets
+that working for
+when we draw it what are we drawing
+octave honey swear me
+it's right there I liked it Mindy makes
+really fine I do check the truth
+PS am sit active okay fine
+yes and sit finally they're just fucking
+around some bitch
+PSM octave
+PSM menu fine PSM
+PSM octave or is it a default coming
+into
+okay we're going to use a mini yes I
+want it okay
+PSM I do
+did we fucking sit that motherfucker
+Wow I could swear how did I miss that I
+did a very careful so that scares me
+whenever I missed something it scares me
+let's do it
+excuse me when I miss things okay
+where is that anyway we're good
+right there there it is okay so no so it
+should be often Achtung
+no no that's correct okay we have octave
+one doesn't work do we want an octave
+zero okay now we we are we done no or no
+you know the next step we have to
+convert all the songs okay
+so we have to write a sound a song
+converter so do we want to Lex
+the problem with lexing is it gets rid
+of comments and it reformats it so we
+don't really want to Lex it what if we
+look for string constants and change
+numbers inside a string constants I
+think that might be our best bet will
+that have any side effects on a song if
+we look for a number inside of a string
+and add one to it
+oh oh we have an additional problem oh
+is that true no it's not a problem okay
+so now we want to look for numbers
+inside the strings and add one okay
+fuck at least it doesn't change the so
+we go to templates this is a document
+template okay copy
+let's go to home and you might as well
+convert song okay
+what is your footing brown bird song
+gate control F my util convert songs
+how about convert you know convert song
+okay replace oh okay so now
+we want to look for a string being
+converted okay well we can do it you
+want to see
+[Music]
+24 per octave that's a good idea maybe
+so half note
+no we're gonna go with 12
+middle C is to 61-62 let's check that
+out % 0.6
+Oh
+I wanted to honor wanna
+ahna 50
+Mel C kidding me middle C is 260 1.6 -
+shit
+the other answer oh my god I almost
+fucked it up Jesus Christ okay it was
+correct hold on a second here
+50 we have it set to high whoa okay hold
+on a second here
+whoa thank you I almost fucked it up
+- twelve is uh fifty minus twelve is 38
+wait a second here
+2004 wait why are you seeing for weight
+let's do zero before for 40 okay so this
+is middle a middle C is you're saying
+it's 261 that's deeper a a is deeper
+you're not correct this is middle a are
+you saying that's low lower a than
+middle C fuck there's that 440 is active
+for oh maybe it's just my middle C
+that's off so octave 3 note C is 0 is a
+Oh a B or a okay well we got to do the C
+be ok a is zero zero one zero one two
+three oh it's three okay
+so middle c is octave three
+okay middle C is active three but our
+octaves are off
+okay so 440 is active for are we correct
+for 40s active for
+440 is octave for I think you'd swear we
+we covered this
+for four days active for but middle C is
+we need a fucking singing
+what the fuck is this shit
+a socket for
+oh my god you gotta be kidding me
+these guys are fuckin Fahrenheit
+Fahrenheit niggers Jesus Christ look at
+this shit are you kidding me
+the sea is the start of the octave
+instead of a what kind of retard nigger
+came up with that
+so I should we fix it okay I should
+convert it correctly because my songs
+are all broken so I had to do this
+anyway my songs are all broken okay
+fuck
+I made all my songs I made all my
+software there is no DRM fucking nigger
+I'm gonna ban that fucker
+fuck you
+this evil God
+okay so do we want to fix music or do we
+want
+okay
+so the UH knot is correct so the enough
+for the owner / 16 hold on a second here
+sink thank you for thank you for finding
+okay
+so
+nope - Ana okay
+we want to add we want to subtract to
+off okay it has to get fixed here that's
+all we have to do so if if if if if if
+nope okay nope it's less so yeah a let's
+look at this a b c a a sharp B C C sharp
+okay so if
+middle C is active for did we see and
+440 is octave 3 440 is a octave 3
+let's just let's get that right okay so
+middle C is octave for
+as I know that you said it was too
+little see is to middle C is to 61
+middle C is octave for and middle a
+octave for a is 440 okay
+that's fucked up okay so it'll C is
+active for
+so a is zero a sharp is 1 B is 2 C is 3
+C sharp is 4 so if note is
+less than three
+I could I almost fixed music I almost
+fixed the music industry you niggers
+okay
+fucking retard nature's okay so so if
+nope it's less than three we take octave
+times 12 plus note
+we take octave - one
+octave for
+okay
+did I do this correctly I can't think
+I'm sorry I can't they okay notice less
+than three
+plus one that's what we okay
+it's pretty good okay so we say we say
+percent
+12:26 F on the tip frequency why did you
+put the note order backward
+I guess it's forward okay is there a
+default on that let's not have a little
+C is octave for okay
+enough so octave four is middle C so
+nope nope zero octave for this is
+supposed to be 440 why are you fucking
+shitting me
+oh I fucked that up
+okay so we have to do
+is it
+it's too high
+try again okay
+little C is active for so middle C is
+12
+Oh
+I'm confused fucking I can't think hit
+12.6 out come on
+one extra frequency no note a octave for
+oh my god
+I'm feeling pretty embarrassed
+okay 4:40
+okay so middle C is octave for note 3
+261 okay now we have it correct okay so
+now we just have to rate the conversion
+and everything will be wonderful let's
+see if everything still works
+oh this is fucked up figures oh damn
+that is fucked up oh my god is that
+fucked up what oh Lord
+dear Lord
+so we're all those notes okay doesn't
+look too bad
+so what just happened eh oh this is a
+there it's not note a by the way so so
+what are we looking at middle C is H is
+C okay so H is C like that's not too bad
+H is C so that means where's 8 years h h
+is see that's why don't we why are we
+doing this
+zero okay H is C
+HSC how many of those did we have not
+very many
+okay these are not an octave up
+is that all there is are you sure okay
+so
+[Music]
+good it works
+[Music]
+[Music]
+how come that's correct does that
+convert it to the letters or something
+what about this is this fucked up
+this is fucked up isn't it dammit this
+is this is fucked up I'm sure it is
+of course it's fucked up what did you
+think of course it's fucked up
+shit okay okay so this is okay but the
+notes are fucked okay so
+let's convert him to Una's and then
+okay so
+nope
+let's look for octave octave magic keys
+set octave okay that's not wrong
+I do
+recalc XY okay so now we want to convert
+these to it on up
+okay since we have an honor
+why don't we convert it to it what do
+you think people
+okay no I don't feel like doing that so
+if note
+did I do
+if not-it's less than zero note equals
+11
+okay this is fucked up this needs to be
+if note is less than three oh shit
+so fucking nigger design this
+was he German that made the piano jesus
+fucking christ
+how hard can it be a is the fucking
+beginning fucking starts on see
+you want to convert these to an enough
+okay
+[Music]
+of course we should convert it to Ana
+that's the glory of Donna where do we
+want to convert him to Ana that's the
+question okay
+we want to convert from not okay we need
+to write okay now we have to do the
+other direction
+on earth anata o unintuitive
+okay this
+I'm interactive
+Oh
+you think I should tell computer science
+people
+they'll just have to find out the hard
+way
+okay so we say
+oh we have a we have a division for this
+you know that there's a math routine
+mod there's a mod I could swear we have
+a mod for this mod 60 mod to you 64
+give in return ECT form
+quotient
+okay well why do you 64
+nope
+equals five you 64 address 12 and what
+do we say if no it's less than three
+returned
+let's see
+what about sind
+if it's negative sake enough fuck it up
+we do want negative why don't you just
+do that
+how hard can it be
+what does mental see no - okay sure
+460
+fifty-one
+okay middle C is 51 a a sharp you see
+zero one two three why didn't they make
+it fifty Jesus Christ oh never mind
+middle C is 51 okay they started at 1
+instead of 0 you know what no they
+started what little C is 51 okay okay
+do we do in our documentation do we do
+single-spaced yes do single-spaced
+under frequency
+okay let's see if we got this correct
+okay so let's see nope
+note three octave four is not less than
+three no
+wait is note less than 3
+note three octave for three it's 36
+I know see his note as active form okay
+note 3 is 4 times 12
+51 okay 51 modulo 12 is 3 know
+three-octave
+51 divided by 12 is 4 is no less than 3
+no so it's 4
+so what what is 440 is
+what is that that is middle a is 440 its
+up higher isn't it yeah okay okay so we
+say
+so okay
+now you see
+what are you doing okay so three
+okay so okay looks good no
+little a
+okay so we got it correct now let's go
+ahead let's see about our music is this
+under sound we don't have music sound
+run it to frequency
+why don't I say midsi do you want to
+replace metal in the whole operating
+system okay
+okay now we go to the glossary and we
+make an abbreviation entry every time
+you use an abbreviation you have to
+register it one time I thought this was
+bad and not good anyway H mg mg s quick
+okay okay let's go to sound know the
+owner metal see is on a 51
+why don't we say fuck
+our notation is a little bit sloppy
+because a note is kind of sloppy but it
+is sloppy so at least it's better with
+it enough okay
+I think we're saying okay so let's see
+what's here
+[Music]
+okay so
+so
+and all we have to do change these to us
+as soon as possible so let's find the
+octaves let's do that
+that'll be a clue fine okay this becomes
+an enough want to change all these to
+honest
+just fucking do it just fucking do it
+what's up Tempe in Tempe in is a note
+okay
+no documents
+I guess we teach all these too honest
+no let's not JC's Donna's because people
+know
+fucked up shit okay
+would this be improved if I changed all
+these to honest no actually as a matter
+of fact and unof is an absolute value
+not a it's not a a note is actually
+relative
+so as a matter of fact I have a good
+excuse not to change those to Una's so
+do you want to change him to honest
+okay so the XY
+we need to change list
+the y-value its
+if note is less than three
+oh wait let's make this an honor okay
+if it is not a meter then we're not
+equals
+octave okay what about we have to do
+modulo hold on a second here okay
+like to rest that's zero I do believe is
+it not I think so
+I mean I holy fucking shit
+okay wrong answer
+why is it negative sharp is lower what
+the fuck what is your malfunction
+sharp is lower what the fuck sir should
+be higher what the fuck is this shit
+flat
+this could be oh well maybe it is we're
+talking about who knows what this is
+okay
+okay we already took care of that one up
+oh we have to go plus or minus
+I think we just do the why don't we the
+fuck is this no map
+what the fuck is athis I think we just
+do the honor knowing what does no twerp
+Oh
+Sawadee fine director note ma'am okay
+a sharpie
+okay
+okay so up and down is inverted sharp
+you want your Y to go up flatten you
+wanted Y to go down
+and this is here we can get rid of that
+why are you figuring out this fucking
+note shit
+measure National Lab
+Thanks
+okay
+why are you figuring out note is there
+only four why that's all you're doing
+I'm gonna so I think we want to do the
+UNA times
+octave times 7 minus 2 I think we just
+want other times 1 that times 4 okay
+what do we got okay
+it's inverted for one thing so if it's
+inverted let's put this back the other
+way
+put this back the other way and it's
+invert just fucking do it okay so so a
+is note 6 note 6 octave 3 so we want to
+octave times 7
+Oh
+it's harder than I thought is it and we
+do need to note in the other one don't
+we okay so
+okay let's go ahead and
+okay
+- well
+hey that's not correct anymore because
+the notes are scuffed up the note the
+note map is no good
+let's see where the note map is used
+okay fine
+okay so we have another one of these oh
+dear Lord we have a lot to fix
+okay
+I don't want to be on television anymore
+I don't
+you

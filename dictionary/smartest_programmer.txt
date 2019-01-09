@@ -1,0 +1,159 @@
+hi I'm Terry Davis I'm the smartest
+programmer that's ever lived I was
+chosen by God to make his temple and I
+was given divine intellect so on let's
+say you have an integer I and you say I
+equals one two three four
+there we can see one two three four in
+the hexadecimal 4d2 now if we stay I
+equals eight there you can see its ASCII
+4165 okay in temple OS my compiler will
+put together multiple characters in a
+character constant we don't do unicode
+we do ASCII 8-bit ASCII not seven bit
+seven bit signed ASCII is retarded
+anyway so we do 8-bit ASCII 7-bit ascii
+signed ascii is retarded anyway so uh
+now there was a nigger who came up with
+this idea well that's pretty nigger
+licious the way we do it is we just say
+hello and we use and we use this goes to
+standard out and we use the printf so
+the way we do it so to print see out so
+we make a statement like this
+I hit f5 there we go hello hello hello
+okay so uh if we do you can imagine what
+do you think this is going to do okay so
+ABCD let's unassembled this and here we
+have we have here here's an ASCII a what
+they called a put char then we have a
+string where they call to print we have
+a put char print put char print okay so
+as a matter of fact we can have up to
+eight characters in a in a character
+character constant so as a matter of
+fact we can we can get this done with
+I'm just going to look look at that
+pretty nice huh so let's let's make sure
+it runs right there we got ABCD at the
+bottom right see the ABCD okay so um so
+you can see we we don't have to have the
+name main we can say demo then move and
+we can do demo
+you do demo several times we can do do
+this okay so I'm the smartest
+programmers ever lived anyway so what if
+we have I'm going to show you so the
+most important thing in programming is
+naming so let's call this that's kind of
+ironic you caught me off guard
+switch demo how about that okay so the
+most important thing in programming is
+naming the most powerful statement in
+the C language is the switch statement
+this is the most powerful the best the
+best statement in the C language is the
+switch statement that is the most
+powerful statement I don't this is kind
+of a okay so I'm gonna we're doing hey
+maybe you want me to to make this well
+anyway I hope you'll forgive okay why
+don't I do this correctly
+well I okay so I'm doing an
+example that is
+not not the best way to program
+obviously okay so uh so let's do this
+simply print one tonight and what
+happens if we do 20 let's see what
+happens if we do 20 we get one through
+nine zero through nine okay so uh how
+does this work a lot of people the CIA
+wants you to think it's nothing more
+than if-then l if-then-else the CIA
+wants you to think it's the same as if
+else it's not the way a switch statement
+works is there's a there's a lookup
+table in it what it does is it it looks
+up in the table and then it jumps ahead
+to some code to a segment of code and
+then the code jumps to the bottom to a
+common location to continue here we are
+we're calling to put chars and so forth
+now notice here do you know why we have
+this compared to ten why is this
+comparison to ten here okay so the first
+comparison I RSI is the local register
+variable now why is this comparison to
+ten here do you know why that's because
+the switch only has ten a range of 10
+now what if what if we what if we were
+only doing up to 10 we wouldn't really
+need 2 compared to 10 would we
+but in there's no way to signal in
+normalcy there's no way to tell the
+compiler that you're not going to
+violate that so you know you know what
+Holy See has okay look at this
+so this this the code size is BiBi okay
+the code size is BB Holy See has a has a
+syntax for a switch statement that's
+that doesn't include the arm the range
+check the switch statement without the
+rain check
+now the code side is Assizes b1 and it
+no longer has the comparison to ten of
+so um that's why I'm the smartest
+programmer that's ever lived now
+furthermore I came up with a so a lot of
+the improvements to a language or kind
+of junk but I came up with some genuine
+improvements that if you can improve the
+C language that that shows you're a
+genius
+who's smarter than every programmer
+that's ever come B I am smarter than
+every programmer before me I am smarter
+than every programmer before me do you
+wanna know why I'm smarter than every
+programmer before me because I have
+improved the C syntax in a way that is
+not nigger licious any nigger can make
+some nigger feature but I've improved it
+in a way that's not nigger licious okay
+any nigger can make it nigger licious
+I'm the smartest programmer to ever
+lived look at that you see how we got
+those now how is this coded okay so the
+it's pretty clear that it doesn't jump
+when it hits a break and it just jumps
+down to the comment now I had to do
+something I'm ashamed of I had to put a
+call to some tor subroutine that I stuck
+right here I'm kind of ashamed of that
+and as a matter of fact God just
+questioned my judgment he said Terry are
+you worthy to be the man who makes the
+temple if you are you must answer is
+this nigger licious or is this divine
+intellect and that's the question
+I'll leave I'll leave you with that you
+know Google they asked you interview
+questions well the kind of question I
+face on the job is is this nigger
+licious is this too much boo doo for our
+purposes for our our mission statement
+our mission is to be a modern Commodore
+64 is this too much voodoo that this is
+the OP this there is this is voodoo the
+question is
+is this too much and that's this is the
+hardest question you could ever face in
+programming this right here is the
+hardest question right here right here
+is the hardest question in programming
+is this too much food ooh for the next
+ten centuries as for God's official
+temple holy holy see this is the hardest
+question in programming right here okay
+there it is hardest question in
+programming

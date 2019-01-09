@@ -1,0 +1,14 @@
+.DS_Store
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/terrytalk
+/bin/
+/pkg/
+
+# Test binary, built with `go test -c`
+*.test
