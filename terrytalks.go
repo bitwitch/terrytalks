@@ -1,7 +1,7 @@
 /**  
 *  Author: Ian Shaw (bitwitch)
 *
-*  Markov chain algorithm taken from https:*golang.org/doc/codewalk/markov/
+*  Markov chain algorithm taken from https://golang.org/doc/codewalk/markov/
 * 
 *  That algorithm written by The Go Authors thus I must include:
 *  Copyright 2011 The Go Authors. All rights reserved.
@@ -30,6 +30,12 @@ import (
 	"time"
 )
 
+
+//
+//go:generate go run scripts/embedDict.go
+//
+
+
 // Prefix is a Markov chain prefix of one or more words
 type Prefix []string
 
@@ -44,9 +50,7 @@ func (p Prefix) Shift(word string) {
 	p[len(p)-1] = word
 }
 
-// Chain contains a map ("chain") of prefixes to a list of suffixes
-// A prefix is a string of prefixLen words joined with spaces
-// A suffix is a single word. A prefix can have multiple suffixes
+// Chain contains a map of prefixes to a list of suffixes
 type Chain struct {
 	chain     map[string][]string
 	prefixLen int
@@ -88,12 +92,6 @@ func (c *Chain) Generate(n int) string {
 	}
 	return strings.Join(words, " ")
 }
-
-
-//
-//go:generate go run scripts/embedDict.go
-//
-
 
 func main() {
 	// register command-line flags (note: flag.Int() returns a pointer).
