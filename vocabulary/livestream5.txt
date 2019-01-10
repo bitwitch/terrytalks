@@ -1,0 +1,368 @@
+okay we're good so
+I installed wine the Windows emulator
+and I'm running if you go to my site and
+you type files you can download sim
+structure sim structure set up that's a
+Windows application and you can I wrote
+this in 2000 2001 2000 2001 so I want to
+check something
+this is a big test
+so
+there's a bouncy ball where is it
+there we go okay so I want to test this
+in sim structure check out how high
+these different balls bounce the
+basketball the super bouncy ball and the
+golf ball now I'm gonna try the golf
+ball on top of the bouncing ball on top
+of the basketball and then I'm gonna
+explain how it's relating to a supernova
+probably not okay so let's make some
+bouncy balls
+okay wanna reset
+so I think is there a snap oh no anyway
+oh no what if it doesn't work okay let's
+see
+I think it failed
+you can set the hardness I don't think
+that's you know matter oh I know what
+let's let's sit the simulation to higher
+tire
+dang I could swear there was a that I
+did that I could swear I did that as an
+example I guess not so um
+this is this is flooding potential and
+kinetic energy and total energy and it
+does a pretty good job of conserving
+energy which is a sign that the
+simulation is good but it didn't do the
+bounce correctly that sucks
+so
+I'm a day
+so
+this is for designing I wrote this
+program I wrote this program so that I
+can design control systems and not have
+to build expensive motors and stuff so
+you can you can pick this up
+this used to be pretty impressive I
+wrote this in 2000-2001 but now they
+have Grand Theft Auto and it has a
+compiler actually it's an interpreter so
+for the control system you have genes
+and I just monkied together a control
+system PID controllers and stuff anyway
+let's do a let's do a rocket
+oh there's a reset
+what is why isn't it
+damnit
+I can swear there was a hmm oh wow this
+door rocket so
+you are
+put a thruster
+and
+okay so
+the reason sim structure is a good
+program is because boy it's been a while
+particle to you
+you can see
+thruster one thrust equals
+Lester won the rest of unsaturation
+thrust times p2y about 30 - P - why
+these are five units now
+okay so this is what's called a well
+it's oscillating
+[Music]
+now let's let's add a derivative
+Plus let's see 0.001 particle 1
+derivative in the Y so we're adding
+particle 1 we probably want to subtract
+a thousand
+okay let's do more than
+a hundred
+okay
+I don't know if it's making a difference
+let's we should say p2
+okay that makes a difference okay so now
+we're it's
+too much gain so zero point
+okay so
+so what we should do is
+Oh
+oh that was dumb okay so we have a
+proportional and a derivative I'm going
+to decrease the gain on the
+you might ask why we have the
+steady-state error that's because we
+need to make an integrator I think you
+can say Doughboy
+so here so this was my first it was an
+interpreter it's not a compiler
+[Music]
+PID stands for proportional integral
+differential
+so we're gonna make it let's see if I
+can remember so error is equal to why
+okay
+now we say integrator
+hi
+now that will
+this will integrate that error
+now it it should to drive the error to 0
+0 steady state error
+oh we overshot
+it's going to take a long time
+so now we want to
+it's increased differential
+I don't think we want to overshoot so
+much
+well wait a minute I think we want the
+other the other answer
+it's
+too much derivative
+whoo oh no too much integrator
+and we can plot the
+if you say signal I do believe this one
+Louise have to have sleep lot okay then
+we have to see applaud you can see
+okay
+Oh
+you
+it's been three or four years since I
+use this
+damnit
+actually I have this source good I wrote
+it okay anyway all we can look at a
+different example so let's let's file
+save as now what the heck
+rocket now let's be open
+I think the
+one of these has a
+one of these has applied
+oh this does
+okay
+so we go to
+[Music]
+a man window whoops
+Oh
+what
+it had a plot it's not quite working
+right it's got bugs didn't have
+maybe that's because
+I had the window open
+so what just want to release anger to
+three
+anyway
+out there we go okay so how do we whoops
+there we go
+you say signal do you assign and then
+you just say plot okay
+[Music]
+no we open
+rocket
+-
+okay so now you can see the error we
+overshoot
+okay so if you overshoot you want less
+gain or more derivative the derivative
+subtracts
+okay that's really bad I think we have
+too much integrator
+oh you crashed
+oh well
+oh well that was some structure that's
+what I did before templo s
+so
+I put the engine from sim structure into
+Diplo se
+for example
+struck
+so strut is uh
+these are masses in Springs
+the the connector is a member that will
+break it'll break when you press that
+key
+thruster to you thruster one the rest of
+three
+okay so this is in Diplo s now I can
+press one like your breath too
+so
+the code is all there
+let's talk to God
+- remember this program this program
+reads the three gigahertz time stamp
+count and then prints a random word
+Prince of prints a word based on the
+timer
+Grouse
+so we got some geniuses do we
+so
+I want to
+honey we can new dude
+Oh
+I'm not much of a Linux expert
+what the fuck
+now on I foot
+okay so
+so see this time
+now that's pretty fucked up
+okay
+I hit that bug before
+why wait a minute email move what why is
+it
+any idea why it's not listed
+Oh
+oh it's in tad desktop okay everything's
+clear
+I have to copy
+now I have to lease
+and
+do you think FC wined I just look I just
+installed wine for the first time
+well that let me say wine
+what did it do
+it's clicking
+there's
+the hood
+flashed really fast okay sua CD
+hey maybe I can click on it how do you
+get it to show hidden directories in
+this
+oh I didn't put it in do you think it
+needs quotes probably now that I think
+about it
+oh good
+I think that's what I did the last time
+oh okay
+so just to be clear
+okay
+we probably need quotes
+see how it works
+okay how about no quotes
+I don't know I'll work on it some other
+time
+any Linux experts so so this this is um
+you can control the angle of the
+thruster if you one angle for equals now
+there's a Oh about P 2 X minus P 1 dot X
+so now we're gonna probe okay it went
+the wrong way
+you wanna explain I speak to it
+let's make it more gentle we oh there's
+there's a heading okay we'll do that
+so
+now this is rocket science okay so
+there's a spin okay first of all there's
+the heading
+I think it's a pie times
+they're called bonds and particles
+instead of masses in Springs don't ask I
+didn't like the word member I was
+thinking of members and so bonds and
+particles you can put electrostatic
+forces
+I think we want unwrapped
+I call it unwrap that that was on the
+steak instead of wrap wait let's just
+convert
+didn't you slower keys baby I got it
+yeah he's Laura gates okay
+please
+he doesn't appear to be doing anything
+seems to be zero bond heading I think
+you want to say
+[Music]
+let's put it on the screen I don't
+remember how
+okay
+Oh
+okay it's to its degrees
+it's degrees so we see
+I think there's an error
+here it
+oops damn
+Oh Shi
+I think how do you
+shit
+let's put this
+this is interesting
+step function
+so it's
+hovercraft
+okay
+what was the error
+warning text even time identifier okay
+oh so you
+okay
+so you might ask what are we doing this
+is not see if it's uh is this a function
+or what is this what this is is uh
+statements they get integrated to get
+executed every time it I don't know what
+is it
+statements that get executed every time
+it calls the integrator call back anyway
+if you put you can make things execute
+on a schedule like every tenth of a
+second
+these ad signs make it make it execute
+when it plots it on the screen so
+the a variable all okay that's a one
+time
+it's coming back to me I wrote this a
+long time ago okay so
+okay star on signed
+okay now we have the controllers
+so there's a spin which is the
+derivative of the heading
+okay notice how now it's
+we have a controller
+okay so you can't know you can make it
+go to an XY anyway I've showed what I
+wanted to show
+okay so now I wanted to make the
+winnings
+what is this
+Oh
+so
+I'm just checking if I have the standard
+yeah
+so in my bin
+we would see wine
+Oh
+so
+Oh
+mr. striker
+hey it works
+okay now
+okay now
+oh we have to see
+okay
+now
+coppy
+go to desktop
+delete that
+peace now
+hopefully
+shit
+let's go to
+they stopped
+Oh
+what are these look like
+Oh
+the other answer okay so now we go to
+okay this is
+okay now
+copy
+Desktop
+beast
+damn
+dad
+see
+what did that do
+oh okay now I know the problem okay
+there we go okay just
+they're okay
+now
+well
+I would enough for

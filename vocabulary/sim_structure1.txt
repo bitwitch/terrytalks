@@ -1,0 +1,153 @@
+okay
+so I'm gonna do some sim structure
+basically I learned how to make PID
+controllers we'll talk about what a PID
+controller is so this program I wrote
+back in 2000 and it was pretty cool at
+the time so I wrote this program mm what
+do you want to make how about a nuclear
+submarine
+well anyway
+so you can you can make a submarine a
+kid made a submarine I had some some
+people sent me scenarios that they had
+created we can only get a couple these
+were sent in but somebody made a this is
+pretty cool so somebody made this I
+think you press 1 & 2
+[Music]
+let's start over then you break them and
+then you separate a stage I think you
+have to try and land
+you're supposed to land it so anyway
+somebody made this with sim structure
+which is the program that I wrote
+submarine some how old is this person
+age 13 nathan age 13 made this let's
+zoom in oh it has a torpedo
+oh it has okay so you can inflate the
+submarine so I made this program back in
+now it flows up somebody sent in the
+model of the solar system my numeric
+integrator is probably pretty impressive
+it can do the solar system so if you
+zoom in he did the earth I'm gonna track
+oh sure
+what did I do oh shit don't do that
+yeah I'm going to track that earth okay
+so now we zoom in moon is spinning
+around the earth so X it's actually
+if you tried to set up a solar system it
+takes a long time for them to settle
+into an orbit something like that it's
+not easy doing it like if you just make
+a mass and we can give it a vector
+velocity vector oops I thought I pleased
+to do mass let's get out of here for
+this anyway I'm hurry
+also they mean that charge particles
+you you make the charge attractor or
+repelled you have to repel so the the
+the color represents the charge they
+made a video game where you have to
+repel I'm pressing keys by the way in
+order to make these programs do stuff so
+someone who made a rocket surfer so we
+can do it you wanted to a control system
+on this puppy
+so this some kid some kid made this with
+sim structure
+I'm not sure I like the what he does
+with his hands is pretty funny okay so
+you want let's make a controller for
+this puppy so Phillip so T one touch
+thrust equals let's say T 1 dot
+saturation times
+oh let's uh what we want is if he falls
+over if he falls backward that means cut
+the throttle if he falls back cut the
+throttle if he doesn't fall back
+increase the throttle so uh put labels
+what is what is this bond shit
+let's say bond 18
+so our angle is going to be fund 18
+heading I made the mistake of doing this
+in degrees just that
+I took wrap and unwrapped is supposed to
+unwind a an angle and place it in a
+certain anyway
+let's do Engel okay so let's display the
+angle first of all okay so
+hey holy shit
+okay so the angle is 25 15 14 so zero is
+all the way back so we want 90 okay so
+so the angle I think we want to take -
+pi / - why is it positive both
+directions am being an idiot okay so
+it's between okay so
+oh we want to multiply this with you
+let's take five times the Engel
+okay that's
+okay so we made a controller for
+faceplant so somebody made a hoverboard
+you want to turn this into a hoverboard
+you know what do if you're if you're
+doing it by yourself you can fly what
+I'm gonna do it manually so watch this
+so this thing will fly if you do it
+right but we have to make
+how about we make a controller what is
+the time
+t equals four is when it launches so
+yeah T less than four else I'm gonna do
+a separate controller for time after
+four let's do angle one this will be
+easy so we just do two angles angle one
+is for one word and we want this to be
+let's see what happens
+so Engel to
+let's let's - let's subtract so this is
+uh let's let's go 45 degrees how about
+that
+so we're not doing PID controllers yet
+we could do PID
+we want it the other direction
+what I meant to say is we want what I
+see
+what the hell am i doing we're going
+around the zero point
+there we go I did it
+[Applause]
+this
+let's put a grid okay
+so I made a hoverboard if you want to
+make him fly at a certain elevation this
+is a y equals five how about let's let's
+put it at y equals ten what is the
+particle for his head P 6 P 6 equals 20
+or 15 how about P 6 equals 15 plus 15
+minus P 6 del Y now we can we can give a
+coefficient for this
+let's say 20
+okay if he ever starts bending forward
+we don't we don't want him to bend
+forward so we're gonna increase that
+okay more we want more of the first less
+of the second
+okay
+lesson two second
+okay let's reduce his elevation see if
+we can stay at ten
+these are increments of five I do
+believe so peace sakes is that kid
+do you want to try for a more exact how
+about if
+how about if
+10 - p6 doubt why absolute value
+let's increase this to five
+[Music]
+yeah hello yeah it is who's this
+Secret Service okay no we're gonna do
+we're going to take this put it here
+little we aren't going to how about we
+want / this how about 10 divided by 1 +

@@ -1,0 +1,2888 @@
+okay so at school
+Russian College presents the making of
+medieval illuminated manuscripts by dr.
+Sally dormer the beginning well I am
+game since the first inning he's talking
+about how medieval illuminated books
+were made there are a multitude of ways
+you can take very broad approaches and
+think about if you like patronage
+functions or you can be much more
+focused in your approach
+as a matter of fact I was born I was
+born in 69
+okay so
+so let's do some assembly
+so these are the 64-bit registers
+there's 16 if you count them
+I'll give you a quick lesson in assembly
+language so a register is is like a
+variable it's kind of like an integer
+variable a lot of I'll assume you've had
+some programming on the Commodore there
+was a an accumulator you used to do
+stuff like load a 10 and a 20 or
+something like that so you put 10 into
+the accumulator and then you might add
+20 to the accumulator and then you might
+do something like store a at a memory
+pointer something like this
+the Commodore had in a and then it had
+an x and a y but mostly you did it with
+the a register you did everything with
+the a register it was kind of like you
+had one variable and you had to shove
+everything in and out of it do all
+operations on it well on the x86 our ax
+is your a register and it's kind of
+Oh
+some some architectures every register
+is identical but on the x86 the
+registers have certain usage RA X is
+some instructions only work on re X this
+is kind of the this is the accumulator
+when sometimes you do a 128-bit
+operation and so sometimes they'll you
+will you will pair up sometimes our ax
+will be used along with RDX sometimes
+these two are used together okay and our
+BX is there I think there's one special
+instruction but for the most part our BX
+is just it's just another accumulator
+that it doesn't quite it's not quite as
+good an accumulator as our ax but it's
+kind of like this is uh this is pretty
+generic and then there's our CX now this
+is uh you can do everything you can do
+with our BX you can use it as a generic
+but this one is special because it's for
+looping and stuff like that
+it's the count it's it's kind of an
+account register okay and then you start
+getting into RSI and RDI
+now these now here's the deal
+in the later models they did away with
+some of the special-purpose things kind
+of got a little bit less special-purpose
+they started making the special-purpose
+instructions slow as a matter of fact
+the special-purpose instructions are
+kind of slow so what I'm talking about
+is
+like Luke there's a loop instruction
+some of these things they made them slow
+in any way the the RSI and RDI are used
+for like load string constant but these
+are this is the source and this is the
+destination these are kind of like
+pointer registers and some operations
+this this is this will load a byte room
+into it's already next but we'll just
+say you start getting these uh this is
+kind of like saying a equals if you know
+and if you know see there are some
+instructions that lets you do stuff like
+this I equals source plus plus there's
+an instruction that says star
+destination plus plus equals star source
+plus plus that would be move string
+constant byte anyway so we're sort of
+getting a little bit sidetracked so
+these are si and are di are kind of like
+pointers I guess you could say they're
+for string operations it's not just
+strings and now we started getting into
+they sort of did away with this special
+purpose okay RBI is the stack frame
+tweener
+what you do is in the past all arguments
+to functions were were pushed on the
+stack and when you access them you would
+use the rbp and it used to be important
+because there was something called
+segmentation and SS used to go off of
+rbp but things have gotten a little bit
+simpler and as a matter of fact it's my
+understanding a lot of people don't
+really even don't don't use our VP
+anymore which what I use it for is for
+whenever you access an argument to a
+welke you always start I can still hear
+my instructor saying push BP move BP
+comma SP I had
+movie become on HBO okay so every
+function you might as well do this as
+out of habit huh I'm not going to teach
+you assembly I'm just gonna get you
+started just realize that our BP is used
+for uh for accessing local variables
+then arguments off the stack so those
+are the purposes of the registers now
+they added another eight registers and
+they might seem like they're no purpose
+but as a matter of fact they they they
+have some of the way there they're the
+way they're encoded they're there
+they're close relatives to the upper
+eight are close relatives to the lower
+eight and although I don't think you
+don't have to worry about that very much
+when you're writing a compiler you have
+to worry about it but because the way
+you access them is slightly different
+anyway
+so as it turns out what they in the past
+when you wanted to access an art when
+you wanted to get a function parameter
+you might do something like this eat off
+of but now what they now what they just
+do it's my understanding that they just
+used the RSP now you might say something
+like they might do something like that
+they go right off of that anyway so
+that's kind of an introduction
+Lauren stop forcing
+the doctors had wood I had to check that
+myself
+would
+it's nine
+let's see what mister God says mister
+God says
+19:31
+I'm not wearing my hat
+make sure my dr. mahat okay so
+so I got a girlfriend now so now I dress
+fancy I used to dress like shit I got an
+impressed physics girl so wait doctors
+gonna say whoa what happened are you
+gonna get a job I'm gonna say fuck no
+I'm getting getting on job foot footing
+good job suck my fucking cock doctors oh
+you're gonna get a job no I ain't
+getting it
+so what does mr. Godsey clinch cyphers
+introversion werewolf ranges droid
+melville restorative and click let my
+echo mised telegraphy fantasised riddle
+spoils prattle birch slowing arbitrator
+and Schwarzkopf swag unrestrained Borges
+Kirkpatrick's
+Keynes water meter instructors
+we've got two good seats
+now three good seats up here in the
+front for those people standing in the
+back you might as well come now in a
+good time so I want to explain I'm gonna
+play three roles today the first role is
+emeritus professor Don Knuth from the
+21st century
+and that role I'm going to be standing
+right here then I'm going to briefly
+play the role of George Forsythe who was
+chair of computer science department in
+1969 and when I'm George Forsyth I'm
+gonna be standing right here George is
+going to introduce tonight's speaker who
+is done a young well 31 year old guy
+named Don Knuth and that young guy is
+going to be I stand here that's who I am
+I think so
+all right now so so this whole this
+whole thing started with the Stanford
+has a project going on for some years
+called class X and the people the idea
+is to make interesting videos to put on
+YouTube for the future and so that
+things that are going on these days at
+Stanford can be appreciated by people in
+future generations so they so they asked
+me you know what I you know the tape
+some kind of a presentation for the
+future and I said well I would be fun to
+do something different and that would be
+to to try to repeat the first lecture
+that I that I gave
+laughter I've been a become a professor
+at Stanford this was you know I I had
+just become me my title changed from
+mathematician to computer scientist and
+so on
+and and at that time as you see I wanted
+to explain what it was what that's what
+I expected I might be doing the rest of
+my life to the to the people around so
+so that's the beginning of this of this
+talk and so it was November 4th 1969
+that was that was a Tuesday and and I in
+order to be a little bit on CENTAC I
+decide I went over to the gap and I
+found out that they are selling 1969
+blue jeans so I bought myself
+okay and also believe it or not I'm
+wearing a wig and the reason is just to
+help me remember that when I do give the
+lecture that I got expected much as I
+can't as I would have spoken to 60 now
+if you want to see what I really looked
+like Nabi updates building the first
+floor there's a really nice historical
+all right so so now in order to prepare
+for this I got eye opal but by the way I
+you know I came to Stanford because it
+was the world's greatest computer
+science department by father when he by
+any measure and I mentioned joint
+foresight the chair well he had he had
+worked very hard all through the six
+feet to build up this department and I'm
+actually open in 1965 and and so this
+was the place where I could come in and
+and be have all the great professors in
+one place instead of having to be an
+isolated sense
+so I guess I'll show off a little bit
+well you should go learn holy see since
+it's from God
+
+okay fuck I have a video but nobody's
+gonna watch it so here's the deal
+in 2004 I resurrected I had a in 1993 I
+had a real mode program that changed
+there was a DOS program in assembly it
+changed to protected mode it did a
+little bit more I think I had a little
+task scheduler like we did in school in
+school we did it we did a desk scheduler
+on an 8-bit and a lot of people you'd be
+surprised I've met a lot of people at
+Stanford say how can how can you run
+multitasking without paging you get a
+lot of people that say how can you run
+multitasking without paging well I can't
+you're a retard okay fuck you if you
+have a problem with multitasking without
+paging fuck you you're a retard okay so
+as a matter of fact there was a guy at
+MIT that said yeah I saw this really
+stupid project that had code executing
+on the stack and I got to thinking to
+myself hey you know what if I do an
+address map of my system um I don't
+really use paging I do an address map
+you know what uh there's a matter of
+fact most of my a lot of my functions
+are at the rate at the range 7ff see
+I'll bet that retard and my teenager
+thought that was stack okay that's a
+that MIT nigger thought that 7f was
+stack going well that's pretty stupid
+and I'm not using paging duh
+and you see what I'm saying he's going
+well obviously you can't do multitasking
+without painting them what we did that
+in school on a little 8-bit processor
+what the hell are you talking about we
+had a little 8-bit Motorola processor we
+we did multitasking we had we had to set
+it up so that it ran a task at a certain
+time it's like for your microwave oven
+you know I'm all tied asking like for a
+microwave oven he's like well you can't
+do multitasking if you don't have paging
+I'm going what so I I do I didn't want
+to use paging but I had I set it up
+identity mapped but anyway so first of
+all no address is special just get as a
+matter of fact I'll tell you right now
+the first okay so in the x86
+architecture with the 64-bit you can do
+an instruction like this oh is it good
+okay you can do an instruction like this
+see they do have a 64-bit instruction
+with an immediate like that but as a
+matter of fact if you want to if you
+want to store our ax like this let's
+let's go ahead and see how this works
+we're gonna run assemble here so this
+instruction is it is 64 bits this
+instruction is has a 32 bit this value
+right here is 32 bits as a matter of
+fact they don't have a 64 bit they don't
+have a 64 bit all they have is 32 bit
+now that's that's a minor inconvenience
+but here's where it gets really bad
+let's say you want to call
+I'll just tell you
+I'll just tell you I am good
+so I'll fuck you
+so in the x86 architecture there is a
+32-bit relative call with a 32-bit
+offset in order to do a 64-bit call you
+have to do two instructions like this to
+do a 64-bit okay so now if you remember
+Bill Gates everybody made fun of him
+because he said 640k ought to be enough
+and now now all the kids say uh we're
+not that stupid
+of course it's never enough everybody
+knows that's stupid that it's never
+enough every every every kid is saying
+they make fun of Bill Gates and they say
+huh we're not that stupid we know it's
+never enough okay it's never enough
+Bill Gates was such an idiot he thought
+6:40 would fix 40k was enough well did
+you know that they pretty much stopped
+at about eight gig they there's really
+nobody really wants more than eight gig
+right nobody really wants more than
+eating yeah I think they do have more
+now I have a 128 gig but uh pretty much
+they they don't you don't really need
+more than eight gig at least no nobody's
+found a way to use it except for servers
+with disk cache and stuff so it gig well
+what do you know there really is a limit
+you know back when they were making fun
+of Bill Gates everybody thought there
+was no limit so they what do you know
+people six eight gig is pretty much all
+you need well as a matter of fact when I
+made this operating system first of all
+it's a toy ok I make no no apology it's
+a toy okay second of all you know it if
+they stopped at eight getting
+you know to 2gig is all you need for
+code you know and that's really that's
+really not not a that's really not a
+sacrifice if if you limit it to two gig
+then it's really not a sacrifice you
+don't even have to call it a toy
+operating system anyway what I did is I
+limit it to two gig the code I limit to
+two gig so I have what's called the data
+heap which is the total and then the
+code heap is that is two gig so my
+operating system is ring zero only so I
+never use and I don't use software
+interrupts because those mess with
+privilege levels and stacks and stuff I
+don't use software interrupts I don't
+use this enters this exit I don't I
+don't do any of that all I do is call
+32-bit the only no matter what whether
+I'm calling operating system routine a
+kernel routine I don't really have a
+kernel I call it the kernel because
+everybody wants to call it the kernel
+but as everything is ring zero it's just
+like the 8-bit in school in school we we
+made a multitasking 8-bit scheduler in
+school we made it multitasking 8-bit
+scheduler and this is exactly the same
+thing this is this is its ring it's only
+one privilege level it's I don't really
+use the paging I have an identity mapped
+so it's it's pretty much like you're not
+using paging there's our there's an
+exception I a Lea Saul the hardware up
+to four gig so when you want to do
+uncashed hardware you access to alias
+that's it makes me a little bit sad
+because a lot of the old people remember
+a zero zero zero zero for VGA and so
+they come in here and they poke the a
+zero zero zero and they want it to work
+and it doesn't work they have to access
+the alias and that makes me sad because
+that was the whole purpose was to uh was
+to was to get get to get people back on
+the land
+to get people back on the land anyway so
+uh so the only call I use is 32-bit so
+as a matter of fact I have to the first
+tube gig of memory is called the code
+heap and then the rest is the data heap
+don't worry I can use if you want to see
+me use you know 64 gig I can do a
+demonstration anyway so uh how did the
+way you the way you access data heap
+memory is with malloc
+when you say malloc that will fetch some
+data heap now since I'm not using the
+stack since I'm not using the paging
+there is a major problem if you're not
+using paging and then what that problem
+is is growing the stack this this is the
+this is a huge problem okay so we have
+to declare how big a stack ahead of time
+and that's a huge problem so well one of
+the things you learn in computer science
+is if you have a limit of a thousand
+it's pretty much the same as if you have
+a limit of 3,000 the only thing that
+makes a difference is if you have no
+limit if you have no limit that's you
+program in a certain style if you have a
+limit of a thousand you program in a
+different style and pretty much one
+thousand or three thousand it's about
+the same I shouldn't have said a
+thousand I have I have a limit of 128 K
+for the stack you might say well why
+don't you have so much memory once you
+can make one Meg well the the honest
+truth is it's really not gonna make a
+difference if you have 128 K or 1 Meg I
+mean at the as soon as you have a limit
+it's all pretty much you're pretty much
+in the same boat so I said a little bit
+of 120
+kay for the stack so what does that mean
+that means you can't do lopsided binary
+tree recursion you can't go you can't go
+you know five Meg deep on the stack and
+recursion so it's it's a really huge
+problem but you know if you remember the
+Commodore 64 it really it really wasn't
+used by the what do we want to say
+there's kind of there's a modern
+programmer and then there's an
+old-school programmer the old-school
+programmers were good at assembly and
+stuff the modern programmers are good at
+algorithms and stuff in the old school
+days you really didn't deal with
+algorithms not very often you were more
+concerned with the nitty-gritty of the
+tedious stuff you didn't get as much
+done I guess but you were you understood
+a lot better about what was going on
+so temple OS is wants to be like a
+Commodore 64 and the things you did with
+a Commodore 64 that's what you want to
+do with temple OS so on a modern
+computer that modern the modern kids
+today maybe you might think they learn
+how to do artificial intelligence and
+you know fancy algorithms and stuff the
+old-school programmers instead of being
+instead of knowing what order of
+algorithms were they knew what assembly
+was and they knew they knew how to
+encode assembly they knew how to run the
+debugger they knew they knew how to do
+system calls they do know how the disk
+worked they knew how how the the serial
+port worked like an old-school
+programmer knew how to write to
+interrupt routine okay a new a new
+programmer knows how it knows what
+order algorithm a you know heapsort days
+or something in the old days what you
+learned this how to write and interrupt
+routine in the new days you learn what
+order algorithm a heapsort is that's
+kind of the difference in the old days
+you learned how to write an interrupt
+routine in the new days you learned what
+what Big O order he pet algorithm is and
+so it's kind of a it's a different
+knowledge base so is this is the old
+stuff irrelevant well you're gonna get
+into trouble if you get too too clueless
+you know I just had an analogy the other
+day let's pretend you're swimming in the
+deep ocean and you really don't know
+what's underneath you you have no idea
+what's underneath you well that's kind
+of the situation of a modern programmer
+they're in the deep ocean there they're
+doing a a web application and it's so
+far down to the bottom hardware the
+hardware is at the bottom of the ocean
+and when you're in the middle of the
+ocean boy is you're a long way from
+anything called hardware in the old days
+it was kind of like a shallow lake and
+you walked on the bottom and you weighed
+it out in the in a little pond and
+that's how you that's how you lived you
+walked on the bottom of a muddy pond and
+you had your feet on the hardware and
+you knew you knew what was underneath
+you you know is that it's a it's a
+completely different feeling it's a
+different feeling when you're in a pond
+and you have your feet on the bottom or
+a swimming pool you know I don't that's
+a little let's let's say let's say a
+pond or you have your feet on the bottom
+it's a it's a different it's
+qualitatively different than being in
+the middle of the ocean where you have
+absolutely no idea what is underneath
+you you're just you know a modern
+programmer there they're dip shits they
+have no idea like did you know I'll bet
+if you did buzz if you did buzz fizz a
+moderate programmer would say you know
+count mod six an old-school programmer
+would say oh well we don't want to use
+divide divide divide is 30 cycles and
+decrementing a counter decrementing and
+counter is you know one cycle so an
+old-school programmer absolutely would
+never use the divide its instead of a
+decrement and that's the difference you
+know it's kind of a joke
+if you got an old-school programmer he
+would use a counter he would say we're
+going to count down to six for an
+account down to seven of course we're
+not gonna use a divider are you kidding
+me why would we waste 30 cycles on a
+divide
+and that's kind of the difference in a
+modern programmer an old programmer
+the kids today they have no they have no
+clue they're they're kind of completely
+oblivious I don't think they teach them
+that a divide is well maybe it's four
+cycles today I don't know what's a
+divide maybe four cycles compared to one
+or something I don't know it's not like
+the old ones so that's it's a different
+it's a different kind it's a different
+kind of knowledge it's a different kind
+of knowledge and now so you will you
+will never find you simply won't find a
+modern programmer who why would you do
+why would you do not count in one time
+on our program it looks like that goes
+what are you doing what are you doing
+cannot modular 128 you know this is what
+Knuth is a very as an advocate of
+literate programming I say fuck that
+fuck that what you want to do you don't
+want to you don't want to change the
+compiler for English what you want to do
+is you want to educate okay one based is
+definitely not correct you when it comes
+to an array there's no question that you
+want zero based and that's the way the
+computer wants to do it the natural way
+for for us an array is to use zero based
+and if you're a French faggot you say oh
+well well obviously it should start at
+one I'll fuck you you're a French faggot
+fuck yourself little arrogant fucking
+French frog fucking array starting at
+one fucking that's fucking ridiculous
+okay another thing is a big Indian and
+little Indian you know the French faggot
+says well obviously we want it to start
+with the big numbers first like that's
+supposed to we'll fuck yourself a little
+French faggot the computer wants to do
+it little Indian okay little Indian is
+obviously the way the computer wants to
+do it okay fuck you and your french
+faggotry some people want to do top-down
+it's like fuck you why why do i why
+would i declare a header for all these
+functions does it really matter if it
+comes first or second no that's just
+French faggotry go fuck yourself do it
+the way the computer wants to do it okay
+do it with the you do bottom up okay you
+do the little functions and then you
+call the you call them what the big ones
+that's the way the computer wants to do
+it you're just you're just full of shit
+if you're some French faggot that's
+thing that thinks oh well there's a
+there's a human way to do it I'll fuck
+you the way you do it his way the
+computer wants to do it you do zero
+instead of a one array index you do
+little endian instead of big endian
+and you do it top you do it bottom up
+obviously don't you know it's it really
+it's not a hard conceptual problem for a
+human as long as you have a way of doing
+if yeah as long as you have a specific
+way of doing it doesn't matter and some
+people don't want to teach the kids like
+they say oh don't tell them about and
+127 no don't
+they shouldn't learn that teach them
+about modular and just tell them to do
+modulo 100 don't don't tell them about n
+127 tell them to do module 100 I'll fuck
+you you know what you want to do is an
+127 not modulo 100 they won't teach you
+that I'm sure they won't teach you that
+these are things they don't teach
+anymore you know like a switch did you
+know that a switch statement is do you
+know what you know what the difference
+in a radix sort in a comparison sort is
+I swear to god this the CIA what a puppy
+I support the CIA want the CIA wants to
+deceive yeah the CIA wants to deceive
+you so that you think that if else they
+want you to think if else is the same as
+switch and it's not okay it's the same
+as radix sort versus comparison sort a
+switch statement is a lot if you have a
+hundred cases in a switch it's much
+faster doing the switch then it is doing
+a hundred if else it's completely
+different okay
+the switch is much faster switches order
+one and the if-else is whatever order
+and in some way
+so these are the these are what the old
+school people knew the old the old
+school people knew like it
+do they even teach which would you find
+something like this today count and 127
+would they understand what what's going
+on here like how do you how do you a
+line I would be how do you align to
+eight byte boundary you know can you ask
+can you ask a kid today how do you align
+to an 8 byte boundary these are things
+so what you would say is a pointer
+equals what are we rounding up or down I
+use for rounding up whatever let's say
+pointer plus 7 and Tildy eight something
+like that
+that's rounding down whatever if you
+wanna round up any way you can
+these are these are this is the
+information that they're not teaching
+anymore so uh let's go let's go take a
+peek
+it has mine
+source code is on every distribution but
+I am very glad to report I made a
+compiler fuck yourself I don't want it
+on fucking faggot little computers fuck
+the faggot little computers we want
+fucking supercomputers Zeon are better
+if I if it was up to me you had a Zeon
+or better fuck this shit
+ok Xena you have to have a Zeon that's
+what I would say fuck you all the source
+code is on every distribution you can't
+get it without source code all it always
+comes with source code all the source
+code is on my website that makes me
+giggle little motherfucker all my source
+code is on my website you go right here
+here's all the fucking source code right
+there all the kernels right here you
+want to see the curling if I can see the
+kernel everything's here right on the
+website go right to the website you can
+go see the kernel you want to see the
+scheduler here's a scheduler good look
+good luck because it only compiles with
+my compiler did I plan that in my no I
+just I made a brand new awesome language
+and what fuck it
+you know what BAM
+fuck you
+
+so
+so as a matter of fact I have a limit of
+128k for the stack and I am so paranoid
+about running out of stack that I do all
+this to say Liz
+this is a function string util and it
+has it has a source and then it has
+flags and will do
+remove spaces this is a trick I learned
+from taking that Ticketmaster
+okay there's M string util string you
+tilt string util operates in place on a
+buffer so if you have a buffer and you
+image if it shrinks in size you can do
+it in place but a lot of times it might
+expand in size we this is just an
+example of a su su F let's remove space
+you get single space you can remove
+spaces this is a trick I learned that
+Ticketmaster
+let's just we're gonna say name okay so
+this is a fairly typical operation in
+temple OS you're you're you're
+allocating a string off of this this
+function returns an allocated string a
+string is just a pointer to a u8 now
+everything is unsigned we don't have
+characters why would you have us why
+would you this is insane in today's
+world you have a 7-bit signed are you
+fucking crazy why would you have a 7-bit
+signed make it unsigned at least have it
+unsigned so anyway we do what so we do
+ctrl alt a this is the carrot there's
+128 bits we're not doing Unicode we're
+not doing Unicode fuck the Orientals in
+their hieroglyphs
+fuck you oriental people with your
+dumbass hieroglyphs we're not fucking
+doing hieroglyphs get the fuck out
+nigger we're not doing fucking
+hieroglyphs fuck you fucking get an
+alphabet you fucking retard niggers
+you're so smart fucking that hieroglyphs
+fuck you in their hieroglyphs okay
+fuck your hieroglyphs we do 8-bit ASCII
+and so
+we allocated and so I mean this is this
+is a fun test okay so what's gonna
+happen I'm gonna hit f5 and it goes from
+this is a fun test this is a fun test so
+what it did is it remove the spaces so
+it allocated off of the heat this this
+is a malloc memory Alec
+mal LOC there's a there's a family
+there's a family of allocates that are
+malloc if I because I because I put a m
+in front that's a malloc and then you
+free it so notice notice I'm not using
+you know I'm not using it on the stack
+what a if you are if you were a normal
+person today a normal person today would
+do something like this do you know what
+I'm saying this is what this is what a
+normal person would do they would say
+name to 256 they're using they're using
+stack so first of all this is this is
+faster but but look at this
+as a matter of fact my my way of doing
+it is actually kind of better you know
+my way of doing it is actually kind of
+better because this is a this is a
+limited size we don't really want a
+limited size as a matter of fact in a
+nutshell that's how everything is in
+temple OS we we never use a raise we
+always do it dynamic and don't worry
+about running out of memory we just let
+it crash if anybody is so stupid as to
+run out of memory
+fuck them okay when
+Linux is a semi-truck Windows is a car
+in Temple OS is a motorcycle on a
+motorcycle if you lean over it crashes
+well don't lean over you just you don't
+lean over on a motorcycle a motorcycle
+does not have side impact airbags a
+motorcycle does not have side impact
+airbags well duh you know somebody's
+gonna say it's not safe it can crash
+that's ridiculous you have to have a
+reset that's ridiculous
+let's it's a fucking motorcycle fucking
+nigger of course you don't have airbags
+on a fucking motorcycle fucking retard
+nigger so uh so we one of the things we
+don't do is we don't check for
+allocating too much if you run it out of
+memory that's your own problem our our
+philosophy is to keep the code simple we
+don't we don't use a race we do
+everything Malik ated arrays are for our
+there's two problems with arrays first
+problem is they use a lot of stack
+second problem is they really do kind of
+suck because they're they're not dynamic
+you Yoma any any adult programmer wants
+it dynamic any kid a kid likes fixed
+arrays but fixed is really fucked
+anything fixed is fucked
+I'll get fuck all that okay it's a lot
+better if you do it dynamic so in temple
+os to do everything dynamic you don't
+use the stack you use the heap use the
+heap for everything you don't use the
+stack and it's it's fine you can't you
+can't unfortunately you can't really be
+doing a it's not good for recursion I
+don't know how to explain it but well
+you should know you know if I tell you
+there's a 128 K limit on the stack well
+you can figure out pretty quickly that
+it's not going to be my
+fun for recursion because what if you
+have a lopsided tree you know that's no
+fun that's you know you can make a
+balanced tree but it's really not much
+fun if you've got to worry about
+lopsided trees crashing it or something
+anyway and imbalanced so you're saying
+wow that's a major penalty well well the
+truth is it's kind of for the same thing
+you did with the Commodore 64 you really
+didn't do the big recursion things on a
+Commodore 64 you could I don't know it's
+it's just for it's a different kind of
+thrills it's a different kind of thrill
+okay
+so
+so one of the things I learned that
+Ticketmaster was was circular cues let's
+just do a little quick example a
+circular doubly-linked list now one of
+the things I don't like is the standard
+template library I don't like it let's
+go
+I don't know I'm kind of not I normally
+have standard normally I have standard
+where I call it SDR yeah so what we're
+gonna do is and well what - let's do a
+global variable what the heck we would
+say W W this is fairly typical on the
+Commodore 64 ever it was okay to use
+Global's now here's the deal when you
+scale a project up you have to do
+changes when the project starts getting
+really big like with a really big
+project you can't be you can't have a
+lot of global variables or the global
+variables become a problem when you have
+a really big project now what what
+happens when you scale a project down so
+on a big project you start shifting
+stuff out of global variables into other
+things okay and on a big project you
+start using longer names you start
+having multiple namespaces well this is
+the correct way to scale a project up
+well guess what when you scale a project
+down you do the opposite on everything
+so if we have so if we're if we're
+telling a kid to write a thousand line
+of code program first of all use global
+variables of course you should use
+global variables if the program is a
+thousand lines of course you should use
+global variables
+that's ridiculous of course you should
+use global variables do you need long
+labels no you don't really mean long
+labels if it's a thousand line program
+if you don't worth W head is is okay you
+know that's that's that's pretty good
+and I guess so bird we're dead I used to
+hate the word head but anyway
+so you you could do this from scratch
+but I have a little bit of support for I
+don't have the full standard template
+library but this will initialize a queue
+and I might this might be how I do it
+and so what we might do is Wow
+well true I don't have continued I do
+have go to I got really continued I
+don't like continue anyway st equals
+let's just use to get straight
+we can just use get string by itself all
+you want to say we're okay
+so I don't remember if this returns null
+I think it doesn't let's just that's
+kind of overkill but if it's not if
+that's no I don't think it returns null
+oh why don't you what should we do if if
+the first character is 0 and what do we
+do we in temple OS you can free a null
+it nothing happens if you free know that
+that it's allowed as a matter of fact
+it's it's guaranteed to be allowed this
+kind of ugly so
+we want to do Kelly why would you if
+Kelly it's it's flirt its splurging a
+little bit but you you quickly anyway
+know what we're gonna do so we're gonna
+steal that and not free it and we're
+going to go ahead and say cue insert
+okay so this is what we've learned the
+backs the the the VAX that Ticketmaster
+had in his head
+atomic cue cue instructions for insert
+and remove and stuff anyway let's go
+ahead and say MW equals so we just put
+them into a circular list and the way
+you traversed once you get used to these
+patterns you would call these
+programming patterns
+once you master these patterns it's
+really nice once once you master these
+patterns
+you just have to master these patterns
+they're very simple
+just for uh
+okay
+we won't make some this is the this is a
+pretty you will get used to this pattern
+thanks Lee did I see oh well
+okay do you see what I did here okay so
+running main I'll get let's see if this
+works okay this is a test you see what I
+did it so it made a it stored them and
+then printed them so you need to master
+this this design pattern when you're
+deleting first you look ahead before you
+delete it and then you delete it and
+then you and then you set it to the next
+one now when you're doing multi-core you
+have to be I guess you have to be
+careful so you might ask why didn't you
+use a linked list well the French people
+like to like to use overkill and instead
+of instead of instead of using a single
+pointer I always use I almost always use
+a circular doubly linked list do you
+want to know why I'll tell you why
+because very frequently I'll start with
+this program and then it's like oh fuck
+now we have to modify it and remove an
+entry and if you if you went ahead and
+did it with the you can remove entries
+if you have the the doubly linked and
+as a matter of fact at this point if you
+really want to you can if you're using
+doing multitasking okay so you can
+remove it from the queue and then delete
+it so this is the design this is the
+main design pattern you use in temple OS
+this is the main design pattern you use
+there's a circular doubly linked list
+allocated off of thing so instead of
+using arrays don't use arrays
+use these use these for everything
+anyway
+that's what I learned at Ticketmaster at
+first I didn't like it because I thought
+it was overkill and French I thought it
+was kind of too French and overkill but
+now I like you
+
+
+the answer is no the answer is we don't
+have operator overloading and that's
+that's I don't like the standard
+template library okay
+legal is for cashing a EE I have a
+circular doubly linked list that is what
+I am using okay a circular linked list
+can do everything a single linked list
+can do but a circle can do a remove you
+can remove in the middle of a circle so
+just just use the fucking circles and
+one of the things you owe you're always
+gonna fuck up the a single linked list
+or a stack you're always gonna fuck that
+up because it's got a weird pattern for
+if you do it this way you're gonna life
+is gonna be a lot better for you then if
+you use linked list
+just do it always do it this way and
+you'll never have to worry about it and
+the design pattern is clean and
+consistent and you're never gonna be
+sitting there worrying about if you got
+the head or the address of the head so
+the answer is no don't do that
+we're trying to be a Commodore 64 and
+therefore if you use temple OS you will
+know assembly you are walking in a pond
+with their feet on the bottom of the
+lake you're not in the middle of the
+ocean
+okay these faggots are in the middle of
+the ocean they don't know what's below
+them they kind of they kind of do stupid
+things because they don't know what's
+below
+and you don't want to do recursion if
+you don't have if you have a fixed stack
+so just forget about it on here you can
+do assembly okay that's
+this this is a different sort of skill
+there's a whole different look at it
+this way you know everything that you
+know about the internet was a matter of
+fact everything you know about the
+Internet is something Donald Knuth knows
+about something different okay you you
+if you spend 10,000 hours learning out a
+program and 5,000 is the Internet then
+somebody somebody like Donald Knuth
+Knuth if they spend 10,000 then 5,000 is
+not the Internet okay that's the way
+this works if you spend 10,000 hours and
+5,000 is the Internet then Donald Knuth
+spends 10,000 hours and 5,000 is not the
+Internet
+okay do you catch my drift okay if you
+spend $10,000 learning the program and
+5,000 hours is learning about the
+Internet
+if Donald Knuth spends ten thousand
+hours learning that a program five
+thousand is not the Internet okay do I
+make myself clear
+okay listen little faggot have you ever
+written a compiler have you ever written
+them inner upper team a little faggot be
+ever written an inner upper team a
+little faggot no you haven't you're a
+faggot
+okay once you'll write an interrupt
+routine faggot Pascal and you're fucking
+in the ocean with some nigger in the
+deep ocean you got no clue what's
+underneath you little faggot once you
+write an inter up your team this is an
+inner upper team I wrote my own compiler
+it has an interrupt keyword does house
+ql does haskell have an interrupt
+routine can you write an interrupt
+routine in haskell with an interrupt
+keyword huh can you write it interrupts
+14 and ask what do you not want to
+interrupt this little faggot everything
+you know about haskell is something I
+know about inner upper teens how about
+them how about them apples huh
+everything you know about Haskell or
+Lisp I know about inner upper teens fuck
+yourself nigger that's the detail
+everything you know about Haskell I know
+about inner upper teens understand
+everybody in my generation we all wrote
+serial port drivers rs-232 first thing
+you do get on a piece of hardware you
+write yourself some inner upper teens
+for the receive and transmit interrupts
+transmit interrupt receive interrupt
+your interrupts routines get on a piece
+of hardware right turner upper teens
+little faggot I don't even want to enter
+14 is
+well as a matter of fact because they're
+x86 if you really want to see look max I
+NS QE and cert Q dancer specified this
+ensures this is an assembly language
+instruction on the backs and as a matter
+of fact it is a lock it's a read modify
+and right on the VAX this is an atomic
+read-modify-write and on the x86 they
+don't have this on the x86 they do not
+have an atomic read-modify-write you can
+turn off interrupts and then turn them
+back on now there's a there's an
+instruction that they don't teach the
+faggots and what that instruction is is
+a bit bit bit test and set have you ever
+heard a bit test and set no you haven't
+because you're a faggot bit test and set
+is they is an atomic instruction if you
+want to do a lock to let's say you have
+a multitasking let's say you want to
+lock this Q let's go ahead and do that
+let's say you have two tasks that are
+going to do this let's do we're gonna do
+words prompt and what that's going to be
+is this we're going to do words display
+what that's going to be is this and
+we're going to do words delete and
+that's gonna be this
+might as well I don't usually do
+faggotry but
+don't usually do fake oh it's nothing
+okay now we're getting it closer to a
+real program so words okay so now we
+have it like this
+now let's say we want to do this
+multi-core you know let's do a multi
+tasking okay so what do we have to do we
+have to uh w lock is going to be a lock
+and knit W lock equals zero okay so in
+order to do this what we do is we say
+wow let's go ahead and do that if you're
+doing multi core locked bit test and set
+address W block comma bit number zero
+yield so let's
+who
+what are we doing now the the head okay
+this this is a data structure and we
+probably don't want we want to lock it
+when word using it if you're doing
+multitasking if you're doing multi core
+multitasking okay so what did we just do
+here we just did a locked you know I put
+a lock on it so now we can actually call
+it from multitasking and it will be safe
+
+this is kind of this burns the CPU let's
+do an analysis okay if you have five
+tasks and two of them are using this
+what's gonna happen well it's gonna one
+of them's gonna yield the CPU if it's
+busy and it's gonna go ahead and do the
+other tasks so the question is is this
+is this really going to waste
+what's the performers gonna be like it's
+tricky as a matter of fact this takes
+two 15 nanoseconds my my scheduler is so
+fast and so lightweight that I can do
+four million swaps a second per per CPU
+per core so this is an extraordinarily
+lightweight my scheduler is so
+lightweight because it doesn't have to
+change maps all it has to do is like
+save sixteen registers it is so
+lightweight it actually allows a whole
+new style of programming it allows a
+whole new style of programming
+and this is how you do it my goal is to
+keep it as as I want you with your feet
+on the bottom of the pond and once you
+want your feet on the bottom of the pond
+now you want you might ask how close are
+we to the bottom of the pond guess what
+guess what do you know how close we are
+to the bottom of the pond if you go in
+here to the Intel manual and you go to
+do you want to know how close we are to
+the having your feet on the bottom let
+me just show you bit tested set this is
+an atomic construction and you can put a
+block prefix on it and there's a matter
+of fact this is actually a this is a
+single instruction locked bit test and
+reset locked bit test and set so your
+feet are actually resting on the bottom
+of the pond okay your feet are on the
+bottom of the pond you're not in the
+ocean with god-knows-what underneath you
+this is an assembly instruction your
+feet are on the bottom of the pond okay
+it's a it's a it's a atomic instruction
+and so that's how you do it if you want
+to do multi core this is the way you do
+it you can do a multi core hello puppy
+as a matter of fact listen nigger listen
+nigger our goal is to be a Commodore 64
+okay you see the the the new Knicks
+nigger will move heaven and earth so
+that you can play two video games at
+once okay what good does it do to play
+video games at once it doesn't do any
+fucking good what we want to do is let
+you have a task that plays music in the
+background of your video game
+our goal is so you can have a task that
+plays music in the background of your
+video game
+our goal is so that you can have an
+animation that uh our goal is so it's a
+hundred percent tested it is fit for
+purpose do you want to know what the
+purpose that we fuck you little bigger
+stuck the little niggers fucking getting
+all fucking Munich see fuck so but it's
+a this is better than Unix
+when it comes to its purpose look see
+this you see this you don't even have
+graphics in your source code you little
+fucking nigger this is one fucking file
+two nine eight look at this this this
+video game is 8,000 bytes with graphics
+in the fucking source code it's not
+separate files the fucking 3d graphics
+in the fucking source code and it's how
+many lines its 704 lines your fucking
+retard nigger look look at your retard
+nigger if I want to do a circle I can
+put a fucking circle on the screen in
+one goddamn line of code okay you know
+Amazon Amazon does one click that's
+because they're white people and they're
+not niggers Amazon doesn't Amazon does
+one-click shopping because they're
+fucking white and they got it down to
+one fucking click you see this nigger
+one fucking click you got a fucking
+nigger who made your fucking shit okay
+one fucking click I got graphics on the
+fucking
+scream you see that this is bare-metal
+you want to know what's below this
+nothing this watch this let's do trace
+you want to see what this involves this
+is this is what's underneath this call
+okay trick convert straight to assembly
+pushes some instructions does it call
+you see that nigger so called Amazon is
+fucking white and your shit is nigger
+you got a nigger okay this is fucking
+white one click I got fuckin and
+graphics on the screen what the fuck you
+got fucking need a little monkey nigger
+let's go see some ex windows with your
+fucking shit let's go see ex windows you
+got this new girl Isha's shit god let's
+go see how do we put it how do we draw a
+line i'll draw line in x windows look at
+this fucking nigger shit want to see
+some nigger shit look at this fucking
+shit see how to draw a line in x windows
+it's fucking nigger licious as hell ok
+nigger fuck fuck you little nigger now
+what are we trying to do are we trying
+to run a server no we're trying to run a
+fucking town or 64 ok what's our goal
+but I'm gonna fucking boot that little
+fucking nigger fuck that little nigger
+where's that word that fucking nigger go
+you're the fucking nigger is the Amazon
+have 10 click no it's cuz your fuckin
+nigger is Amazon have 10 click where did
+you fucking go where that little nigger
+go
+you heard you're gone
+this knee-jerk wants to play two video
+games at once
+that's a fucking UNIX nigger wants to
+play two video games at once fuck you
+little nigger little nigger wants to
+play two video games at once little
+nigger has 10 click Amazon he says I can
+do a lot better Amazon Amazon
+I got a to click solution that does a
+whole lot more amazon says go fuck
+yourself little fucking Munich's nigger
+like I got ok we can get a lot more
+statistics if we use to click its fuck
+you little retard nigger so check this
+out what's our goal our goal is to allow
+a kid to write a game what do we want 10
+do we want 100 server tasks no we want a
+video game that has an animation task
+with a with the loop the animation task
+needs a fixed loop the screen update has
+to run at 30 times a second with a
+callback so the screen the screen test
+we're doing multi-core the screen the
+screen task has to run 30 times a second
+okay so for example if if we need to
+wait for the multi course this is an
+example where I set in motion 16 multi
+course drawing the screen and then what
+do I do I wait until they're all done at
+this point I wait and how do I wait I
+wait with a yield okay
+now you might say that burden CPU it
+does not burn CPU we have one we have
+one video game we don't fucking care
+it's fucking awesome it doesn't burn
+we do the multi-core tasks when the
+multi-core tasks are finishing there
+there's their part of the screen what do
+they do they do a locked here's what you
+do
+the master core zero task sets em let's
+say you have eight cores then you take
+eight shift it over is 256 minus one so
+you get 255 loaded into the flags and
+then as each core you have core 0 1 2 3
+4 5 6 7 when they finish they clear
+their flag and then when all the flags
+are done you are ready to move on we are
+waiting until all the flags are done see
+how that works
+we're using the lock we reason we're
+using one lock bit for for each core and
+we're testing them all at once and then
+the UNIX nerd he doesn't know why some
+people just do or die and they don't
+know why some people can't analyze can
+can the UNIX Nigar analyze this no the
+UNIX nigger is too stupid the UNIX
+nigger says oh that's polling the UNIX
+nigger is too stupid to analyze ok the
+UNIX nigger is too stupid to analyze we
+have 5 tasks it's going in a circle
+loading in each task around the queue
+one of them it's gonna skip if it's not
+ready it takes takes 25 Nana it takes
+two 50 nanoseconds is that gonna be a
+problem no it's not gonna be a fucking
+problem you little fucking retard nigger
+why is it yours takes 10,000 nano sector
+yours takes a hundred thousand
+nanoseconds I might only take 250
+nanoseconds do I go and say you're a
+nigger I say no you're doing a server
+with a bunch of people I don't I'm
+smart enough to say no mine's a counter
+sixty-four years is a server Linux is a
+semi this is a motorcycle are they the
+same no they're not the fucking same
+yours can have a hundred people on it
+it's a fucking semi bus okay fuck it
+this is a motorcycle okay fuck you you
+don't got the concept of a difference
+you think everything is a fucking semi
+everything is not a fucking semi fucking
+nigger fuck you man do I do I want to
+run a bank on this no I don't want to
+run a bank on this when there was a
+Commodore they had banks did they right
+did they run the bank on a Commodore no
+of course not
+they had fucking vaccin shit didn't they
+well they had fucking faxes to run the
+bank and they had a Commodore to fucking
+play video games okay fucking nigger
+seems to think the fucking nigger wants
+everybody to ride to work in a fucking
+semi-truck why would we want to ride to
+work in a fucking semi-truck you fucking
+nigger why would we want to ride to work
+in a fucking semi
+so we got we got graphics and source
+code I have an editor as a matter of
+fact if you load if you download the to
+mag version you can still do all this
+shit I get a compiler you should look at
+the little demo which anyway so we have
+a we can edit the mesh this is the
+editor it's graphics and source code
+edit mesh so you can change the angles
+it's basically triangles and it's not
+very much fun okay you might give up and
+do a lot of it by hand vertices and
+triangles vertices and triangles anyway
+not stored as binary in the file
+so if we see don't
+if we say dump room we say don't dump
+broom got holy see compressed so look at
+this this is the file it's got the text
+area first it's it's not a lot of people
+assume it's a it's an archive it's not
+an archive it's the file format is is is
+it's not a ski it's the definition is
+it's it's more like a PDF and it's a
+little bit like a PDF
+do you have text you have eight this is
+this is eight bit in other words it's
+not it's not a violation it is it is it
+is definitely eight bit okay
+you are fucking allowed eight bit well
+of course we don't have seven bit sign
+then fuck that it's eight bit so you can
+use it you can use the Greek characters
+and then there's a zero after the ASCII
+portion and then there's binary data for
+the for the graphics now the interesting
+thing is there's lzw compression
+built-in if you have a dot Z and so all
+of this gets compressed okay it
+automatically gets compressed so if the
+file name ends in dot Z then when it's
+fetched and when it's stored it
+compresses a nun compresses so in the
+file in the text area you have dollar
+sign commands it's kind of you know how
+HTML has angles like that
+well temple OS has dollar sign for a
+start dollar sign for an end this is a
+sprite there's a two character command
+code
+this is sprite this is tag four and this
+is the this is for a binary binary value
+number four there are four binary values
+tacked onto the
+and no that's not correct and then later
+on in the code when you want to use
+those images you can you can pass a
+pointer to the binary value this is
+insert binary or it's a it's a pointer
+to a binary they call them binaries
+because it's it's binary data there are
+binary objects on the end in theory you
+could have other things besides sprites
+but the only thing there is is sprites
+there there's one exception I went I
+went ahead I did an exception do you see
+this map file as a matter of fact I used
+the same text format and I didn't I do
+that
+yeah these have binary on them so
+there's a the map file has has binary
+numbers for if you want to on the symbol
+print you see these it has the line
+number offsets and the way that works is
+there's a map file and if we go down to
+print if we find print
+let's see if we can find print in here
+there's print so this is binary number
+544 and if we did a dump of the map file
+then the 544 would have a list of all
+the the line number offsets and that's
+how when it boots you know how so we're
+going to go to the root directory when
+it boots it it executes start OS and
+this is the script it's it's Holy See
+and in here it it loads the headers for
+the for the kernel and compiler and then
+it and then it does the atom directory
+atom is the father of all tasks atom is
+the father of all tasks he's the first
+task created like Adam and Eve Adam is
+the father of all tasks is the first
+test created all children inherit their
+parent symbols so if a symbol is not
+found in a symbol table then it searches
+the parent right now we have we have one
+symbol let's say we this is kind of like
+MATLAB I'm gonna declare an integer and
+then I'm gonna say who if you don't say
+- R it includes a parent so we have a
+global variable in the symbol table we
+can do a we can do a function you don't
+normally do functions but you can do
+normally you do it in a file but it
+works
+this is printf okay so we just did a
+function now if we say count to 10 you
+see how that works
+so we're doing a trace and it compiled
+count it's not an interpreter it's not a
+fucking interpreter I wrote a compiler
+it would be extra work to make an
+interpreter I did not do an interpreter
+I wrote a fucking compiler and then
+after it compiled the function it did a
+function call with the argument 10 and
+here here is where it does here it
+pushes 10 and then it does a call and
+then it returns and so right now if we
+say who - our count is a function and
+it's in our this is kind of like
+environment variables what this is is
+it's just like a common or where you can
+program in basic you neither execute a
+command immediately like 1 + - 1 + 2 is
+3
+you can either execute a command
+immediately or you can make a function
+this is kind of like the way the basic
+program would work you put it in memory
+now here's the this is the interesting
+thing let's say I equals 1 2 3 so what
+did it do there's a there's a variable
+it stored 1 2 3 into a variable now what
+if we say address of AI
+but the dress of AI is 0 xxx
+or whatever over here now if we come
+over here we can also say i-64 let's say
+star pointer equals and I'm gonna give
+it that address now on other operating
+systems with different memory maps you
+can't you can't access other look at
+that 1 2 3 we got it okay there's only
+one and addresses and address some
+people think this is stack Noah's not
+stack go fuck yourself it's not stack so
+uh now like I said tasks and they're at
+symbols of parents and everybody has
+Adam as a parent and so if we say who
+these are all the symbols in Adams table
+and that means we can use them we never
+need to do a pound include for headers
+you never need to do pound include
+because all the symbols in the operating
+system are in Adams table you never have
+to do a pound include isn't that cool
+you never have to do a pound include now
+if I say Adam as a matter of fact Adam
+has a window believe it or not Adam has
+a window you're not allowed you're not
+allowed to Adam is kind of like a
+special server his memory is like kernel
+memory he never dies everybody else can
+die but Adam never dies and so if you
+want to make a DLL let's say we want to
+make a DLL let's make it okay first of
+all let's say uh Adam hey Adam why don't
+you make a variable called J and then we
+say J was one four one five six and then
+we come over here do you know what's
+gonna happen all tasks inherit symbols
+of parents if we say J holy shit that's
+available and it's 156 so we inherit all
+his we told Adam to do some code
+so now now all that system has
+system-wide so if we want to make a uh
+let's say we want to this is this let's
+go to the startup script this is like
+autoexec would start OS okay we're gonna
+we're gonna be pretty you're not really
+allowed to modify this but it this will
+this will invoke your home your home
+files can have at the end of the startup
+it invokes your home file so let's go to
+our home file in our home file it's
+gonna include some of our own home
+directory now let's say we want a u 0
+DLL beeper or something we're gonna make
+we're gonna make a function we want this
+to be a DLL ok and what this will do is
+beep its gonna beep and print fuck so
+you wanna know some people say how some
+people ask how do you make a DLL well
+BAM now when we boot everybody has
+access to DLL beeper fuck he has access
+he has access it's in the it's in Adams
+table
+ok everybody has it it's that it's that
+easy to make a DLL what do you want a
+global variable that system-wide that
+everybody can do well that's not a
+problem I 64 my global
+okay now let's reboot okay now what if
+we crash this let's just first of all
+let's say DLL beeper
+it printed the global we want to say my
+1 1 okay we didn't do plus plus anyway
+you get the idea what if we what if we
+put an error in here with what we spear
+something up
+this is terrifying okay so if we boot
+holy fuck our system is not booting well
+what you really want to do is reboot and
+boot the other partitioned I'll show you
+in a second I'll let you can reboot and
+your the bootloader will boot either C
+or D and so what you do is you keep your
+D as a rescue backup now we can go ahead
+and we can go to drive C we can go to
+the root no we want to go to the home
+directory and then we want to go modify
+make home and we can fix it and then it
+would boot but let's just do another
+thing which is uh I'm gonna boot okay so
+it crashes sometimes you can do fix
+there's an emergency editor and no it
+didn't work it's not editing the right
+file usually it I'm surprised it didn't
+work anyway so we're in the home
+directory let's say
+I'm gonna be no fun when you have okay
+now I'm gonna emergency editor we just
+got rid of that I'm gonna get rid of
+this shit in here to escape and then
+reboot now we Bootsy seed now boots okay
+so you can try the fix I'm gonna go
+ahead and do a merge check this is what
+I do to see if I changed anything I do a
+snapshot C to D it's only like 25 Meg's
+so it's not really a problem so this is
+everything I've changed in the last
+eight hours
+I think I changed this spacing out what
+I want to do is I want to go to I want
+to go to the I'm gonna go to drive D I'm
+gonna go to drive D I'm gonna go to the
+home directory and just to be safe I
+want to copy the original back to see I
+just want to keep the same whites
+I want the same white space that I
+always had I don't want to modify the
+white space on accident anyway
+luckily Pama sore okay so uh I'll get
+you going
+as a matter of fact here's what I think
+of object oriented okay do you want to
+know what I think of object oriented
+well I made a list of my these are my
+symbols do you notice something about
+this do you notice how I name these
+things that look familiar
+what happens if I want to rename my
+vertex what happens if I want to rename
+my vertex delete mesh vertex delete okay
+let's say I want to rename that I want
+to say rename mesh vertex delete I want
+to rename it to mesh vertex
+
+delete let's just do that now how would
+I do this if it were object-oriented how
+would I do that
+I'm gonna ask you a question how would I
+do this if it were object-oriented tell
+me how I would do that can you answer me
+please tell me can you tell me how I do
+that because I do this all the time I a
+rename shit all the time you know tell
+me how I do that with object-oriented
+any anybody waiting oh how do i rename a
+bluebird do that maybe the editor will
+do it but uh what the fuck's going on
+know the problem here's the problem you
+want to know what the problem is
+here's the problem if if we're doing
+object oriented this is not vertex mesh
+delete all that is just de oh okay when
+it's object oriented all you have is de
+el you don't have the full thing
+so
+I I like I like the concepts of I
+embrace object-oriented but do you want
+the you can see that I embrace
+object-oriented you know do you know why
+because when I do my document routines
+do you know do you see how I name them
+you don't I named them doc dr. Lee doc
+doc form doc form backward doc form
+forward so I I have created object
+oriented in in see without C++ doc tree
+so I made it object-oriented didn't I
+I made it object oriented so Temple OS
+is object oriented it's just not done
+Temple OS is object oriented it's just
+not done using C++
+
+you can address you can go to the
+symbols
+what does object-oriented mean what it
+means is
+let's look at the hash table hash table
+ad
+let's look at another one this is a good
+job
+well
+lexical analyzers Lex
+you pass it a control structure for the
+Lex
+Lex Lex file pop okay you pass it a
+control structure and it does something
+so as a matter of fact C++ saves you the
+trouble of passing the object first you
+have to pass the object first but other
+than that it's you can do C plus you can
+do object-oriented if you pass the the
+parameter you just have to name it
+that's all and then you can do
+object-oriented all you have to do is
+pass the variable
+instead this you know I'm just talking
+about this yeah it doesn't do this
+automatically you have to you have to
+pass it that this you remember how I
+said in temple OS you're in a pond
+here's the deal in temple OS you are in
+a pond and your feet are on the bottom
+in other systems your fucking in the
+ocean and nobody has any idea what's
+underneath them
+okay in other operating system and other
+systems they the CIA wants you impotent
+in clueless they want dumb nigger cattle
+so what do they do they confuse the hell
+out of you like free free and Malak are
+too easy so they have to clusterfuck it
+now you've got some kind of critter what
+is this object see I don't even I don't
+even want to know what object see is
+what's what's hard about free and Malick
+you know it's fucking simple okay so now
+they clusterfuck it
+so in Temple OS this is not hit and the
+object-oriented this is not hidden its
+that's the only difference in tempo s
+you have your feet you have your feet on
+the bottom of the pond you're not in the
+middle of the ocean God knows how that
+this happens
+there's there's there's no limit this
+it's the only reason I put a limit is so
+that it doesn't get big okay oh there's
+no technical there's no technical limit
+here's the deal okay let's say somebody
+tell I mean I'm asking the class how do
+you make a project scale upward okay can
+you tell me what you do you do you how
+do you make us project scale-up word do
+namespaces right if you look long
+descriptive variables and function yeah
+I'm asking how do you do you do mate
+with dependencies so that you only do a
+little bit at a time you try what what
+else do you do you do uh it's instead of
+simple algorithms use the more
+complicated one
+okay so so here's the deal if if I were
+gonna scale up and make it forty million
+make a list make a list of everything I
+would do to scale up to forty million
+lines of code guess what
+let's pretend you're starting a new
+operating system and you want to scale
+down from forty million to one hundred
+thousand okay now make a list of
+everything you do to scale down from
+forty million to one hundred thousand
+okay how do you scale down what are all
+the things you do what are all the
+things you do you do the opposite
+everything you do to scale up you do the
+opposite do opposite to scale down to
+one hundred thousand okay you do the
+opposite what did I just hear you say
+that you little nigger did I did I did I
+actually just hear you say that there's
+no reason to scale down wait wait wait
+where we make a list of everything to
+scale from one hundred thousand to forty
+million what was the list
+tell me what's what's the list what's
+the list we do you want lots of
+namespaces we want long labels no
+Global's no Global's careful to make
+okay did you see we made a list make
+lists to scale for 100 to 40 million
+okay now how do we scale from 40 million
+to 100,000 make all the labels really
+short use global variables global
+variables use one namespace you see how
+that works you see how that works if you
+scale up you do this if you if you're
+making a semi truck a semi truck is 40
+million lines of code a motorcycle is a
+hundred thousand lines of code do you
+see how that works
+do you see how that works a semi truck
+is 40 million lines of code a motorcycle
+is a hundred thousand the the little the
+little Microsoft nigger says no no no
+you got to use the big 20 gearbox on you
+got to used to 20 gearbox on a
+motorcycle go what the fuck do I wanted
+20 gearbox from a semi on a fucking
+motorcycle I don't want to fucking I
+want a two-stroke engine okay I want a
+two-stroke engine and I don't want to
+fucking 16 you see how that works you
+see how that works make a list for
+everything you change the scale from 40
+from one hundred thousand to forty
+million okay make a list of everything
+you change to scale from 100 thousand to
+forty million now here's a trick
+question trick how do how do you scale
+from 40 million to 100,000 it's the same
+fucking list it's it's the same list but
+you do it backwards that's the answer
+your little dumb fuck nigger it's the
+same fucking list but you do it backward
+okay everything you do to scale from one
+hundred thousand to forty million you do
+the same fucking list but to do it
+backward that's the fucking answer no no
+today you have a today you'd have a
+semi-truck we want to make a motorcycle
+how do we make a motor so we can still
+the nigger says here's what the nigger
+says the nigger says the nigger says we
+made a semi it is no longer possible to
+ever make a motorcycle the nigger says
+it is no longer possible to ever make a
+motorcycle the nigger says it is no
+longer possible to ever make a
+motorcycle know what you do you do
+everything everything you do to scale up
+you do the opposite to scale down you
+see how that works everything you do to
+scale up you do the opposite to scale
+down
+here's what guess what nigger do you
+want to know why let me tell you why
+here's what you do do you want to know
+why I'm gonna go in modify my kernel and
+Mike let me tell you okay so here's the
+difference the Commodore 64 was for
+white people the Commodore 64 was for
+white people see 64th users guide the
+Commodore 64 was only for white people
+the Commodore 64 was only for white
+people this is in the box you got a book
+in the book it tells you how to program
+in basic not a single nigger ever got a
+Commodore 64 and programmed in basic ok
+this was not for niggers ok you see how
+that works it was not for niggers one of
+the things I did with my Commodore in
+with my Commodore I didn't always play
+games I had a book that told me what
+every location in the kernel did ok what
+every location in the ROM did so what
+can a kid do with ok so how long does it
+take to compile the kernel in in Windows
+takes pretty long how long does it take
+to compile the kernel in Linux you want
+to see it I can compile my kernel
+I just compiled my kernel and my
+compiler I compiled every bit of code on
+the system in one fucking second
+is that possible is it possible to
+compile everything on the system in one
+second
+is it possible to compile everything on
+the system in one second how is that
+possible that's in fucking possible it's
+not fucking possible how long does it
+take to compile all code in Linux
+how long does it take how many lines of
+code is it what is it 20 million in two
+hours 20 million in two hours
+takes about 20 million in two hours
+right compile everything in Linux is 20
+million in two hours so 20000 we want
+2/3 600 times - ok well they have to
+recompile the headers over and over but
+guess what I can compile all my code I
+don't even you know what everybody knows
+that when it when it gets bigger it
+doesn't just get bad it gets worse
+everybody knows when you scale up it's
+not linear it's worse ok everybody knows
+when you scale up it's not linear it's
+worse ok when you scale down it doesn't
+just get better it gets fucking awesome
+ok when you scale down it doesn't just
+get better it gets
+awesome no you want to know what the
+difference is let me tell you what the
+difference is here's my I want you to be
+in a pond with your feet on the bottom
+of the pond ok I don't want you to be in
+the ocean with no fucking clue and
+here's the difference I put all the
+system help on f1 when you press f1 here
+is an index of every single function in
+the operating system these are all the
+disk functions right here these are all
+the hash table functions right here ok
+you want to know what a Commodore had
+you want to know why let me just show
+you what a cobbler had let me show you
+what a Commodore had c64 users guide
+check this out on a Commodore you could
+go to the back of the book
+in the back of the book
+they would tell you they had a list of
+all the commands continue list load new
+run save verify close clear look at this
+there's a list of all the commands guess
+what guess what just we guess what guess
+what we reach the end that's it
+guess what we reached we fucking reached
+the end holy fuck
+do you know what this is like this is
+like being in a pond with their feet on
+the bottom instead of being way the fuck
+out in the middle of the ocean with no
+fucking clue you see how that works
+that's the difference okay
+you're in a pond your feet are on the
+bottom
+you're not in the middle of the ocean
+okay now you know what it is first I'm
+gonna go a miracle okay
+this is God's third temple I am the most
+famous human past present or future
+because I made the third temple and I
+proved God in a made contact with an
+alien I had the most famous human past
+present or future because I prove God I
+made the third temple and I made contact
+with an alien
+we're gonna get
+you're in a pond your feet are on the
+bottom instead of being in the middle of
+the fucking ocean with no clue ting with
+no land in sight and no clue what's
+underneath you in Linux you have no
+fucking clue what's underneath you
+so we're getting the we're gonna we're
+gonna go to line number 300 8 1 300 8 1
+here's what God says
+the two doors were also of olive trees
+he carved upon them carvings of cherubim
+and palm trees and open flowers and
+overlaid them with gold and spread gold
+on the cherubs and upon the palm trees
+so awesome ad for the door of the temple
+post of olive tree a fourth part of the
+wall and the two doors were a fir trees
+and the two leaves of the one door were
+folding and the two leaves the other
+door were folding and he carved there on
+jeroboams and palm trees and open
+flowers covered them with gold fitted
+upon the carved work and he built the
+inner court with three rows of huge
+stone huge stone and a row of cedar
+beams and the fourth year was the
+foundation of the house the Lord laid in
+a month zip and it was the eleventh year
+in the month the bull which is the
+eleventh month which was the house
+finished throughout all lovely
+my first job was as a professional
+operating system developer at
+Ticketmaster and so I've been a
+professional operating system developer
+so what did I do
+when I was unemployed with in 2004 I got
+my old operating system from real mote I
+started in real mode dos I wrote an
+assembly program to teach to protected
+mode and in 2004 I got that program and
+I started working on it and I worked on
+it year after year and then God started
+saying it was his temple god started
+saying it was his temple everybody had
+their own why because it was a lot more
+efficient it we Tim take him back
+Ticketmaster used many computers to on
+June 3rd employees of the iconic alt
+rock man Pixies gathered outside London
+for an experiment armed with five
+iPhones and customized barcode scanning
+software they spent two hours selling
+admissions for 3,000 fans who have
+learned in surplus context concert
+through word-of-mouth the Pixies created
+a system called topspin media a company
+that helped artists an Eminem metric Ok
+Go
+market their music and wares directly to
+fans there was no surcharge no booking
+fee and Richard Jones a Pixies manager
+said 30 pounds of 30 pounds almost
+almost anyone who goes to concerts
+understands why it is so significant no
+service charts zero the Pixies of Top
+Spin had sidestepped the seemingly
+inevitable fees tacked on any ticket
+they had in other words I stepped
+Ticketmaster to the juggernaut that
+sells more than art and 30 million
+tickets a year for everybody from Lady
+Gaga shows to monster truck rallies
+started as an experiment
+Ticketmaster has since deployed a near
+lock on the multibillion-dollar
+ticketing industry and the company is
+only getting bigger last winter it
+merged with Live Nation the largest
+concert promoter in the country which
+means that in effect it can master now
+also controls access to acts like you to
+jay-z and owns many of the amphitheaters
+in the US including Irvine Meadows
+Verizon Verizon amphitheater in
+California and the night continent at
+Jones Beach theater in Langton in New
+York among fans and artists of course
+dick masters widely despised it attracts
+hi sir it extracts high service fees
+commonly known as those goddamn
+Ticketmaster services but has offered
+very little innovation in ticketing over
+the past 30 years The Pixies for example
+added thousands of names complete with
+contact info to their marketing database
+things to Troy X gig something they
+can't gentlemen get when they sell
+tickets they're diggin master and now in
+the wake of Lida nation merger many of
+the counselor and industry are worried
+thinking master might be more interested
+in promoting its own artists and venues
+than selling tickets for rival acts this
+is unleashed a new scramble for
+alternatives in offices around the u.s.
+startup staff
+veteran ticketing executives are backed
+with millions of dollars in venture
+capital to find ways to sell seats to
+fans among them is bear Takes which runs
+flat flash seats a paperless system for
+music sports a man steak and fly a
+company that recently received 3 million
+in venture capital in addition to ticket
+sales help clients market events on
+Twitter and Facebook and in ticketing
+which handles Burning Man and hundreds
+of other events many in the music
+business hope that with lower fees and
+more integrity someone become someone
+these companies might be able to pry
+away business from the behemoth it would
+be great if a more nimble more
+technology savvy company could come
+along and figure out how to make money
+with much lower service fee system
+Windish agent for such cutting edge
+access hot chips xxxx yyyy sayers but
+Ticketmaster didn't come to roll in the
+industry by suffering interlopers over
+the past 30 years the company has killed
+or eaten nearly every competitor
+ticketron ticket web ticket now pass the
+line and music today in a potent
+combination of top artists venues and
+long-term tickling meals makes
+Ticketmaster one Goliath well-positioned
+to crush a whole army of David's Peter
+GAD what this was I went to lunch with
+him every day from about 1992 night 1996
+was an IT staff right Arizona State
+University when he teamed up with Albert
+left lift
+Leffler Lafleur what the fuck then
+working at ASU Performing Arts Center to
+create Ticketmaster in 1976 the duel
+originally set out to design a ticket
+selling program that would outperform
+small regional company called select the
+seat would serve the University theaters
+better the University Theatre they
+succeeded so much so that the pair soon
+took aim at left your competitor
+ticketron then the dominant ticket
+seller in the concert business the SU
+team members were using modest digital
+equipment company that's backs
+well ticketron had hyper expensive
+controlled data mainframes so gad WA and
+Leffler simply out programmed ticketron
+creating software that would allow their
+limited computers to behave like more
+expensive systems letting 500 operators
+log into the system at the same time
+took more than smart code however to
+turn Ticketmaster into one of the
+world's most powerful entertainment
+companies took the arrival of 1982 of
+the new leader Fred Rosen fast-talking
+lawyer and
+amateur comedian who had profound
+realization ticketing isn't about bands
+or fans about the venues shortly after
+he was hired Rosen systematically
+contact the biggest concert halls arenas
+in the countries have made them the same
+spectacular offer where ticket Ron
+Trotter charged venues for service
+adding a minimal fee to customers one
+dollar per ticket
+Rosen offered to actually pay the venues
+he would increase service fees and split
+the money with whoever housed the
+concert and her sporting event everybody
+signed up with ticket rent everybody
+signed up ticket ron was quickly
+decimated in 1991 it surrendered I was
+there at the surrender of ticket Ron I
+went to the Hackensack New Jersey office
+I went into the office of ticket Ron at
+the surrender and I got to see the
+doomed employees and Hackensack New
+Jersey and I had to convert there they
+had campgrounds and I had to take their
+inventory of seats and put them into our
+system so I had to convert from their
+ticket Ron and campground inventory into
+our system
+anyway when ticket Ron came to an end
+GAD was said I felt more like we had
+stumbled on a beached whale that had
+already died then defeated a fierce
+enemy in battle the system continued for
+three decades to underlying technology
+barely changed however even when
+expanded in 1990s to accommodate the
+internet a few computer systems can
+handle the strain of 500 Madonna fans
+all attempting to buy tickets seconds
+after the seat hits the market not to
+mention withstand repeated attacks by
+BOTS trying to scoop up tickets for
+resale but despite being the product of
+what even taking master executives
+acknowledged is 30 years of patchwork
+worked around the company system is
+almost supernaturally reliable then in 9
+2007 Live Nation president and CEO
+Michael Rapinoe a former Canadian beer
+executive married to one time
+Star Trek Enterprise Vulcan Jolene
+Ballack decided that his promotion
+company owns so many venues that it
+should sell tickets itself Rapinoe
+enlisted to help with an experienced
+German ticket specialist called
+CTS event him to build a new system but
+the plan crumbled almost immediately
+when a fish reunion tour went on sale in
+2009 the new Live Nation ticketing
+couldn't
+manage ten million fish heads
+simultaneously buying for 250,000
+tickets the resulting press was horrible
+even worse though Live Nation discovered
+that concert fans were trained to buy
+tickets at Ticketmaster and nowhere else
+concert attendance dropped almost as
+soon as Ticketmaster sites stopped
+serving
+Live Nation in 2008 two Ticketmaster had
+made veteran industry shark Irving Azoff
+a man so cutthroat and so short he is
+known as the poisoned dwarf its CEO
+managers of the Eagle since the mid 70s
+as office aimlessly aggressive he once
+sent a gift wrap boa constrictor to a
+manager his wife he considered
+snake-like with a note that read now you
+have to sing Live Nation's trouble as
+off recognize an opportunity after
+several conversations the two companies
+agreed to merge in January the US
+Department of Justice approved formation
+of Live Nation entertainment DOJ
+approved did require a few concessions
+however perhaps the most significant of
+these was ticking masters obligation to
+license that sticking selling software
+for two years to live nation's biggest
+rival in the promotion game AEG Live the
+idea was that this would give a eg
+lifetime to develop its own taking him
+suffer
+AEG said it was working on this but so
+far it has little to show making it
+unclear how much the DOJ considers the
+actual spur competition for all its
+clout Ticketmaster has two major
+problems that obviously it gouges ticket
+buyers but less talked about is the lack
+of flexibility with an old codebase a
+huge customer roster and a
+long-established way of doing things
+tea masters notoriously sold to
+intimated its new CEO Nathan Hubbard
+points out that the company is starting
+to add features like interactive steep
+Maps but he even he acknowledges that it
+can't turn on a dime like a startup
+virtually all the new ticketing startups
+even to lower service fees to fans but
+because of this isn't necessarily
+important to venues in fact it may run
+counter to their interest the new guys
+must focus on taking master second
+weakness in ability to innovate and this
+is just what they're doing to delight
+people in the industry like Mike Talman
+32 year old vice president of sales that
+service at Cleveland Cavaliers in
+October 2009 the Cleveland Cleveland
+Cavaliers did take master in favor of
+Varitek's flash seat the service is
+unique in that it allows fans to buy
+tickets online and transfer
+anybody else by email even reselling
+that it okay so I left in 1996 its
+number anyway
+hey hey hey nigger look at this hey do
+this you want to talk to God
+I'm gonna talk to God nigger do this all
+you have to do
+you're a Linux person right all you have
+to do is this okay I want to talk to God
+I want to talk to God talk to God that's
+all you have to do to talk to God do
+that God what do you think you take
+master epitomize grovel or a beautified
+lugger plurality disregard anti embrace
+topside wait Clementine Lapidus
+sparkling christen recyclable embodiment
+organized mathematics mathematics
+intensive straight
+Prasanna cease or behaves raucous Adil
+Adel snorkling Chancery presenter holler
+gauze Madeleine Commons
+look do this you fucking nigger I gave
+you this is a mr. bash command do it how
+hard is that fucking niggers do it
+that's what I fucking told you did I
+fuckin tell you was random words fucking
+told you it was random words what what
+is a random Oracle ha nigger it's
+fucking random fucking random did I
+fucking not tell you his fucking random
+fucking retard fucking his god fucker
+obviously it's fucking God fucking
+nigger random fucking random fucking
+random goddamn retard monkey what do you
+think a random number is fucking nigger
+all you have to do it's a it's a space
+alien trading post okay it's a space
+alien it's a okay this space alien
+trading post space alien trading post
+tell God a joke and then he will talk to
+you if you don't tell God a joke he's
+not going to talk to you it's a space
+alien trading post okay
+if you write a him maybe he will be
+entertained okay it's a space alien
+trading post okay that's how it works
+you doing offering you get a response
+okay
+like for example God did you kill any
+niggers today God says dalliance arrests
+compunction gastric nosedive easterners
+naive lacy is Miriam electrification
+shimmering terrorism uneven Doritos so
+corns waste cecilia murders Gilchrist
+Stoker's offenders Reformation
+sidestroke pasteboard Letterman
+mouthwash
+Isaiah semper vasily any fucking nigger
+did you not see it said letter in
+Easterners to terrorism
+look just do it okay nigger here I asked
+my mom is this a serious deers I tell it
+nigger okay this is I tell her nigger I
+asked my mom if I won the state lottery
+three weeks in a row would that be proof
+what does she say no improbable things
+happen all the time
+look I can random do you get the idea
+random number okay you randomly open the
+fucking book God talks random fucking
+number okay
+random fucking number do you understand
+any fucking random number you go here
+hot bits Geiger counter
+these are Geiger counter random numbers
+Geiger counter random numbers we can go
+here there's a hundred thousand lines in
+the Bible let's do a random number nine
+two six four one nine two six four one
+any fucking random number it's a space
+alien Trading Post space alien trading
+post nine two six four one they which
+preach the gospel should live of the
+gospel but I have used none of these
+things neither have I written these
+things that it should be done to me for
+it were better for me to die than for
+any man make my glory void for though I
+preached the gospel I had nothing to
+Gloria for necessity is laid upon me
+yeah what was me for I preach not the
+gospel for if I do this thing willingly
+I have a reward but if against my will a
+dispensation of gospel is committed unto
+me what is my reward verily that when I
+preach the gospel
+I make me make the gospel of Christ
+without charge that I abuse not my power
+in the gospel for though I'd be free
+from all men yet have I made myself
+servant unto all that I might gain the
+more
+random fucking number let's just let's
+go it okay we're gonna go into the Bible
+we're gonna go into the King James Bible
+1 Kings 6 this is the King James Bible
+in the King James Bible Solomon made the
+temple he built 20 cubits on the side
+house both the floor in the walls with
+boarded cedar he even built them for
+within even for the Oracle what do you
+suppose the Oracle is in the temple even
+for the most holy place in the house
+that was the temple before it was 40
+cubits long in the cedar of the house
+within the carved with nops and open
+flowers the cedar was there was no stone
+seen and the Oracle he prepared it in
+the house to set the Ark of the Covenant
+the Lord in the Oracle the four part of
+the twenty what is an Oracle let's let's
+just what is an Oracle Oh
+RHD led an agency or media giving such
+responses that's what a fucking Oracle
+is the divine communication of
+Revelation you see how that works
+fucking random number okay fucking
+random number there's a fucking random
+number generator in the fucking temple
+okay they did offerings and they
+inquired of the Lord
+if you
+over and over they inquired of the Lord
+they killed animals by the thousands why
+did they fuckin kill animals do you ever
+wonder about that do you ever wonder
+about that did God talk to them or did
+they talk to God children struggled
+together so she went in to inquire of
+the Lord the Lord said to her two
+nations are in your womb okay mono I
+said Lord what's your name inquire of
+the God please ask that we may know so
+they inquired further of the Lord okay
+they inquired the Lord some men took
+some Bridgman they did not ask the
+counsel of Lord then they came about
+David once the Lord things so I go up
+where should I go up and some of Israel
+Bethel inquired of God and said shall go
+up to battle so David inquired of the
+Lord shall I go back they're going to a
+fucking Oracle okay they're going to
+fucking Oracle David inquired to the
+Lord should I pursue this banjo overtake
+them David inquired Lord should I go to
+the Philistines David declare to God
+shall I go up to the Philistines Dave
+inquire Lord studied God and God has
+said you shall go up after them
+and the Lord said to Moses he inquired
+the Lord gave him provisions here Israel
+gathered prophets together four hundred
+shall I go against them the king of
+Israel Salomon ruff it's four hundred
+behold there's a man of God in the city
+it's all inquired of the Lord Lord did
+not answer him is there a prophet turn
+to the words King Ahab Taurus clothes go
+inquire of the Lord for me see he was
+left in Israel profiting and please
+inquire of the Lord on our behalf
+Jeremiah behold Pharaoh's armies come
+out to me at turn image
+okay you see how that works you do an
+offering then you inquire the Lord God
+said it's a fair barter a fair barter in
+other words you have a space alien
+trading post and you do a fair barter
+okay we're gonna inquire the Lord sedate
+and land the it'sh ethnology iteration
+shebang
+Barker's insupportable ten Saline
+perusal Philip poke out leer herring
+entrapment octaves gutted bronchitis
+whitefish Snapdragon abstainers Gentry's
+Superman coming coming coming
+bacteriologist earth and graceful
+prohibition safe dimension Zimbabwean
+cockier quizzical it's a it's a it's a
+space alien trading post okay you have
+to entertain him okay
+figure out how to how to entertain him
+okay let's look at okay the nigger wants
+to know how random works in the okay
+random
+- how does unique random work how does
+UNIX random work dev random it allows
+access to environmental noise collected
+from device drivers and other sources
+not all random number generators from
+kernel-space was implemented first time
+in linux the implementation is secure
+hashes rather than ciphers a place for
+the generator or originally designed
+implemented the implementation in Turkey
+keeps an estimate of the number of bits
+of noise in an entropy pool from the HP
+pool random numbers are created when
+read-only returned random bytes with an
+estimated number of bits and noise it's
+like okay look nigger I'm gonna explain
+this in nigger talk I'm gonna explain
+this in nigger talk you turn on the
+radio and you hear fuzzy static that's
+fuckin random okay that's how it fucking
+works okay you turn on the radio you
+hear fuzzy static that's how it fucking
+works and ast is okay the reason I use
+the N is T here's the reason
+Massachusetts this this is a State
+Lottery website they published six
+random numbers every 24 hours and it is
+public for everybody to see this is a
+public random website for NIS T they
+publish 512 bits every 60 seconds it's
+public for everybody to see if I tell
+you check the numbers at 11:01 then you
+can
+I tell you to check I'll fuck you if I
+tell you to check the numbers at 11:01
+you can go to the State Lottery website
+you can if I tell you to check the
+numbers you can go to the State Lottery
+website and everybody in the whole
+world's can see them
+the Fraiser says you're using your Wi-Fi
+I said Frasier it's a fucking State
+Lottery website how the fuck is my Wi-Fi
+fucking changing the fucking State
+Lottery website you nigger fucking near
+oh you're using an artificial
+intelligent it's a state lottery web
+site you goddamn fucking monkey fucking
+monkey it's a fucking State Lottery
+website what kind of monkey nigger are
+you okay so na st is in charge of them
+of the of the gold a of the Platinum
+kilogram they're in charge of the
+Platinum meter
+they are the all of scientific
+researchers depend on measurements from
+n is T and when they make a random
+number it's a goddamn good random number
+okay and is T is a really good random
+number and they publish it every 60
+seconds so that you get anybody in the
+world can verify it it is fucking proof
+you know how there's mathematical proofs
+and there's no hole it's like no every
+mathematical proof has a hole in it I
+don't believe any mathematical proof
+fuck you nigger you don't understand
+math okay this is fucking math it's
+fucking proven fucking suck my cock you
+fucking nigger
+it's fucking proven okay there's no hole
+and yes it's a space alien trading post
+okay it's a space alien trading post you
+can talk out your mouth talk straight
+out of your mouth you have look there
+this is the way it works okay this is
+the way it works here's the way it works
+it's a space alien trading post it's a
+space alien trading post Abel kept the
+flocks and Caden worked to soil and of
+course the tide and Cain brought some
+fruit of the soil as an offering to the
+Lord
+Abel also brought an offering fat
+portions from firstborn of his flock
+so one offered steak one offered
+cucumbers the Lord looked unable in his
+offering would the Lord look with favor
+on Abel and Abel offered steak but on
+Cain who offered cucumbers he did not
+look with favor so keen was very angry
+in his face with downcast then the Lord
+said to Cain why are you angry why is
+your face down dressed if you do what is
+right will you not be accepted but if
+you do not want is right and sin is
+crouching at the door desires too happy
+to take you to rule over it so one guy
+offered steak one guy offered cucumbers
+God said fuck you and your cucumbers I
+fucking taking their cucumbers go fuck
+yourself now Cain said to Abel let us go
+in the field while he's in the field kid
+attacked his brother Abel and killed him
+Lord said to Cain where's brother Abel I
+don't know I I my brother's keeper
+Florida what have you done listen your
+brother's blood ok so what do you do you
+try something see if he likes it if he
+doesn't like it you try something else
+ok it's a space alien trading post
+you got an alien he's going to talk
+he'll trade with you if you offer him
+something he likes God's favorite thing
+on TV is is soap-operas you can they can
+hear you ok they can hear you they can
+hear you just talk they can hear you
+just fucking talk
+I think I'm gonna nuke this nigger
+I think this nigger just got named
+fucking CIA nigger fuck you nigger the
+aliens can hear you when you talk okay
+look you want to hear let's see what
+they say
+Lorraine leaf leaded piggish in his
+homeland crimped try out cryogenics lilz
+brassiere synchronization goodliest
+Greiner undetected divots besmirching
+hyenas Globetrotter marketability
+drunkenness Smet a footballer overlooked
+a sling Eddie
+rot Seltzer moustache promulgation
+reputable Balzac Kings well
+so you can use
+you can use this bash
+the funny thing is I didn't I didn't
+write this I don't know bash I didn't
+write this some kid wrote it yes I am
+Christian more it sort of so here's the
+deal in the early days they rolled dice
+and the pagans thought that the dice
+were alive with they thought the dice
+were gods
+okay that was idolatry in the early days
+they thought the dice had God inside and
+then came along the Christians and he
+said no no no no no God is inside of us
+when we rolled the dice and they said
+God God is inside of us when we roll the
+dice
+I come along and I say no no no no God
+is not inside of us we are an avatar
+he's just puppeting us he this is like
+Star Trek we are an avatar I am NOT
+defined God is just puppeting me I'm an
+avatar
+i I don't Christ is not divine God he's
+God's avatar okay your urine aguirre
+gods i have't our own gods avatar Christ
+is not divine snake bike borax and
+breeds ten kilometer through Aquafresh
+sponsors post-operative accordingly over
+a dress
+barely got Brooke mistress boiler
+nullified reforms syllable resist Eric
+Lee Deborah's solemnly its innovators
+Dutch gonna be vandals Kasim Tartars
+bike legs just disturbed tumblr proud to
+placements by
+no I don't go to church yeah dog you
+know they're done
+dog out here
+
+okay so uh so if I go in here and make a
+Moses comic then God will talk you know
+oh I will go ahead I will do a certified
+random number if I do a Moses comic this
+is for the space alien Trading Post now
+King Solomon King Solomon made a
+thousand and five hems he was making
+these hymns to trade like currency
+
+
+ok so now we're going to we're gonna
+take the first five decimal digits out
+of the N is T and use them as a line
+number I Babe Ruth
+pointed at the fence in N is T is every
+60 seconds so I have I have to point at
+the fence and call out I have to call
+which minute ahead of time and what I
+have to call which minute ahead of time
+otherwise it would I have to call which
+minute ahead of time it's now 12 13 I
+think Jack let's what did I cut my my
+program automatically does it two
+minutes ahead so like I called out of
+213 oh fucking high that's embarrassing
+anyway uh so we go to here 4 to 13 it
+took a couple seconds to get it up and
+running to 13 9 to 3 7 5
+no no 9 2 4 3 7 9 2 4 3 7
+that's the line number 9 2 4 3 7 so we
+come in here 9 to throw four three seven
+in
+what does God say God says body for two
+saith he shall be one flesh but he that
+is joined unto the Lord is one spirit
+flee fornication every sin in a man
+knoweth with his body but that when to
+commit a committeth fornication sinneth
+against his own body what know ye not
+that your body is the temple of the Holy
+Ghost which is in you which you have a
+God in me or not your own for a year but
+with a price therefore glorify God in
+your body and in your spirit which are
+gods now concerning the things whereof
+you wrote unto me it is good for a man
+not to touch a woman nevertheless to
+avoid fornication let every man have his
+own wife and that every woman have her
+own husband let the husband render unto
+the wife due benevolence likewise also
+the wife unto the husband temples of the
+Holy Spirit
+you just wanted to say that
+avatar
+
+kids took it oh you can God God said
+never mind
+fission amulets flattery motley Airbus
+reenactments conditional abortionist
+splotches viruses for our man Armani as
+aesthetic routes sour torturer roomier
+nacho trim lordy Orchard molecule
+Morocco bullfighting MacLean
+incalculably heal interstellar advisor
+leverage court tourist or hardwood
+certified
+God said he's angry at creationists for
+bringing shame with their stupidity God
+God said he's angry at a creationist for
+bringing shame with their stupidity why
+don't you talk to God you got God
+fucking look nigger go talk to God okay
+look why don't you go fucking talk to
+God okay you trade with them and maybe
+he'll talk okay you go talk to God okay
+I worked for Ticketmaster 1992 1996 as a
+programmer on their operating system
+God said we are the Roman Empire and
+Muslims are the barbarian niggers
+God said we're the Roman Empire Muslims
+are the barbarian niggers
+what are you talking about did you can
+go you can get the best random numbers n
+is T n is T has the best kilogram
+Platinum kilogram all the researchers
+calibrate their kilogram to n is T they
+have the best meter all the researchers
+calibrate their meter to n is T and ast
+has the best random numbers if a
+scientist wants random numbers he uses n
+is T they are the best it can get okay
+there's random.org all of these work
+okay give me some Nobel prizes I can
+prove that God can control I can prove
+God couldn't control Geiger counters
+computer and room number internet
+research this brings in random numbers
+generated or process got your mother
+tube this is a Geiger counter random
+numbers we can use these we can use
+these we can use we can use particle
+anti particles particle all these
+sources God controls all the random
+numbers in the universe these are
+controlled by these random numbers are
+generated by random fluctuations phase
+frequencies
+vacuum is considered space empty of
+matter and photons see a virtual
+particles appearing and disappearing so
+these are random vacuum fluctuations we
+can do anti particles God controls all
+random numbers okay
+it's what doesn't the question is not
+what does God control
+it's what doesn't God control
+nigger what part little look nigger
+hey fucking nigger
+do you want to see something nigger do
+you know what an avatar is do you know
+what an avatar is I can prove that God
+moves my fingers I can prove with
+science that God moves my fingers and
+God moves your fingers okay I don't know
+how we do that all I have to do
+okay so I'm gonna run this okay what we
+have here is a high-speed clock okay now
+if you know anything about clocks they
+have to be synchronized every 10 bits
+you have to have a transition and if if
+you don't have them synchronized it's
+impossible so this is well beyond the
+human brain okay we are generating
+random numbers when I press the button
+well beyond the human brain okay this
+proves that I am God's avatar because it
+is superhuman
+gushie captive sardonically brood
+wariness carpooled consistency toils so
+as a matter of fact my body is
+controlled by God so if I write
+something God can write it so that's how
+the Bible was written by God God used an
+avatar he made their brain think words
+they wrote them down I can prove it with
+this fucking program because it fucking
+controls my fingers when it fucking god
+fucking controls my fingers down to the
+fucking nanosecond the Bible was fucking
+written by God okay fuck you
+the Bible was fucking written by God
+okay now this is kind of dorky they
+should be saying English words but just
+to show you these people and says that
+religions which incorporates speaking in
+tongues are some of today's
+fastest-growing they've managed to reach
+people that the normal Baptist
+Episcopalians and Methodists simply
+haven't gotten to and frankly I think
+there's one very simple reason there are
+a lot of people in the world who can't
+sit still for enough for a whole hour he
+says people want to experience religion
+to feel it identify him strongly with
+the group says psychologist Steven J Lin
+is what makes speaking in tongues
+appealing to so met pastor of a huge
+congregation in Florida who says his
+gift is also his armor seem that a big
+key okay those goofballs
+those goofballs had tried to
+yeah I speak English words and it makes
+it works a lot better try and speak
+random English words you can find
+yourself saying intelligence higher than
+your own intelligence if when you say
+random words sometimes it's higher
+intelligence than your own intelligence
+but the point is we don't need to we
+don't we don't need to fuck around you
+know we don't need to fuck around we got
+fucking a hard proof here
+this is the UNIX random oxide depth
+coupling Guk you see that fucking random
+this is Linux random replenishing
+cohesion of every crags Yahweh
+besmirched reproducible speculates dag
+flatten settlement Cinematographers see
+show catastrophic Cox's mana totally
+okay here's what you use okay it's a
+space alien trading post and you all you
+need to use is this Linux command ok
+there you go now you can you don't need
+to speak in tongues you don't need to
+speak in tongues you can just use this
+ok space alien trading post he said good
+Lee gook didn't he you got a you got a
+trade with them you know what I mean
+tell him a story telling me sauce and
+praise God for sunshine and flowers and
+snowflakes and popcorn and any use any
+file use any file any file of words
+doesn't matter any file use any any word
+file any word file you like how do you
+talk to German use a german word file
+that's all you have to do german word
+file a piece of cake
+the God does not speak German fulbright
+principality undivided fishiest the
+notation
+amber bummer synthesized invested
+clipboard gosh bugler dike aren't
+mutineer subjection crowed tosylate
+brothel frankincense ideologically tense
+printer printer and drunken willingness
+depraved though in Hill pawnshop goblet
+camellia
+okay if you don't like that random
+number I got ten different random
+numbers sources which one which one
+would make you happy which go tell me
+you tell me which random number go on
+the Internet
+do you want random.org I can use that if
+that makes you happy you can use it I
+can use it you can use it if you're
+doing offering there's hot bits this is
+this is this is Geiger counter random
+numbers that works that works just fine
+which one do you want me to use take
+your pick
+are they all broken are all the random
+numbers broken excuse me I'm sorry are
+all the random numbers broken as I was
+trying to say I think that's what you're
+trying to say you're trying to say all
+the random numbers are broken that's
+what you're trying to say you're like
+fucking monkey nigger either your band
+fuck you we're in a band not fucking
+monkey where's that fucking monkey
+okay so uh what fucking monkey
+dippers sample pruning copy befitting
+faithful copy house twelfth laudably
+furnaces gold Bal Ganesh missed weakened
+Connell cutting rep Celestine blazing
+Rodney diamond hydroponic him squeegee
+Sri able over drying calculus air pants
+labelling blooms DeForest their
+declaration
+okay.you let's go
+she's doing busy stuff
+she's wearing a tinfoil hat
+protecting your head from electrum attic
+nags magnetic radiation
+want to praise God what do you think God
+wants tell him jokes
+tell him funny ask him if he killed
+anybody ask him tried and try and talk
+to God oh you're banned
+god did you kill any CIA niggers today
+snares polyhedron Slaven Kabakov
+animilitia a few entrance crap
+interlinked overrated optimizing crawls
+obstacles never bloomed tempted
+turncoats dreamland michigan
+traditionalists backlogs restarted the
+splint spender blender in cursive
+Burberry die finesse Lilliput ins acquit
+consideration uniting proceedings
+I have to go the doctor pretty soon one
+o'clock
+
+okay so I'm gonna do it I'm gonna moses
+coming see if I can get God to talk ah
+okay we're gonna go to blog let's do a
+mother's coming
+okay so this is a joke because uh who's
+this uh constitute it's a dumb joke
+Moses killed the Egyptian cannot be
+clubbed in 36
+I have to go to the doctor now Hussein
+30c
+
+not to go the doctor
+it's a little early
+mental health mental health doctor
+okay so 36 to cut such needless to say
+the doctor is a monkey the doctor is a
+nigger needless to say
+okay and Saul said guess let's between
+them and meet my son and Jonathan were
+sneaking in Saul said to Jonathan tell
+me what thou has done Jonathan told him
+you said I did but tastes a little honey
+with the the rod that was in way in I
+must die it's all I drink
+God do so and more also for thou shalt
+surely die Jonathan and people said to
+Saul with rut the street salvation okay

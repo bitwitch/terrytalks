@@ -1,0 +1,301 @@
+let's be clear I'm literally the
+smartest programmer that has ever lived
+ok you can download watch this you want
+to see why I'm the smartest programmer
+that ever lived
+let me show you how I can prove that I
+am the smartest programmer that ever
+lived
+here's what you do go to my website do
+download 2 megabyte ultra small distro
+save file now download the 2 megabyte
+distro ok
+and now after we download the T megabyte
+distro in my downloads directory this is
+why I am literally the smartest
+programmer that ever lived
+ok I am literally the smartest program
+on that ever lived ok ultra small two
+point one megabyte you see that it's 2
+point 1 megabyte ok we are going to this
+is why I am the smartest programmer that
+has ever lived a divine intellect new
+virtual machine I can prove it very
+easily okay we go to typical we go to
+downloads do this ok follow along go to
+the ultra small distro other 64-bit
+other 64-bit that's fine now customize
+the hardware there is no networking
+there's no sound card ok so there's no
+networking no small sound cards its 2.1
+megabytes ok what do we have we have a
+we have a cd-rom that I didn't put you
+need more memory I'm going to give it 64
+gigabytes and 16 cores I have a Xeon
+it's a beast
+ok so
+I'm the smartest programmer that ever
+lived this is a 2 megabyte file ok look
+at this first of all it boots a live CD
+that's 2 megabytes remember this is 2
+megabytes it has an install it
+automatically installs so we say yes are
+you installing in VMware yes press the
+key so right now it's installing this is
+part of the 2 Meg it's making a C Drive
+and a D drive partition it's making a
+it's copying all the files to see and
+then it's copying all the files to D
+this is 2 megabytes you can do this Reds
+on my website you can download the 10
+megabyte thing do you want to reboot yes
+so we do this is the bootloader I don't
+use grub I made my own bootloader it
+doesn't use grub it's part of the 2 Meg
+remember this is on human grub alone is
+probably bigger than two Meg so we do
+one for the C Drive so we just booted
+the operating system and if you hit
+control M this is the this is the menu
+here's an icon let's see
+a lot so I am the smartest programmer
+that has ever lived on this distro our
+it's two megabytes it has a flight
+simulator
+it has a on this distro it's a it's 80
+mm it's 82 thousand lines of code
+here's adjusted here's a 64-bit first of
+all it's 64-bit watch this okay okay
+let's let's do it on this there's an
+editor test dot fully C dot Z we can say
+use 0 start all right let's say fuck you
+and let's say ASM actually we don't need
+that it um if it encounters an opcode it
+knows it's assembly so we can say move
+our ax fuck
+I'm the smartest programmer that has
+ever lived
+with just what that does is it puts an
+ASCII string into our ax that's because
+I learned that at ticketmaster and I'm
+the smartest programmer that has ever
+lived so we have a C program here let's
+see that did not work
+let's put string put chars lucky didn't
+crash okay
+fuck this is why I'm the smartest
+programmer that has ever lived
+fuck you okay you see that now let's put
+another one fuck you
+cares your turn let's put another one
+here fuck you Terry turn let's list it
+let son assemble this one assemble one
+assemble function fuck you here's the
+assembly code it loads an ASCII string
+into our ax cause foot chars then it
+loads an ASCII string and cause put
+chars now watch this this will blow your
+fucking mind the smartest programmer
+that ever lived
+you can mix C and assembly
+from the smartest fucking program ever
+fucking left okay ireally compiler check
+this shit out look at that see that fuck
+you fuck you fuck you Mars programmer
+Evelyn FK fucking 64-bit compiler 18,000
+lines got a fucking kernel got a fucking
+graphics library you see my fucking
+graphics library it wrote the triangle
+root still I wrote the I wrote the Cruz
+my fucking graphics library we're at the
+triangle fill all that shit in here I
+have a video on how to write a triangle
+fill and check this out we can put
+sprite okay so some reason I'm the
+smartest programmer on earth we have
+graphics in the fucking source code
+control are ready to make sprite let's
+do let's do a 3d mesh how about that
+let's do 3d mesh okay yes and okay let's
+do prism thickness 25 okay
+always going to fuck up I fucked up you
+can't do con convex you can't do concave
+okay anyway so this is not flash it is a
+fucking 3d sprite let's put it in here
+how about this sprite on the smartest
+programmer ever fucking lived with you
+why I'm the smartest programmer ever
+fucking lift I'm telling you I have
+divine fucking intellect we're going to
+print that sprite watch this at the
+command line
+Devine fucking intellect see that look
+at all those sprites see those sprites
+let's move them over fucking Devine
+fucking intellect I'm not up MIT nigger
+I have a brain okay fuck you went to a
+real school not a fucking CIA fucking
+brainwashing place fucking CIA
+brainwashing all they teach you is how
+to be a fucking monkey nigger look at
+this shit look at this fucking sprites
+command line fuck you fuck yeah fuck
+yeah I guess it watch this motherfucker
+let's go to the kernel control D here's
+the let's go to the kernel okay let's go
+modify the kernel
+you want to do the bootleg let's put
+let's make a DLL how about that is that
+so let's uh let's copy this fuck you
+let's put it into a DLL okay so make um
+let's just put it in here
+how about that throw right here okay so
+now when we boot let's do a quick boot
+fast boot now there's a DLL fuck you
+look at that now we go fuck you
+let's make it do a startup and do a fuck
+you the DLL okay let's go over here we
+can do DLL fuck you
+DLL okay fucking the smartest programmer
+ever fucking leg motherfucker
+let's do it in the startup after it
+starts up let's get rid of that shit um
+make um let's see okay folks you now
+when we boot it's going to do that when
+you reboot fastboot all you do it I'll
+ask to Adam send me Adam it's up here
+okay duh so it's in there fuck oh well
+whatever okay that's the Adam task to do
+it once
+let's do please II was being caught once
+used to be called do it once once that's
+the HC let's see oh that's trippy oh
+yeah okay now let me see okay I think
+and get rid of all this shit gonna
+happen yeah let's get relaxed shit okay
+fuck fuck you okay now my reboot
+we got when it starts up it does the
+fuck you see that okay see that I know
+what we do now we're going to make a
+distro okay you know what a distro is
+that's an ISO file let's make a make
+distro we want to modify the kernel
+don't we let's modify the kernel
+otherwise you might think so we want all
+the source code is here you can do a
+mate call basically what we're talking
+about is the kernel and the compiler
+that's the only thing that you want to
+do if you want to modify the compiler
+and modify the kernel let's modify the
+compiler so that at the command line it
+says fuck you
+so we'll go to option of these in here
+command prompt order communal and prompt
+okay so this is in the compiler it's
+built into the compiler and what we want
+to do is if you okay so now we're going
+to recompile everything let's let's go
+to the kernel and let's modify if you
+want to modify the scheduler so what you
+learn let's go to a well is end is the
+fuck you nigger
+fucking MIT nigger get the fuck out MIT
+name for good a real school huh fuck you
+fucking learn how to program
+look you
+always fighting the last war making them
+eunuchs all you can think is UNIX is you
+got fucking Munich's on your nigger
+brain fighting the last word okay now we
+go BB now we go we little boot hard disk
+stall C and we want C C carriage turn
+probe you have to tell it which drive
+come out one for and I'll do we need the
+cd-rom not what the fuck
+originally installed I think we better
+add that steep t probe that's gonna
+become fucked up I think we don't want
+to do that fucked up okay same - oh well
+now let's make the distro go to home
+directory this will make the distro an
+exact district what the fuck is that
+oh my god make home on make district do
+distro okay let's do distro
+this is going to make an ISO file I have
+I have a I wrote a routine to make an
+ISO file so what we have is a self
+reproducing 100% all of the source code
+look look on this disk okay there's the
+boot loaders if you want to see the boot
+loaders go to Adam option boot loaders
+here's my here's my hard disk boot
+loader use this inner up 13 interrupts
+1342 all it does is it loads the kernel
+and starts it in real mode and the
+kernel changes too
+active mode we have multi-core did you
+see we have multi-core because we have
+multi-core started up on this side the
+smartest fucking programmer that ever
+fucking live I have to fucking divine in
+all I shall suck my fucking cock you
+fucking nigger fuck you okay fuck you
+okay fuck you fucking nigger fucking
+nigger so now you know mount virtual
+desk fucking divine intellect okay fuck
+you
+and we go to
+here we're mounting the disc and we
+mount it now we're going to go to the
+mount point and fucking few Meg's that
+has a flight simulator compiler kernel
+editor
+it even has graph it as it has a sprite
+editor a mesh creator 3d mesh creator it
+has a I'm on the fucking I have divine
+fucking intellect fucking nigger you saw
+god fucking talking with the fuck's your
+malfunction get your ass beat you little
+fucking CIA nigger fuck you man fuck
+your shit up little fucking CIA nigger
+fucking come and mess with God you get
+your ass fucking kicked you the fucking
+nigger you know how this ends the CIA
+sucks my cock that's how this fucking
+ends ok that's how this fucking ends you
+knew it you know is going to happen so
+now we're just got this ISO file from
+now I'm going to unmount it so what do
+we do we go to CIA sucks my cock that's
+always fucking ends because it's fucking
+God and I have divine fucking intellect
+ok that's how it's fucking ends and then
+denial you fucking nigger divine fucking
+intellect ok so now we created an ISO
+file now we're going to new virtual
+machines typical we're going to choose
+the just approved that it's fucking
+going to my distro 64-bit
+other 64bit to split customize hardware
+we have no networking no sound card to
+Meg we can verify fiume USPS to Meg okay
+we get fuckin smartest programmer ever
+fucking leg fucking divine intellect I
+just fuckin proved it now we're loading
+the the ISO that's created
+fuck you and mighty nigger did you see
+that that was during the boot space now
+we got this fucking shit you see that
+because fuck you fuck you a mighty
+nigger now we go to like simulator see
+this shit fuck you live in my teenager
+I'm going to talk to the smartest
+programmer I ever fucking live but cage
+suck my fucking cock
+so we wrote how did we get divine
+fucking intellect off fuck you little
+fucking CIA nigger put monkey leader
+how'd that happen huh huh huh yeah it's
+right motherfucker
+trash kicked
