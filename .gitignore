@@ -1,5 +1,4 @@
 .DS_Store
-textfiles.go
 
 # Binaries for programs and plugins
 *.exe
@@ -7,9 +6,6 @@ textfiles.go
 *.dll
 *.so
 *.dylib
-/terrytalk
-/bin/
-/pkg/
 
 # Test binary, built with `go test -c`
 *.test
