@@ -5,7 +5,6 @@ chain is built from transcripts of video logs and recordings of live streams
 that Terry uploaded to youtube.  
 
 To build:  
-```$ go generate```  
 ```$ go install github.com/bitwitch/terrytalks```  
 
 ```
