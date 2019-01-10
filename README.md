@@ -4,9 +4,6 @@ Generates Terry Davis phrases based on a Markov chain algorithm. The Markov
 chain is built from transcripts of video logs and recordings of live streams  
 that Terry uploaded to youtube.  
 
-To build:  
-```$ go install github.com/bitwitch/terrytalks```  
-
 ```
 The following command line options are available:  
 
