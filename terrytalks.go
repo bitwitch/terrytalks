@@ -23,18 +23,12 @@ import (
 	"fmt"
 	"io"
 	"io/ioutil"
-	"log"
 	"math/rand"
-	"os"
 	"strings"
 	"time"
+	"log"
+	"os"
 )
-
-
-//
-//go:generate go run scripts/embedDict.go
-//
-
 
 // Prefix is a Markov chain prefix of one or more words
 type Prefix []string
@@ -93,33 +87,36 @@ func (c *Chain) Generate(n int) string {
 	return strings.Join(words, " ")
 }
 
-func main() {
-	// register command-line flags (note: flag.Int() returns a pointer).
-	numWords := flag.Int("words", 100, "maximum number of words to print")
-	prefixLen := flag.Int("prefix", 2, "prefix length in words")
-
-	flag.Parse()                     // parse command-line flags
-	rand.Seed(time.Now().UnixNano()) // seed the random number generator
-
-	c := NewChain(*prefixLen) // initialize a new Chain
-
-	// read every file in the dictionary directory
-	dirname := "./dictionary/"
-	if wordFiles, err := ioutil.ReadDir(dirname); err != nil {
-		log.Fatal(err)
-
-	} else {
-		// open every file
-		for _, fileinfo := range wordFiles {
-			file, err := os.Open(dirname + fileinfo.Name())
-
+func learnVocabulary(prefixLen int) *Chain {
+	// initialize a new Chain
+	c := NewChain(prefixLen) 
+	
+	// Read video transcriptions to build markov chain 
+	dirname := "./vocabulary/"
+    fs, _ := ioutil.ReadDir(dirname)
+    for _, f := range fs { 
+        if strings.HasSuffix(f.Name(), ".txt") {
+			transcript, err := os.Open(dirname + f.Name())
 			if err != nil {
 				log.Fatal(err)
 			}
-			// Build chains from currently opened file
-			c.Build(file)
+			c.Build(transcript)
 		}
 	}
+    return c	
+}
+
+func main() {
+	// register command-line flags
+	numWords := flag.Int("words", 100, "maximum number of words to print")
+	prefixLen := flag.Int("prefix", 2, "prefix length in words")
+	flag.Parse()
+
+    // seed the random number generator
+	rand.Seed(time.Now().UnixNano())
+	
+	// build markov chain
+	c := learnVocabulary(*prefixLen)
 
 	// hey terry, what cha got to say <3
 	soanyway := c.Generate(*numWords)
