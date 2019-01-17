@@ -18,14 +18,9 @@
 package main
 
 import (
-	"bufio"
 	"flag"
 	"fmt"
-	"io"
-	"io/ioutil"
-	"log"
 	"math/rand"
-	"os"
 	"strings"
 	"time"
 )
@@ -59,19 +54,15 @@ func NewChain(prefixLen int) *Chain {
 	return &Chain{make(map[string][]string), prefixLen}
 }
 
-// Build reads text from the provided Reader and
-// parses it into prefixes and suffixes that are stored in Chain
-func (c *Chain) Build(r io.Reader) {
-	br := bufio.NewReader(r)
+// Build reads text from the provided string and parses it into prefixes and
+// suffixes that are stored in Chain
+func (c *Chain) Build(text string) {
 	p := make(Prefix, c.prefixLen)
-	for {
-		var s string
-		if _, err := fmt.Fscan(br, &s); err != nil {
-			break
-		}
+	words := strings.Fields(text)
+	for _, w := range words {
 		key := p.String()
-		c.chain[key] = append(c.chain[key], s)
-		p.Shift(s)
+		c.chain[key] = append(c.chain[key], w)
+		p.Shift(w)
 	}
 }
 
@@ -94,18 +85,9 @@ func (c *Chain) Generate(n int) string {
 func learnVocabulary(prefixLen int) *Chain {
 	// initialize a new Chain
 	c := NewChain(prefixLen)
-
-	// Read video transcriptions to build markov chain
-	dirname := "./vocabulary/"
-	fs, _ := ioutil.ReadDir(dirname)
-	for _, f := range fs {
-		if strings.HasSuffix(f.Name(), ".txt") {
-			transcript, err := os.Open(dirname + f.Name())
-			if err != nil {
-				log.Fatal(err)
-			}
-			c.Build(transcript)
-		}
+	// Build markov chain from the video transcriptions stored in Vocabulary
+	for _, fileText := range Vocabulary {
+		c.Build(fileText)
 	}
 	return c
 }
