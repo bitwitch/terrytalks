@@ -11,9 +11,10 @@ The following command line options are available:
 
 -prefix       prefix length in words  
 
-Examples: terrytalks 
+  
+Examples: terrytalks -words=1000 -prefix=4
           terrytalks -words=10
-          terrytalks -words=1000 -prefix=4
+          terrytalks
 ```
 
 ---
