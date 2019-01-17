@@ -1,8 +1,8 @@
-/**  
+/**
 *  Author: Ian Shaw (bitwitch)
 *
 *  Markov chain algorithm taken from https://golang.org/doc/codewalk/markov/
-* 
+*
 *  That algorithm written by The Go Authors thus I must include:
 *  Copyright 2011 The Go Authors. All rights reserved.
 *  Use of this source code is governed by a BSD-style
@@ -14,7 +14,7 @@
 *
 *  A Markov chain algorithm generates text by creating a statistical model of
 *  potential textual suffixes for a given prefix.
-*/
+ */
 package main
 
 import (
@@ -23,12 +23,16 @@ import (
 	"fmt"
 	"io"
 	"io/ioutil"
+	"log"
 	"math/rand"
+	"os"
 	"strings"
 	"time"
-	"log"
-	"os"
 )
+
+//
+//go:generate go run embedVocab/embedVocab.go
+//
 
 // Prefix is a Markov chain prefix of one or more words
 type Prefix []string
@@ -89,13 +93,13 @@ func (c *Chain) Generate(n int) string {
 
 func learnVocabulary(prefixLen int) *Chain {
 	// initialize a new Chain
-	c := NewChain(prefixLen) 
-	
-	// Read video transcriptions to build markov chain 
+	c := NewChain(prefixLen)
+
+	// Read video transcriptions to build markov chain
 	dirname := "./vocabulary/"
-    fs, _ := ioutil.ReadDir(dirname)
-    for _, f := range fs { 
-        if strings.HasSuffix(f.Name(), ".txt") {
+	fs, _ := ioutil.ReadDir(dirname)
+	for _, f := range fs {
+		if strings.HasSuffix(f.Name(), ".txt") {
 			transcript, err := os.Open(dirname + f.Name())
 			if err != nil {
 				log.Fatal(err)
@@ -103,7 +107,7 @@ func learnVocabulary(prefixLen int) *Chain {
 			c.Build(transcript)
 		}
 	}
-    return c	
+	return c
 }
 
 func main() {
@@ -112,9 +116,9 @@ func main() {
 	prefixLen := flag.Int("prefix", 2, "prefix length in words")
 	flag.Parse()
 
-    // seed the random number generator
+	// seed the random number generator
 	rand.Seed(time.Now().UnixNano())
-	
+
 	// build markov chain
 	c := learnVocabulary(*prefixLen)
 
@@ -122,4 +126,3 @@ func main() {
 	soanyway := c.Generate(*numWords)
 	fmt.Println("Terry says...\n" + soanyway)
 }
-

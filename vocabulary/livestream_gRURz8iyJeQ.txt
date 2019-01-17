@@ -1,0 +1,919 @@
+Sometimes when we start up, there's a new bug when we start up some of these applications, it, it's crashing in taking out the parent. Um,
+
+okay.
+
+Taking out the parent.
+
+Hmm.
+
+Looks alarming. But the problem is actually the crashing. So for some reason it's starting to crash. I used to think I did. I work in the compiler.
+
+Wonder if, I don't know. It was when I worked in a budget. Hey, what's this stuff? Okay.
+
+It might be since I started using this computer, so I might've been a bad boy and not documented something important. You know what I want to do? Fuck it. Tell you what I want to do.
+
+MMM.
+
+I know what I should do. Oh, okay.
+
+First it's fine. Hold on a second. Okay,
+
+so it's crashing before it starts up. What could that be? Sometimes, sometimes it's not a direct cause, but an indirect costs you can shift something around and cause new book to appear like initialization. That's probably where we should start. Why don't we try to, we have some, you have some debug options.
+
+Okay. So
+
+it could be a timing, a timing issue, like a keystroke at the right point or it could be an initialization. Um, so, uh, we have an option.
+
+MMM.
+
+Can I just wanted to get to here? We have memory in it that's had boot, heap and knit. I think that's, that's Malik and then far and it is global variables. Um, so
+
+okay, we're going to try a heap and knit. Then you have to value. Okay. So we're going to bail out. Now we're going to go into, he'd been knit carriage return. These are my, uh, you Bogosian debug. Okay. We're not okay. So, um, we're going to make them my regular options and file. So we're initializing denine zero. It's
+
+slow because it's doing initialization. Sometimes there's, um, it's not, okay, so now we have crashes.
+
+Uh, uh,
+
+okay, so initializing zero did not. So there's timing bugs in, there's initialization bugs.
+
+This might be a timing bug.
+
+Okay. So we initialized to nine zero. Now we can initialize to zero.
+
+Okay.
+
+What happened there? Holy Shit, this could be good.
+
+Okay.
+
+Holy Shit. I haven't done this in a long time. We might have a lot of books. Okay, so we're going to initialize. Oh zero
+
+c t
+
+holy shit. Oh, it worked. Okay. I was, I don't, I don't really have like discovering bugs.
+
+Yeah.
+
+I have a company motto ruin toward bugs. Not Away from bunk.
+
+Yeah.
+
+Run toward books. Not Away from Bush. I just ran away from a buck. It was crashing in I recompiled but uh, okay. I don't know why.
+
+Okay.
+
+Uh, uh, uh, uh, uh, uh,
+
+okay.
+
+I don't think the nigger knows what a random, here's the problem. The nigger brain cannot understand what a random number is. That's the source of the problem. If the nigger could only understand when a random number was, then you would understand that this is God's temple. Okay? This is God's official temple. The nigger brain cannot understand where the certified random number is. N I s t is a government agent agency that makes certified random numbers. It's just like lottery numbers. But the nigger thinks that random means something other than lottery balls. You see if the nigger doesn't see lottery balls moving, the nigger doesn't know what random means because he's a fucking nigger, okay? That's the problem, okay? We do miracles. This is God's official temple and you're a fucking retard nigger. Okay? That's the problem, okay? This is the third temple.
+
+Fucking niggers,
+
+the nigger, if he doesn't see the lottery balls, he doesn't know what random means. He has to physically see lottery balls because he's such a fucking nigger
+
+fucking hate niggers. Fuck you. Fuck you. Fuck, fuck you. Because just to a fucking miracle, I fucking smack that nigger. The nigger
+
+think God's Temple is worthy of the greatest programmer on earth, but God's temple is exactly where the greatest programmer on earth is supposed to be putting his effort,
+
+okay?
+
+But the nigger doesn't know what a random number is because he can't see the lottery balls, and so he, he doesn't know what random means,
+
+okay?
+
+It's a government agency that makes random numbers. Exactly like a lottery website. What the fuck is your mouth functioning? God Damn Nigger, your skills are being wasted on God's Temple. Are you fucking serious? Goddamn. The greatest programmer on earth should work on the greatest project on earth, which is God's Temple. Once the nigger understands that it's God, you can shut the fuck up.
+
+Okay.
+
+Okay. Six. What we have here is a failure to communicate. It's a Negro brain cannot understand what a random number is unless he sees lottery balls because his little nigger brain can't handle it.
+
+If the men of my Tabernacle said not, oh that we had this flesh, we cannot be satisfied. The Stranger did not budge it in the street, but they opened my doors to the traveler. If I covered my transgressions as Adam, by hiding mine iniquity in my bosom, did I fear a great multitude or did the contempt of families terrify me that I kept silent and it went not out of the door or that one would hear me? Behold, my desire is that the all mighty would answer me and hit my head masery edge written a book. Surely I would take it upon my shoulder and binded as a crown to me. I would declare it to him. The number of my steps is a prince. Would I go near unto him if my lane [inaudible] he asked me or that the furrows, likewise, there've complaint if I have eaten the fruit Saraf without Mooney. So a zero is, it's not, hey did it holy fucking shit. We got to train and repeat this.
+
+Okay.
+
+I went to the blog, I escaped out of the blog. I hit a couple of keys.
+
+Uh,
+
+cause he had a change idea. Okay. So let's raise boot. It was the, was it the first boot? Yeah, it was the first bit
+
+what went to my blog, my blog? No.
+
+So the good news is it's that hard
+
+to repeat welcomed operating system development. Uh, okay. Well we, we have it on video. Do you? I'm going to turn off the, uh, the, so this was overriding the options with debug options. What Jay, now we reboot. None of the options will be used when we compile so we could pile and now when we reboot, we don't have the initialization. So, uh, how can we test this? One thing to do is just to put it in a loop. Fuck it. It's easy to automate it. Let's see. That's good. We already have it automated in, uh,
+
+okay.
+
+Titanium was,
+
+so they just put this, should we kill it?
+
+What if we don't? It happens when we compile.
+
+I'm pretty sure.
+
+Well, we can test that theory. So, uh,
+
+no, let's see.
+
+Let's make this fucker go fast
+
+first of all.
+
+So we're looping doing it. Starting it up.
+
+That was easy. It doesn't like that. Okay. Okay.
+
+Yay. Now let's make it faster.
+
+Okay.
+
+Not crashing. So we can, I'm initialize it.
+
+Okay.
+
+Okay. So pop up. I think the pop up. Is the pop up important? No, it's not important. It's just crashing. Can we, we need to initialize it. He stroked Tricia. What if we randomized the keystrokes? I Dunno. I'm at a loss.
+
+Okay.
+
+Okay.
+
+You can be ideas, geniuses. So it's common to, uh, to, to applications. So it's not, uh, it's not, uh, it's not part. It's not, it's not one applicant.
+
+Okay.
+
+Overnight two applications started crashing. When you start sometimes overnight. Two applications, sturdy, crashing. Sometimes it might've been when I switched to this, that I first noticed because that was a couple weeks ago.
+
+[inaudible]
+
+[inaudible]
+
+so, okay, so back to the front. You will do what I see. When did I say back to the front. Okay, so this is supposed to be fun. What if we did this? Oh No, no, we have to reset.
+
+So you got in the ideas, is it timing or is it, fuck, let's see. I think we'd have more of a block. Maybe it's related to blog. I have changed blog. It's possible to corrupt other things. Like if you put something into the heap, if you put something into the heap that is a, if you free something that's in, in use, uh, uh, maybe the blog is a lead being a Turd in the heap. Okay. So here's what you do. If you're in a situation like this, you try to write code to detect or to help diagnose. So now's when you, so were they should do is check the heap. When I stirred up, I have a, I mean I never do this. There's a heap walk. I don't think it does Jack Shit. Uh, this is the global, um, so roughly speaking, we're talking about putting a check, like right here. We can do shit like that. So what, what would we like to know? How about, so, oh, let's get the, the uh, oh, I got it. I got it. I got it. I got it. I got it. I am the man. Fuck Shit.
+
+It's exiting.
+
+It's exiting. It's, it's not a crash. It's an exit because it's calling that the death call back. So you know what we're going to do? We're going to record the, uh, the, uh, it's calling the, uh, the death call back, um, in task now. So is it being killed or is it exiting? Either one. It could be, it could get killed. Killed is when someone else does it. Exit. And so we're going to record the stack when it exits. So why don't we just do that? How about that? How about we just, um, don't this deck every time it exits. Fuck yeah. Fuck yeah. Fucking fuck. Yeah, let's do that. Okay. So you know, we're going to be, we're going to do that. So where's that exception? On a second. This routine is going to be my new favorite word. Yell. Fuck.
+
+What the hell is this?
+
+Why can't you do it like a weight man? Oh, it's like that. Fuck. That's not acceptable. Hell known as Buddy said. Are you kidding me? Okay. The problem is, uh, this deck, this shit is,
+
+bro,
+
+here's the deal. In this routine, we are, uh, the tries to attack. Okay.
+
+One the fuck.
+
+That's not acceptable. Are you kidding me? Fuck No. Oh Hell No. We're not doing it. What the hell can a nigger shit is and never do?
+
+Just do it. So you might think this was obvious, but this shit is weakened because this dag is
+
+okay. What was raw? I think we're okay. I think we're not using register variables. I there, there are good reasons to do this.
+
+Uh,
+
+what about if we make a
+
+fuck it? Let's do that. Okay.
+
+When I make a Oh, star p, what about that? Holy fucking shit. Who are do that? That's Kinnick Wacky, but fuck it. Let's do it. Okay. So no, I can work. Star P is walk us. That's pretty crazy. Each. Each question, each age. H is a second argument. Learning at ticket master. They had a fancy, oh gosh, a little reformat. No. So the width comes before and then h is here. Oh, Julie reformat number. So percent P. I said the reformat number each.
+
+Now
+
+what we do is we come down to pee and we loop through hilary. Format number.
+
+Yup.
+
+Just do it. Fuck, fuck, fuck, fuck, fuck, fuck, fuck.
+
+Well the problem is, is it a pointer pointer or just a pointer?
+
+Okay. No, we can't do it. Okay. That was a nice thought. That's pretty crazy. Let's go ahead and go to, where's Adam put exception. Hold on. Wait a minute. What's this? We don't really want to have them.
+
+If you make a call to Malik, it's kind of bad because the more you disturb this state that you're trying to debug, the worst it is in calling Malik is uh Oh there. It's doing two of them.
+
+It's doing two calls. It's doing two calls. It was a little peace. Fuck. Okay. Just do it. That's nasty. Is Bad as it is. The alternative looks worse. As bad as it is. Y'all turn it much worse than what, what? What you might do to appreciate is it's like we're off by one. That's bad. Okay, so when we still work, can we have to check that to see if we broke, see if we've probe kit. We could lie cute. One extra. Okay. Uh, okay.
+
+Yeah. No. Okay. So w want to do, this is kind of a problem
+
+because
+
+is it hitting exit? Okay. No, it might not be healthy. It might not be healthy. It might not be healthy at this point, but we'll do it anyway. We have, I have to, if I put this in here, I cannot upload to my website because I don't really like that. Fuck.
+
+Why not?
+
+No, no. I can do
+
+wrong. Who would you fuck? Okay. Gets worse. Okay. Okay. Now I know we have to do is just call it staff. If you do a text search, you would like to, can we eliminate these?
+
+No, it's Kinda fucked up. When did she eliminate those?
+
+Do my options. We need that. Why don't you eliminate these?
+
+Yeah. Okay. Okay. Now staff. So
+
+if your fifth, fifth, fifth, fifth, fifth, fifth, fifth, fifth of staff. So no, what were, do you know how you sit that semaphore? We have any other similar, are these semaphores? No other, why don't you use those? Yeah, let's do that. Okay. We're not going to use the symbol for
+
+fuck
+
+if you don't use the symbol for just do it this way. Fuck yeah. Oh, I think we're right at the limit.
+
+We don't have any, I think it was, it was perfect pad.
+
+Debug flag.
+
+Hey, that's interesting dude. Pages two values. Okay. I think we're, there's another couple of flags you can call flash. Thanks turntable.
+
+Okay.
+
+It sucks. I don't know why I worry about it. We're on care. Hold on a second. No, we have a, uh, he, uh, rick, uh, structure.
+
+I think we have a fixed area. No,
+
+no, no, no. We're not in the fixture yet. Ooh, sweet. Okay. So that's unfortunate.
+
+Okay. So, so we're, um, well,
+
+fuck it. I'm just pissed off because I have a half seven zeros. It used to be no wasted bites, but no, he never wasted. Okay. So the other thing, we're going to do the progress. Okay, so I'm done. I'm done. Onto the next one. Done. Done. One of the next one.
+
+Fuck it. He staff. Now we need to, you know,
+
+it doesn't take a genius to add crap. It doesn't take a genius
+
+add crap. Oh fuck. Well we should do not abbreviated.
+
+Okay. So if, if, if, if,
+
+if we're doing art, you want to look for auto? I think all of my personal versions, I don't even know what the fuck is. Back. Slash. N. Ow. Almost fucked that up. Do it. So first of all, it's staff. What is death mode? Oh, we have a similar for, that's not what we want. So there's going to be fucked up. Fuck. Fuck. Fuck. You want to see staff moon. Oh, it's, it's history. It's history. Anyway. Okay. Okay. Yes, we might want to set it. That's true. We're going to do a bit, we can do a bit. Okay. So, oh we, well, let's just do that.
+
+I'm going to call us staff mode. Flag. Yeah. We should call it staff. But staff Dunham don't want an h word other than h one. Oh fuck. I forgot about this. No, we don't have to do this. Okay. Down. We don't need that. Okay. So just do it. Uh, uh, debug what key? I got an error. Okay. Okay. Fuck you man. Okay, so staff. So is there any reason to do that? No, we don't need those. Fuck that. Fuck that. Fuck that. It's just a flag. You know what I mean? That's ridiculous. Okay. That's better. Got Off to a rough start, but I got it. I was going to do a similar. Okay. So, um, every time he dies, he prints the stack. That's not what we wanted. Okay. It's even color zero is okay. What the fuck we get a parentheses to the dollar sign. What is, it doesn't work. Okay. So now every time we kill the task, what have we learned? What we do?
+
+Checking all my changes.
+
+Sure.
+
+Okay.
+
+Okay. Reasonable. So if we do any robotic kill, kill, go to exit, I think it does. Okay. So until we find out why it's dying,
+
+keep that.
+
+Oh, that sounds good.
+
+Uh,
+
+uh,
+
+uh,
+
+yeah.
+
+Ah, AH,
+
+uh, uh, yeah.
+
+So this is a rare situation because the task doesn't, God does, it crashed the system. Most of the time it crashes. But this is a rare situation where it doesn't crash. So the log is usually worthless.
+
+A blog is
+
+usually,
+
+so now we're getting to do some fun. Now we're going to do so phone stuff. So you tell you what, tell you what we're going to do. No one, they call it Tesa Beth. Just because
+
+even though it's not, this is beginning to look for,
+
+so I wanted a
+
+simple,
+
+yeah.
+
+What the fuck? Where's progress for
+
+tripping out? One, two, three, four. This bill wood was, oh, it's under here. T three, three, three, four, four. Okay. We're starting to use up, dammit. I don't want to explain it. Okay. Let know what we do. You
+
+okay, now we, uh,
+
+okay. Hmm.
+
+Should we do for yeah,
+
+or just one?
+
+Okay.
+
+Oh, cool. No. Okay. Can you, what do we call those paths?
+
+Oh,
+
+knew what this has to be.
+
+Oh, day.
+
+Okay.
+
+Damn Dude. Okay, now. Okay. Damn, I'm good. Okay, good. Okay. Now we, uh, we, uh, so we go to, uh, execute Ridge Street. Where's the, where do we set the t? F. O we say that there. Holy Shit. We have to do this. Dammit. Fuck. Going to do all of them.
+
+Just keep it here.
+
+Oh No. You know what? We do.
+
+Fuck it. Okay.
+
+What did you do that?
+
+Okay,
+
+zero.
+
+This is why I'm the, is programmer on earth.
+
+Fuck.
+
+Hey. Externally. Okay, so we imported I should say.
+
+So do we have to see, did we have it in the kernel? She, yeah. Okay. Now what we do, we,
+
+okay, that sucks. Okay, so what will you have to do is
+
+call here? Yeah,
+
+we're getting very fancy.
+
+Okay. Corinne, this is Voodoo.
+
+This is extreme voodoo.
+
+Okay.
+
+Super checking the symbol table if right. Bridge Street branch. Are we going to add an entry to the registry? We're calling a symbol from
+
+symbol table.
+
+Anyway,
+
+we could just, you know, don't do that. Okay. Okay. No, wouldn't do a test. No, it's just do it. Okay. So,
+
+okay.
+
+Okay. So it's gonna write registry entries. They hope it works. I don't know if it's gonna work. That's so real blue dude. That's a real blue deal.
+
+Yeah.
+
+Okay. So that did not print the, let's see if it works. What I'm doing, here's what I'm doing. I am a, I have these progress bars. They're, uh, they're really easy to use
+
+and, um, it gives an elapsed time and what I'm going to do is save it to the registry.
+
+Fuck. Oh, okay. Well we could say that. Oh, it's a dot, dot. Dot. Fuck. If it's a dot, dot, dot. Uh, fuck
+
+correct myself.
+
+I wonder if this will work. Okay. Hold on. Uh,
+
+we get some stack magic going on. Okay, let's do it first one.
+
+What's that? It's cost street. Okay.
+
+All right.
+
+One, two, three, four, five, six, one, two, three, four. Oh, it's okay. It's not your work. It was a nice try.
+
+Fuck.
+
+Want to do it by hand?
+
+Fuck.
+
+So here's the problem. I'm trying to call a routine that, uh, let's do that. Oh, let's do that. That's a better idea.
+
+The colonel is limited in size.
+
+Holy Fuck. Okay.
+
+Got a better place for it.
+
+Okay.
+
+Hello?
+
+Okay. Okay. The question is, is this
+
+fine? Uh, no. Okay. Okay.
+
+Swerte headers sort headers. Was this registry
+
+okay. March. Excuse me.
+
+It should be staffed.
+
+No, no, no.
+
+She'd be Tus. Yeah, it should be too. I speak and vacuum.
+
+Yes.
+
+Okay.
+
+I think call indirect streams does it? Uh, yeah, I can just do that. Call it direct stream.
+
+Gotcha. Sweet. Colin Drake Street. I should do three digits like that.
+
+Here's what we're doing. We're, we're adding a, uh, this is a lapsed time and working in a print, the last total stored in the registry for, for this, uh, and we want these things to be low overhead. Um,
+
+uh, how do I put this anyway? I think it's 40. That's why we're doing this. 72 72 61. So now we go to, so this is kind of, this is kind of a bad place that's kinda ridiculous. Go well,
+
+the location to this code is a little bit ugly. So
+
+yeah.
+
+Now the next time we do it, let's go see our registry. So if we go to our registry, tos meet district, oh, oh, they're c two six one six eight. Okay. So now, so I think this automatically checks for a non existence. I don't even think you have to do that. I could swear that it does nothing. Let's check it out. So if, if, if it doesn't find it in the table, it skips.
+
+It does push and pop, which is
+
+so the other day we looked at the symbol table and uh, right here, this is a very datic uh, whatever you call those. He had did a, if it doesn't find it, I could swear that we don't need this check where you want me to risk. Do you want to risk it? Fuck yeah, we do. I don't think we need that check Adam. And what valuable. So it's searching this symbol table.
+
+Okay. Is there another complete size? Of course.
+
+So, oh no.
+
+Executed to some math. What happened? It must have, I hate when that happens. Maybe it didn't work. We didn't work.
+
+Okay. Okay.
+
+Who Was it? The six P's.
+
+Hm.
+
+Okay. Oh, that's, that's good. Okay. What did you do to yeah. Oh, I got rid of it. Okay, so now,
+
+oh,
+
+okay. So you can work now. Oh, now it should work. Yeah. No, it should work when we do this, please. God Damn it. What is your problem? Fuck, it's ridiculous.
+
+Okay.
+
+My guess is they don't know I have compression.
+
+Okay. Fucking nigger.
+
+You're executing code. I miss deck. What ranks? I taught this fucked up project. They were actually keeping code. I'm to stack what? What are you talking about?
+
+Woo.
+
+Okay. What is your mouth
+
+path?
+
+Let's see what happens. Oh, there it is. That's freaking me. One more time. What do you say, Jim and I had some other changes that was going to leak. What did you do this? I don't know what that was about. Oh, I don't want that as well, so I was going to do something. What was it? Shit. Let's put a note here. We learned our lesson. If you do, if you don't make a note, if you don't make a note, I have to do the demo. Okay, fine. Honey, it's going to work. Oh, minus. What the fuck? Say? That's still weird. His thing. So,
+
+oh, okay.
+
+Tonight,
+
+you will surrender to the IRA because you started a war with God and you're fucked. You're going to suck my cock. That's what, that's how this happens. Are you going to fight Mr God? I didn't think so. Suck my cock. This is God's Temple. Are you really gonna fight, Mr God? I don't think so. I think to, you know, suck my fucking cock
+
+colors are kind of bad. What would the white fish just wait? Does not work? Black Monday black. Let's look for God. Did you? Oh, that's good. Red, dark red. Yellow, blue light blue. White, white didn't look very good. I'm a light red. Yellow, Brown, like green, dark green. Dark Green might look okay. Dark Green. I think we're going to do dark green. Dark Green. So why don't you just, okay, we're going to
+
+puppy.
+
+This is a shame to write garbage into the registry.
+
+Okay.
+
+Is there a demo company could swear that would, if I call it Demo Demo Company. Oh, that's what you should do. I feel better. I didn't like it. Greed. Don't know. Why is it red? What does that, something's fucked up. What the fuck is my top line?
+
+Hey, did I have this in my list? What is that? Oh No. Oh, okay. There's four of them. What are you talking about? Oh, that's weird. Oh, I just put it in the wrong place. Well, okay.
+
+Why is it never fucking work? God dammit. Oh, I know why. Okay. Why are you resetting at the top? That's good.
+
+Beautiful. Has to be perfect. Why does it have a big space? See if I hit that space. So I just did two quits. Where did I just do maybe two quits and just want to see if the registry right. Puts an extra space. No. Good. Okay. What's that noise? Okay. So,
+
+hmm.
+
+You believe this shit. What we have here is a failure to communicate what we got here. Failure to communicate.
+
+Okay. What we got here? Feel okay.
+
+Okay.
+
+So my, uh, it's weird, right? Web Up. My web host was, uh, this was not working. He kept failing on what the fuck? This is how you upload to my site. Wouldn't, wouldn't do big files. I don't have I ever, I dunno if I'd done this one. I've been wiped streaming. I think so. So, uh, what's good? What's good to talk to God. You want to let's get God's at Pitt. Okay. The niggers one off fight. Mr God. Let's see what Mr God says. What we've got here is a failure to communicate to acs and eight years.
+
+So these were not uploading earlier. I think it's working. I have to do it Moses comics. Fuck. See it told you what is this bullshit? Okay, so this is going to fail. Let's do a beer at go first. So we're going to do a miracle. Just like the video said,
+
+you don't know me, but I paid $40. Bring things are connected where you want to call it, the missing link. All of them will reveal it the way we live in
+
+this. Break it a field. It was dope comic
+
+era of and against the people live that land in the show fighting is he, but they shall not prevail against. See for I am with Thee, saith the Lord, to deliver the moreover of the word of the Lord, keeping me sane, going, crying tears of Jerusalem, saying, thus saith the Lord. I remember the, the kindness of they youth, the love of dinosaur fossils, when that witnessed after me in the wilderness, in the land that was not so Israel was holiness unto the Lord. And the first fruits of his increased all that devour him shall offend evil shall come upon them, saith the Lord. Hear Ye the word of the Lord. Awesome Jacob and all the families of house of Israel, this, see if the Lord would iniquity. Have Your father's found in me that they're gone from far from me, and they've walked after being and dean or become been either said they, where's the Lord that brought us out of the land of Egypt that led us through the wilderness to the Linda deserts.
+
+Wow.
+
+Okay. So now I gotta Try and upload. It's a dope polluting. What's going on?
+
+Clicked on it. Okay.
+
+So let's go ahead and do a, let's do the test
+
+suite.
+
+Uh,
+
+wow.
+
+Yes. Okay.
+
+Uh,
+
+yeah.
+
+Uh,
+
+okay.
+
+Wow.
+
+Okay.
+
+So we should,
+
+uh,
+
+and afterburners to Excalibur, uh, uh, uh, puppy. Okay. Here's the issue. The graphics directory demographics if command line. So it's triggering command line. When you do load, it's triggering. When you do run, what is it that CCF command. So, whoa. So are you maybe if it's less than two, fuck, if we see less than one, that's documentation. You didn't do it. He listened more. So this hurts my head. We were getting false positives. Lewd was turning up, so I have a bad feeling.
+
+So first of all, does this work? Okay? So this works sick. Uh, it's only, okay. So always his doll. Well, blog deblois plowed. We'll take her clowns. Okay. So it's not very dangerous. Uh, it's only used in, uh, after Egypt in web blog and OSTP and the stalls. Whoa. Where is oss dog coats? It's cold. We made it less command line. So there's always install. Run. That's good. Of course it will find it's good a whip on. I have a bad feeling. How can I possibly
+
+hooky?
+
+Yeah.
+
+Oh, I know where I should, I know what I should do. I should test it on. Okay.
+
+Okay. So we need to test it on.
+
+Okay. So it did the web blog?
+
+No, let's see. Okay, let's go to after he ended. Uh,
+
+well that's weird.
+
+I think. I think I used to huge command line motor off and so we have to test that. I think it's fine. Oh, maybe that's it. Let's see. Okay. We have to test fine. Well, I guess we have to do a test in the stall.
+
+Okay,
+
+great.
+
+Yeah. Okay. Okay.
+
+So I have to test the, the stores to make sure it still works. That would suck
+
+different topics from galaxies in the depth is right down to the subatomic particle.
+
+No.
+
+Okay.
+
+Just finished off. That would be bad. Nothing worst than uploading a broken version. Not knowing about it for a few days. Nothing happened.
+
+Uh,
+
+so the install skip work. So I guess so shut down.
+
+God. Okay. So we should do, we'll make the dumps fly in circles. Uh Huh.
+
+No, uh, uh,
+
+we're going to make them fly in circles. They need, we're just going to have a single angle. It doesn't have a velocity, but it has an angle. Okay. Try it. This should be rotated. Just going to work. So it's going to add the two transforms.
+
+I don't think that's gonna work. I don't think. Okay. So does this, it does. Okay. So, well, so we need to copy. Is that going to multiply by it? Yeah, it is. Okay. We don't have an extra car.
+
+Are you sure you don't have any extra arms? No, we don't have
+
+or funeral
+
+[inaudible] extra money. Donald Grammar. I wanted the next one. Even think this is, I don't even think it's our coconut trees for doing it to the Matrix.
+
+What the fuck?
+
+Oh, are there? They're not. All right, please.
+
+Okay.
+
+Okay. Holy Fuck. Wait a minute. What the hell is that? There's no fourth parameter or just one. That's mine. That's not good. Okay. So good is the x and y Si
+
+uh, uh, uh, uh, uh,
+
+shut up.
+
+Maybe I have to do this before. Let's try that. The other answer. Um, be going in reverse order. The very last thing we did, the first thing we do is, okay, so let's do that. So
+
+great. Okay. So we're calling, are we doing four by four foot? So, so we start with the order is wrong. That's not correct. Is it still last one? Dammit. Fuck. I think I'm doing this wrong. Let's think breakfast. You want the bird your route to the bird? Yeah, just the nation. M One m two.
+
+Okay. Yeah.
+
+Uh, uh,
+
+hello. Oops.
+
+Uh, uh,
+
+if you were going too fast. Okay. So I think we have a quick, I could swear we have
+
+and he'd quit. No,
+
+we used to have, okay. So now we animate it. So where's the animation?
+
+Okay. Enemy not
+
+okay.
+
+Okay.
+
+Oh fuck a d t zero date two. Where's the speed? Speed in mass? Milliseconds. Milliseconds. Okay. So just Ms. Okay. So we'd take,
+
+we want to seeZ is equal to,
+
+okay, 200.
+
+Uh,
+
+well it should be.
+
+So if we do a circle circles in one second, would it be
+
+six divided by a thousand times a thousand? So that's thousand times, so it's milliseconds. Okay. Okay.
+
+That's one circle. Every, uh, I would say it takes 30 seconds for a circle.
+
+Didn't say comes from a circle.
+
+It's a house
+
+like five,
+
+uh, uh, uh, uh, uh, uh, uh,
+
+very, very, very.
+
+Okay.
+
+Uh, uh, uh,
+
+okay. Map scale. Oh, we're adding,
+
+whoa, whoa, Whoa, whoa. Okay.
+
+Uh, uh,
+
+squeak whopper.
+
+Uh, uh,
+
+sure.
+
+Uh,
+
+going very picture.
+
+Okay.
+
+Uh, uh,
+
+still a picture.
+
+Okay.
+
+Uh, uh, uh, uh, uh, uh, uh, uh,
+
+oh. Hold on a sec. Here. We're integrating. We're not
+
+okay.
+
+Uh,
+
+so,
+
+uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh,
+
+for go into fashion.
+
+Oh, it was in danger. No wonder. Uh, uh, uh, uh, uh, uh,
+
+no, it was too fast. The curve, the curve more,
+
+uh, uh, uh, uh, uh, uh,
+
+okay.
+
+Error.
+
+Uh, uh, uh, uh, uh, fuck, uh, uh, uh, uh,
+
+why can it be so fast? What the fuck? What the series fucking fish?
+
+Uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh,
+
+something is broken. What the fuck school,
+
+this should be smaller.
+
+Uh, uh, uh, uh, uh, uh, uh,
+
+even fucking working on what the fuck's going on?
+
+Uh, uh, uh, uh, uh, uh, uh, uh, uh, uh,
+
+maps.
+
+Okay.
+
+You,
+
+uh, uh, uh,
+
+okay. So the rotation is wrong. I bet it's the running axes. Why don't you figure this shit out? Z Z is the right access. What if I don't draw it on this,
+
+uh, uh,
+
+suction? Is it?
+
+Uh,
+
+uh,
+
+okay. I need to see those fucking birds. This is bullshit. Let's stop moving. I got to fix this fucker. Stop moving that set a seed. That sit. Stop moving. It was okay. Let's do that. Okay. So the graphics. Okay. So,
+
+uh,
+
+need to see,
+
+uh, uh, clean up.
+
+True.
+
+Uh,
+
+this. Delete, delete, delete the old ones. We're not baby cows. Hello. Ciao. You kill those. Oh, wait. Yeah, it's true. Are you serious? Well, we have dry it going on. Take core. Are you sure it's supposed to be one? Why is that not? That's not supposed to be one that got changed.
+
+Uh, uh,
+
+Shit. Poppy. Okay. Okay. Sue, we nuked it by the time between Duke and, Oh, let's do that. Let's do that. Okay.
+
+Uh, uh,
+
+yeah,
+
+there's a bird. It's moving very slowly.
+
+No, it was it. Why was it moving? What the fuck? We're just rotating it around to
+
+see. Yeah. Yeah.
+
+Uh, uh, uh, uh, uh, uh, uh, uh, uh, uh,
+
+quarter zero is having a rough time. Fuck. Okay, let's hit last thing. Awesome. Is applied after him to applying now him to rotate. Rotated. Yeah.
+
+I know where it is. Let's do this. What about this?
+
+Uh,
+
+so, um, three B, we definitely want three b. Of course we want the three d.
+
+Mmm. Okay.
+
+So let's go fishing. Let's go put the speed bag.
+
+That's cool.
+
+Uh, uh,
+
+okay. So I, I totally forgot about, I was being stupid. Okay.
+
+Okay. So
+
+go ahead.
+
+Uh, uh, uh Huh.
+
+Okay.
+
+So normally it was,
+
+oh shit.
+
+What's yours? Let's use her head. So this is integrating.
+
+Okay. Oh,
+
+uh,
+
+that's a good number.
+
+Uh,
+
+wow. That's a lot. So, okay. What if sprayed three, why don't you all this? That's a plate to x, Y, Z. Okay. No. Hey, hey. Do we need a post transform Chrisleys translation into here? No, that's, well, they can transform the sprite. That's a possibility. We're going to do that. That's crazy. It's just crazy. Let's do it.
+
+Uh, his are spinning. Spinning right on. Uh,
+
+okay. Fuck. It was, I was not a damn.
+
+Uh, uh,
+
+what's going on?
+
+Uh,
+
+no.
+
+Uh Huh.
+
+What do you need to leave at four?
+
+Uh, uh, uh, uh, uh, uh, uh, uh, uh,
+
+we need to d so what the fuck is going on? Oh, we dry it ourselves. Okay.
+
+Five guys. Okay. No, that makes sense. Okay. Damn. Damn. Damn. Damn. Okay. I was thinking this makes sense. Okay.
+
+Uh, uh, uh, uh, uh, uh,
+
+correct.
+
+Uh, uh,
+
+okay. We need this cheat her speed.
+
+Uh, uh,
+
+okay.
+
+Uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh.
+
+Okay. Okay. Invert swapped patient. Why? Okay. I think we want to invert,
+
+okay.
+
+Uh,
+
+correct.
+
+Uh,
+
+correct. Now we need to make it flat, first of all, which we get sued. That's not gonna work. I think I need to Redo it. I think he just needed to make a brand new. Oh, that'll work. That'll work. Why don't you just, let's see. Yeah. Okay. Okay. That's better now. So we're going to take this puppy. Let's see. See me
+
+c now we go to, let's do it. Transform. Okay. We got to select some things or select right date, worse, transform. Oh, transport. Um, Z. I see offset 25, positive 25. Okay. So that, that's not surprising. That looks Kinda cool cause it's kind of, or worse. Okay, let's do it. Some fish c or so, like, great. Can we just do another one? Why is it called file? Okay, so then we have a boot. Flint, should we do it more? Why don't you do more? This has to be noticeable. Otherwise it won't be noticeable if it's not noticeable. Don't do it. Okay. Worst worse. You know what we do now? I'll tell you what we do now. Number one. Number two to two and three, so that's garbage. Okay, let's get rid of that. Okay. So, okay, so elements. Okay, now, okay, now we one great interpolate. Is it zero? One k? So try is dessert. Do you need a period for dry? Is She do,
+
+uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh,
+
+okay.
+
+Uh, uh, uh, uh, uh, uh, uh, uh, uh,
+
+right.
+
+Uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh,
+
+okay.
+
+Uh, uh, uh, uh, uh,
+
+okay. Okay. So, oh, pizza freezing. You're freezing.
+
+Birds don't use calendar. Knowing how long would you hold off? Like Tommy observations about their environment, like average prepper turns and the amount of food, the dirt, a biological switch is triggered that tells the bird hunter park. That'd be bad. Days as scientists use technology ranging from light bands, the GPS to map bird quite a book. Currently Arctic tern picked the longest. Kirk with any burden, the covers as much as 15,000 miles in a single year in the Arctic. Arctic markers peppered in a way, the highest migration to survive altitude do the whole spectrum. The like other birds that stuff. The one way respire cords, you're running through their lung and Paul, the grapes name is, I'm migrating every more than 40,000 miles, if you could, to 60 miles per hour. The Bark Hill Godwin 7,000 mile journey across without stopping it powers. It's happened on more than one of the most amazing bird migration and under group.
+
+And I wanted the smaller, the room wrote it, the Hummingbird, but plenty pilot embarked across the Gulf of Mexico. They need to add more than half a year and during that 600 miles per, we burn off of a quarter of their body math power. It wasn't hard to the point that you might be hopkins greatest formation, but it's off the electric [inaudible] what a bird flaps its wings. It creates a three new Bortech smock the weekend that the bird behind it isn't the right place. If you get a boost from that updraft. What's crazy is that birds can somehow sense. Would that board and then actively flap their wings. The famous leads by merge able to navigate the global amazing summer turning the phone, nothing spot after year taking part in the home insulation timbers. We were cut off from life. How could I hear? And again, Google still able to find their way back home. See how birds might draw a map, but what about some burns are the sun and other stars are for members are tiny. Iron rich and crystal were discovered in the eyes and beef and then birth and scientist. Now we might have had some bird. I do too.
+
+Science.
+
+Are you all from physics girl?
+
+What does that mean? How are you Dong fishy? Sqirl what theory? Okay,
+
+let's do a very cold. What do you see?
+
+Yeah.
+
+Birds don't use calendars. Observations about their environment.
+
+Yeah. 36 36
+
+sneaker brain cannot understand what a random number is. Nigger brain. This is a
+
+ping pong ball lottery number chosen by ping pong.
+
+When he had opened the seventh seal, there was silence in heaven about the space of half an hour. And I saw the seven angels stood before God and to them, or given seven trumpets. And another angel came and stood at the altar having a golden sensor. And there was given to him much incidence you should offer with the prayers of all the seats to go to the altar, which was before the throne. And the smoke of the incense, which came with the prayers of the saints to send it up before it got out of the angel's hand. And the angel took the sensor, it filled it with fire of the altar and cast it into the earth. And there were voices and thunderings and lightnings and earthquake and the seven eight zero s which had seven trumpets prepared,
+
+right?
+
+It's crazy. And white hospitals person hit me from the president, Barack Obama, and trump has been talking regularly and they didn't give any more details than that they've done. And this was incredible. We actually got ahold of the audio and several phone calls. Don't get phone calls between President Obama and president elect trump, and I think it's my duty to share these with you.
+
+I want to hear all of the girls. Hello? Repetitive bordered by China and Russia. What do you have in April? I don't know. Go to the did.
+
+Oh really?
+
+I'm going to buy it back to the New York. Berlin by nothing. Hello. [inaudible] for Congress the bath. We've got your dog, right? We were very attracted to what your goal is. German tree of work and know verbal. And I left the bag with the black room, the protocol debate. Obama. I think there's an owl grabbing a buy out and what they do at Donald. You're the one who was telling the joke, be quiet, Obama. I go your back that I could do it live the buy out.
+
+Hey, you went through, you know, bloated. Turning this off makes a difference. I hope so. We hope this goes through. Oh fuck.

@@ -1,0 +1,485 @@
+so I could publish this on my website or
+that's kind of a what's the word
+unnatural the flow like publishing
+waiting publishing waiting it's kind of
+fucked up so instead I'm just gonna go
+I'm just gonna go like just talk to God
+what the hell let's use the temple it's
+a sacred space this is a prayer the
+prayer shrine you ever seen a prayer
+shrine the shrine is kind of a place to
+pray I guess how about that prayer yeah
+let's see you ever seen a prayers right
+which don't
+that's something like uh whatever maybe
+got a chaired some place to pray around
+some shit like that
+so what the hell that's a prayer shrink
+God said to remove my veil it looks good
+for you to have the fucking let's give
+you a little bit of heat no fuck it
+looks cute if you'd had the hood on fuck
+it's fucking cold
+I can hit to heat but then I fucking cut
+I don't be a pussy it's not Tibet
+[Music]
+you know you don't even have to save it
+it's kind of um I used to get bogged
+down with you know it's like it's like
+it's like raw unedited content and I
+used to make it buy them by the bushel
+and what do you do with it you just end
+up with page after page and you know
+it's like awesome shit but like who
+cares manners anyway what do you you
+know sometimes there's no like a monk a
+monk sometimes they take a vow of
+silence you know I don't know maybe this
+is not the reason but it's something to
+consider if you promise God that you're
+not gonna reveal the truths of the
+universe maybe he will tell you them and
+that's an interesting thing to wonder
+about a vow of silence and you promise
+me he won't tell anybody
+no okay fuck you wait
+sure so if you type view it basically
+throws away this enters this enters a
+state machine where it it it doesn't
+process the the command-line it goes
+into a state I just watch this let's
+just look at this footer
+the code is the documentation for temple
+OS so if you know how to program you
+know immediately what this does it gets
+a character is it escape or shift escape
+no then it keeps looping so it's waiting
+first game or shift escape and fuck it
+that's the documentation right there so
+the documentation in temple OS is right
+it's a comp you put the comment in the
+function header and so forth so like I
+told you man
+computers went to hell once he made them
+for niggers so like fuck it if you're
+using temple OS did have you ever seen
+the uh have you seen the user's guide
+for the Commodore you're gonna laugh
+your ass off you think I'm joking right
+you're thinking that's ridiculous you
+expect people to program have you see am
+i right you're going home well getting
+computer has to be like that like are
+you kidding like how on earth could you
+expect people to know that do you think
+I'm joking you're like are you crazy
+and check this shit out this is the
+users guide what does it teach in here
+if for look at that shit this thing was
+made to fuck around with programming
+isn't that funny this thing was made to
+fuck around with programming and
+eventually their people started buying
+it for the games eventually the people
+started mining for the games but in the
+original take this shit out on the
+Commodore they the users guide that
+every single users got taught how to
+make graphics with binary numbers look
+at that shit so this was the
+entertainment this was the entertainment
+so what I've done
+is I've made a in the spirit of the
+Commodore user programming is more
+important than third party I've even I
+could try and ban third party I guess
+that that would keep it simple we don't
+want to uh if you start getting
+professional companies making games then
+like suddenly everybody's motivation is
+gone you know that's what happened on
+the Commodore the first couple years
+there weren't any cool games and like
+everybody was happy making their their
+amateur games but eventually there were
+cool games and then nobody liked the
+amateurs stuff and there were there were
+two uh you know uh why would I make an
+amateur game you know and the only thing
+that changed was they were intimidated
+by the the presence of professional
+games do you think I'm joking go look up
+b-1 bomber and then f-15 strike eagle
+look at this when I first got my
+Commodore check this shit out when I
+first got my Commodore you want to know
+when I first got my Commodore one of the
+games we had was b-1 bomber c64 it's the
+80s height of the Cold War honest to god
+this was the this was a game honest to
+god this was a game it's like you're
+looking at an instrument panel with no
+graphics and you run around and you
+change the altitude shit like this this
+was a fucking game
+a game that is this amateur is something
+that a teenager can aspire to create a
+teenager looks like this and he says I
+could do that and then eventually you
+know I told you I uh this was when
+general Davey was at Luke Air Force Base
+um and I got to ask general Davey
+we got to ask him if this was up what he
+thought of the Commodore 64 f-15
+simulator
+so I got to ask the general of the
+training base Luke during the height of
+the Cold War just if if it I got to ask
+him at this game how he how it was
+compared to the real thing
+and you know what's he supposed to say
+that oh yeah that's good or you know
+something like that what could he say
+you know I'm saying it's kind of
+you know what that's a badass sound they
+made that sound pretty well you know how
+you do that shit you gotta like combine
+together frequencies and waveforms and
+stuff
+to get a home that's cool
+so I I did an HD audio driver with 44
+different waveforms
+eventually I realized
+that there's not just one HD audio
+driver that would work basically it's
+like the bunch - woman
+and then eventually God said you wanted
+just one voice and so
+this was Libya Libya was the target
+remember I did drop it either further
+drop it on Qaddafi that was a that was a
+song that date the the Phoenix band was
+particularly it went it was the local
+disc jockey made a song about dropping
+it on Qaddafi and it went national
+so I didn't know fucking my screen was
+fucked up didn't even give any fucks
+fuck
+I did a flight simulator I did a flight
+simulator um um I used pretty simple I
+sorta zomp I was sort of lazy how do I
+put this
+I sort of purposely used easy techniques
+but then I was forced to uh to work a
+little bit to get the I had to draw a
+horizon line in flood-fill
+and actually it was a it was just it was
+a little bit of work to calculate the
+where the horizon line intersects the
+the left right top bottom there's a
+little bit of work this is kind of
+tricky right so you start with the you
+start with three angles right roll pitch
+and or no height this role in pitch if
+you start with the roll in pitch try to
+calculate the intersection with the with
+the borders and then do a flood fill you
+know it's like it's just algebra but it
+it's a lot of work anyway
+it's painful it's tedious anyway so
+girl right arm fuck my fucking shoulder
+hurts I can't fucking type fuck
+don't have an ashtray
+some motherfucker stole it either
+I used to color it in red but now I
+don't give any I don't give any fucks so
+you can see there pray to God all you
+are and talk with him and shit if your
+question is entertaining it counts as an
+offering
+like I figure he likes original
+questions if you ask him shit he doesn't
+want to answer fuck you
+so like this keyboard is is the laptop
+and it requires an extra key so it kind
+of fucks everything up so my passage
+thing doesn't work so I can go swap that
+but that fucking sucks
+[Music]
+the f-111 is what my dad worked on its
+the sweep swiping
+you
+you
+so I guess if a birds flying in let's
+just say uh attic maybe it well it
+doesn't mean they can follow the air
+currents around tree trees or something
+I don't know I wouldn't go
+so you think that's what caused
+echolocation beams avoiding they were
+worried about whirlpools in the air and
+so they started developing echolocation
+was that what you're saying
+the evolution of echolocation Rick
+so you have to take a vow of silence I'm
+just kidding
+so
+so there's that right if you get bored
+you can talk to God but it takes a lot
+of work because you gotta like carry on
+conversation it's a lot more fun doing
+other shit
+I like to have in comment on stuff while
+I browse the web I like to read stuff on
+the web
+find interesting stuff and then talk
+about it like just having comment just
+to have him comment but you're not
+supposed to consult em unless you do an
+offering you'll get in trouble if you
+piss him off or whatever he said it's a
+it's a mortal sin like communion
+preparation unworthy damn my shoulders
+foot
+I guess I'm really tired
+whatever you were about to do just
+became whatever you're about to do after
+you get coffee nothing comes before
+coffee that's why we're introducing a
+new line of cafe quality espresso drinks
+from a cafe in small peppermint mocha
+for just two dollars like can you run
+down to the kitchen and your underpants
+in the middle of the night if you're
+hungry I mean I could I I don't you
+don't in the kitchen at all times like
+if you wanted the sandwich in the night
+would you have to wake someone up yeah I
+wouldn't wake somebody up got a sandwich
+you're allowed to go into the
+refrigerator there's a refrigerator and
+and there's silverware what was the last
+time you you actually cooked now it's
+been a while since I you ever drive I
+cannot drive okay is that you actually
+have a birth certificate
+Kenya we drive on the other side
+actually the last time I drove a former
+staffer came by and he comes through the
+the South Lawn and he's got one of these
+new electric cars at the time they were
+yeah and and he was very excited about
+it I said well yeah let's try it out so
+I not just grabbed his keys and we just
+go out it's parked right in front and I
+start circling the South Lawn and the
+Secret Service there no matter what you
+do do not let him out they were pretty
+upset so they call you renegade right
+there yeah yeah because you're moving
+around an electric car stopping speeds
+of 30 miles thirty five if you have to
+go to the dentist does do you go to the
+dentist I was accustomed it comes to you
+he has the chair the tools in your
+everything is all there something is
+there in the basement I didn't know I
+showed up I said you know I think you
+know I've got a cat that's lucid sir
+here we are
+do you reset the clocks what daylight
+savings time somebody else does if
+somebody does that for you will you get
+rid of daylight saving time
+get rid of the part where we have to
+wake up earlier you can leave the other
+one see this is a California thing
+because you guys are always getting some
+yeah in the East Coast you don't mind
+losing that hour because that's a signal
+that spring is here we only care about
+hi I'm Jimmy Kimmel are you sad that the
+video is over will subscribe to our
+YouTube channel and you will never be
+sad again ever
+what do you Ernie you untucked you got
+some more mr. gun what do you think of
+that
+mr. God says
+so that's what mr. terrier does mr.
+chair says fuck you motherfucker
+just gonna fucking talk to God go fuck
+yourselves and fuck yourselves mr. fat
+ass pup you can fucking second fuck
+yourself fucking beat the fuck out he
+fucking doctor got all day go fuck
+yourself go fuck yourself and fuck you
+and
+I don't have girlfriends I have God
+friends like I got a God and he's my
+fucking friend kill fuck you losers
+I got a god friend there I don't have
+girl friends I had God friends hey fuck
+you
+fucking hilarious into fucking hilarious
+hey what's that what do you think that
+is mr. Terry it looks like a flying roll
+to me yeah it's a flying roll well holy
+fuck I never seen no flying roll before
+mr. God why the fuck do I see a fucking
+flying roll
+there's a fucking hilarious conversation
+mr. chair mr. tears like you listening
+to these hilarious conversations then he
+said these are the two anointed ones to
+stand by but I looked up bill the flying
+roll what Tom what
+do you realize what goes around comes
+around if you take another man's woman
+it's gonna happen to you a strong
+possibility
+yeah so fuck fucking ridiculous Terry
+why don't you just put in theory I
+should say fuck you fucking retards
+she's gonna fucking talk to God like why
+not even talk to the nigger monkeys why
+don't I talk to the fucking little
+fucking ingrateful little nigger monkeys
+maybe I'll see if any wives decided to
+get lost cuz like I got too many to have
+sex with so fuck it
+maybe so I'm gonna hit the road
+what do you think two or three what do
+you think holy shit
+to what
+laughs fuck you mr. guy Terry only get
+half a wife the first man king when
+goddamn half a wife
+hey fuck you
+I want you fucking Newcombe is to God
+fucking New Democrats fucking a
+straightaway on the fucking gorilla
+niggers
+mr. god fucking new come new come near
+come hey fuck you what
+new come there's not a famine for the
+word of the Lord
+I'm really tech falling asleep mister
+guy I'd wake me up wake me up wake me up
+inside
+haha Newcomb Newcomb hahaha
+for
+no it's just bullshit it doesn't
+actually do this shit
+we're just giggling and fucking drowning
+in our sorrows and laughing at the
+fucking world
+I just what I should get some big night
+my eyes are getting crust not laid out
+for C sleep half a wife
+hey like mister God he's like what's his
+name you like goats i dreamin no Lucille
+Ball
+goddag
+creativity brings people together it
+keeps us streaming it keeps our
+imagination alive share that passion
+with other people in the world
+[Music]
+[Applause]
+there are people who think Julia Roberts
+is hot her gigantic now it will devour
+an elephant in one bite
+Thank You Kamath there he's Devin and
+good luck Don Cheadle seems like the
+kind of guy who I wouldn't want to hang
+around with under any circumstances ever
+he's so whack Ashton Kutcher needs to
+get hit by a bus
+ASAP I hate Courtney Cox I hate her oh
+if I said it once I've said it a hundred
+times Andy Garcia Mindy Kaling is not
+funny or attractive she has an annoying
+voice and just plainly sucks why does
+she have her own show I feel like this
+is more than 140 characters David Blaine
+looks like his voice is putting his face
+to sleep looks like Yoda
+Hauk seems like a guy who wasn't
+supposed to be a movie star but he
+slipped through the cracks and everyone
+was just like okay Matthew McConaughey
+is a turd Terry Terry Oh goth June
+Squibb and 1 to 83 I hope he falls off
+in public Kit Harington is a pretty
+terrible Jon Snow in the show he seems
+like a big bitch with a stupid look on
+his face each tank bad casting Emma
+Stone looks like she smells like cat
+piss okay gary oldman sucks and he's
+accents are
+yeah Sofia vergata sounds like she has a
+in her mouth I ain't hearing her talk
+what's wrong with having a in my mouth
+[Music]
+and this just hit apparently one of
+Euston XDM fights your coffin last 12
+hours but my sources today before our
+stuff is way better I mean I'm wearing a
+blazer so clearly this isn't fake news
+one mucinex last 12 hours gonna throw
+this out there I hate John Han I hate
+his face I hate his pig name I hate how
+smug he always looks I hate John Hamm
+Jennifer Garner looks like a duck's
+vagina literally of ducks
+that's not nice that butter that they
+put on your popcorn and movie theaters
+it's actually made from John Goodman's
+ball sweat oh the Bob Balaban storyline
+on Seinfeld is creepy as my stomach
+turns when I see that goofy little worm
+that's really good I wanna pee in Sarah
+Silverman's face no reason behind it no
+reason needed Tom Hanks is a whiner Oh
+boohoo so you have a tropical island all
+to yourself you I have a turtle sandbox
+my mom thinks that Joseph gordon-levitt
+looks like a q-tip
+then addict cumberbatch what hmm
+it's Ven Edie lset
+looks like skin cancer can people stop
+saying capable answer this beautiful
+cake Blanche's gross dude that's the
+worst you can do okay
+listening to Tim Robbins on the radio
+what a pretentious is it pretentious of
+me to say that you don't know how to
+spell you a little bit
+I find don't worry not funny I was glad
+he got shot in Zombieland bad they don't
+give an Oscar for blowing ass because
+Matt Damon would win every year
+well buy another zoo and live in it for
+when I get hashtag no disrespect to Ben
+Affleck yoga pants no
+he's wearing yoga pants
+so the dude said I'm done being kidding
+I'm gonna fuck bitches and that's what
+he did like for 700 years he fucked
+bitches wait
+since 20 years of this shit hahaha
+you know I did it like when I felt like
+it didn't do it all day long but I did
+it often enough you know 20 years fuckin
+man I am so fucking tired
+get in my van what seems to be the
+problem I don't know what you don't
+understand get in my van I'm so fucking
+tired you pass out oh no I'm gonna be
+visited by visions in my head and I'm
+gonna say no the visions are tormenting
+me hey fuck you I'll be tossing and
+turning no go away visions I'm tired
+taking advantage what
+you
