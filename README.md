@@ -26,7 +26,7 @@ Sometimes when he communicated online, he used a markov chain text generator
 presumably seeded with text from the bible. At times he seemed to revere it  
 as divine truth, and at [other times](https://www.metafilter.com/119424/An-Operating-System-for-Songs-from-God#4538454) he seemed to see it as silly and arbitrary.  
 
-In the book *Neromancer*, a person's personality can be recorded in a ROM     
+In the book *Neuromancer*, a person's personality can be recorded in a ROM     
 construct that lives on even after they die. ROM stands for read-only memory,     
 meaning the contruct can't create new memories or learn or grow in any   
 meaningful way. The ROM construct is simply "a hardwired ROM casette     
