@@ -1,5 +1,7 @@
 # Terrytalks
 
+[Download](https://github.com/bitwitch/terrytalks/releases)  
+
 Generates Terry Davis phrases based on a Markov chain algorithm. The Markov  
 chain is built from transcripts of video logs and recordings of live streams  
 that Terry uploaded to youtube.  
